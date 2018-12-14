@@ -1,0 +1,864 @@
+1
+00:00:03,560 --> 00:00:07,700  
+ 
+now you haven't now that you have an
+
+2
+00:00:07,700 --> 00:00:07,710  
+now you haven't now that you have an
+ 
+
+3
+00:00:07,710 --> 00:00:09,770  
+now you haven't now that you have an
+understanding of scope let's take a look
+
+4
+00:00:09,770 --> 00:00:09,780  
+understanding of scope let's take a look
+ 
+
+5
+00:00:09,780 --> 00:00:12,589  
+understanding of scope let's take a look
+at a few more examples in this program I
+
+6
+00:00:12,589 --> 00:00:12,599  
+at a few more examples in this program I
+ 
+
+7
+00:00:12,599 --> 00:00:14,839  
+at a few more examples in this program I
+created a variable in the global scope
+
+8
+00:00:14,839 --> 00:00:14,849  
+created a variable in the global scope
+ 
+
+9
+00:00:14,849 --> 00:00:17,089  
+created a variable in the global scope
+and the name of that variable is global
+
+10
+00:00:17,089 --> 00:00:17,099  
+and the name of that variable is global
+ 
+
+11
+00:00:17,099 --> 00:00:17,510  
+and the name of that variable is global
+scope
+
+12
+00:00:17,510 --> 00:00:17,520  
+scope
+ 
+
+13
+00:00:17,520 --> 00:00:21,200  
+scope
+how convenient next there's a function a
+
+14
+00:00:21,200 --> 00:00:21,210  
+how convenient next there's a function a
+ 
+
+15
+00:00:21,210 --> 00:00:23,839  
+how convenient next there's a function a
+and inside of it it has a local variable
+
+16
+00:00:23,839 --> 00:00:23,849  
+and inside of it it has a local variable
+ 
+
+17
+00:00:23,849 --> 00:00:27,589  
+and inside of it it has a local variable
+Apple I use the phrase local because
+
+18
+00:00:27,589 --> 00:00:27,599  
+Apple I use the phrase local because
+ 
+
+19
+00:00:27,599 --> 00:00:30,499  
+Apple I use the phrase local because
+it's locally scoped to its dysfunction
+
+20
+00:00:30,499 --> 00:00:30,509  
+it's locally scoped to its dysfunction
+ 
+
+21
+00:00:30,509 --> 00:00:33,080  
+it's locally scoped to its dysfunction
+code block the global scope does not
+
+22
+00:00:33,080 --> 00:00:33,090  
+code block the global scope does not
+ 
+
+23
+00:00:33,090 --> 00:00:36,110  
+code block the global scope does not
+have access to Apple let's run this in
+
+24
+00:00:36,110 --> 00:00:36,120  
+have access to Apple let's run this in
+ 
+
+25
+00:00:36,120 --> 00:00:38,689  
+have access to Apple let's run this in
+our console so when i refresh the page
+
+26
+00:00:38,689 --> 00:00:38,699  
+our console so when i refresh the page
+ 
+
+27
+00:00:38,699 --> 00:00:41,779  
+our console so when i refresh the page
+notice logged Apple from function a
+
+28
+00:00:41,779 --> 00:00:41,789  
+notice logged Apple from function a
+ 
+
+29
+00:00:41,789 --> 00:00:46,310  
+notice logged Apple from function a
+scope excellent I also want to show you
+
+30
+00:00:46,310 --> 00:00:46,320  
+scope excellent I also want to show you
+ 
+
+31
+00:00:46,320 --> 00:00:48,579  
+scope excellent I also want to show you
+a trick inside of the chrome debugger I
+
+32
+00:00:48,579 --> 00:00:48,589  
+a trick inside of the chrome debugger I
+ 
+
+33
+00:00:48,589 --> 00:00:51,500  
+a trick inside of the chrome debugger I
+can put the debugger keyword inside of
+
+34
+00:00:51,500 --> 00:00:51,510  
+can put the debugger keyword inside of
+ 
+
+35
+00:00:51,510 --> 00:00:53,779  
+can put the debugger keyword inside of
+my a function and when I run my code
+
+36
+00:00:53,779 --> 00:00:53,789  
+my a function and when I run my code
+ 
+
+37
+00:00:53,789 --> 00:00:55,939  
+my a function and when I run my code
+notice this section over here called
+
+38
+00:00:55,939 --> 00:00:55,949  
+notice this section over here called
+ 
+
+39
+00:00:55,949 --> 00:00:59,540  
+notice this section over here called
+scope inside of this section it shows
+
+40
+00:00:59,540 --> 00:00:59,550  
+scope inside of this section it shows
+ 
+
+41
+00:00:59,550 --> 00:01:03,200  
+scope inside of this section it shows
+that I have access to two scopes the
+
+42
+00:01:03,200 --> 00:01:03,210  
+that I have access to two scopes the
+ 
+
+43
+00:01:03,210 --> 00:01:04,910  
+that I have access to two scopes the
+local scope which is our current
+
+44
+00:01:04,910 --> 00:01:04,920  
+local scope which is our current
+ 
+
+45
+00:01:04,920 --> 00:01:07,219  
+local scope which is our current
+function we're inside notice it has an
+
+46
+00:01:07,219 --> 00:01:07,229  
+function we're inside notice it has an
+ 
+
+47
+00:01:07,229 --> 00:01:10,249  
+function we're inside notice it has an
+apple and the dis keyword if you're
+
+48
+00:01:10,249 --> 00:01:10,259  
+apple and the dis keyword if you're
+ 
+
+49
+00:01:10,259 --> 00:01:12,289  
+apple and the dis keyword if you're
+unfamiliar with this keyword that's okay
+
+50
+00:01:12,289 --> 00:01:12,299  
+unfamiliar with this keyword that's okay
+ 
+
+51
+00:01:12,299 --> 00:01:15,350  
+unfamiliar with this keyword that's okay
+for now and it has access to the global
+
+52
+00:01:15,350 --> 00:01:15,360  
+for now and it has access to the global
+ 
+
+53
+00:01:15,360 --> 00:01:17,510  
+for now and it has access to the global
+scope that's at the top of its scope
+
+54
+00:01:17,510 --> 00:01:17,520  
+scope that's at the top of its scope
+ 
+
+55
+00:01:17,520 --> 00:01:20,690  
+scope that's at the top of its scope
+chain let's take a look at another
+
+56
+00:01:20,690 --> 00:01:20,700  
+chain let's take a look at another
+ 
+
+57
+00:01:20,700 --> 00:01:25,010  
+chain let's take a look at another
+example I'm going to nest another
+
+58
+00:01:25,010 --> 00:01:25,020  
+example I'm going to nest another
+ 
+
+59
+00:01:25,020 --> 00:01:27,950  
+example I'm going to nest another
+function inside of our a function so
+
+60
+00:01:27,950 --> 00:01:27,960  
+function inside of our a function so
+ 
+
+61
+00:01:27,960 --> 00:01:30,260  
+function inside of our a function so
+this new function I'm creating will be
+
+62
+00:01:30,260 --> 00:01:30,270  
+this new function I'm creating will be
+ 
+
+63
+00:01:30,270 --> 00:01:32,029  
+this new function I'm creating will be
+inside a function a
+
+64
+00:01:32,029 --> 00:01:32,039  
+inside a function a
+ 
+
+65
+00:01:32,039 --> 00:01:35,810  
+inside a function a
+scope so let's take a look the function
+
+66
+00:01:35,810 --> 00:01:35,820  
+scope so let's take a look the function
+ 
+
+67
+00:01:35,820 --> 00:01:41,359  
+scope so let's take a look the function
+I'm creating is function B and function
+
+68
+00:01:41,359 --> 00:01:41,369  
+I'm creating is function B and function
+ 
+
+69
+00:01:41,369 --> 00:01:43,969  
+I'm creating is function B and function
+B will console.log and I send copy and
+
+70
+00:01:43,969 --> 00:01:43,979  
+B will console.log and I send copy and
+ 
+
+71
+00:01:43,979 --> 00:01:48,260  
+B will console.log and I send copy and
+paste this function B will console.log
+
+72
+00:01:48,260 --> 00:01:48,270  
+paste this function B will console.log
+ 
+
+73
+00:01:48,270 --> 00:01:51,139  
+paste this function B will console.log
+the same exact statement but instead of
+
+74
+00:01:51,139 --> 00:01:51,149  
+the same exact statement but instead of
+ 
+
+75
+00:01:51,149 --> 00:01:55,819  
+the same exact statement but instead of
+cot console logging it from a scope will
+
+76
+00:01:55,819 --> 00:01:55,829  
+cot console logging it from a scope will
+ 
+
+77
+00:01:55,829 --> 00:02:01,789  
+cot console logging it from a scope will
+console.log it from b scope the key
+
+78
+00:02:01,789 --> 00:02:01,799  
+console.log it from b scope the key
+ 
+
+79
+00:02:01,799 --> 00:02:04,520  
+console.log it from b scope the key
+concept to identify here is that we are
+
+80
+00:02:04,520 --> 00:02:04,530  
+concept to identify here is that we are
+ 
+
+81
+00:02:04,530 --> 00:02:07,039  
+concept to identify here is that we are
+trying to make use of Apple and Apple
+
+82
+00:02:07,039 --> 00:02:07,049  
+trying to make use of Apple and Apple
+ 
+
+83
+00:02:07,049 --> 00:02:10,669  
+trying to make use of Apple and Apple
+isn't defined locally inside of B so my
+
+84
+00:02:10,669 --> 00:02:10,679  
+isn't defined locally inside of B so my
+ 
+
+85
+00:02:10,679 --> 00:02:13,010  
+isn't defined locally inside of B so my
+question is will it have access to the
+
+86
+00:02:13,010 --> 00:02:13,020  
+question is will it have access to the
+ 
+
+87
+00:02:13,020 --> 00:02:16,589  
+question is will it have access to the
+Apple very variable inside of a scope
+
+88
+00:02:16,589 --> 00:02:16,599  
+Apple very variable inside of a scope
+ 
+
+89
+00:02:16,599 --> 00:02:19,619  
+Apple very variable inside of a scope
+well let's take a look before moving on
+
+90
+00:02:19,619 --> 00:02:19,629  
+well let's take a look before moving on
+ 
+
+91
+00:02:19,629 --> 00:02:21,690  
+well let's take a look before moving on
+I need to make sure to invoke our B
+
+92
+00:02:21,690 --> 00:02:21,700  
+I need to make sure to invoke our B
+ 
+
+93
+00:02:21,700 --> 00:02:26,250  
+I need to make sure to invoke our B
+function now when i refresh this page
+
+94
+00:02:26,250 --> 00:02:26,260  
+function now when i refresh this page
+ 
+
+95
+00:02:26,260 --> 00:02:31,979  
+function now when i refresh this page
+and open up our chrome console notice we
+
+96
+00:02:31,979 --> 00:02:31,989  
+and open up our chrome console notice we
+ 
+
+97
+00:02:31,989 --> 00:02:34,229  
+and open up our chrome console notice we
+logged apple from a scope and we also
+
+98
+00:02:34,229 --> 00:02:34,239  
+logged apple from a scope and we also
+ 
+
+99
+00:02:34,239 --> 00:02:37,619  
+logged apple from a scope and we also
+logged Apple for B scope so since B is
+
+100
+00:02:37,619 --> 00:02:37,629  
+logged Apple for B scope so since B is
+ 
+
+101
+00:02:37,629 --> 00:02:41,069  
+logged Apple for B scope so since B is
+sitting inside of a it has access to all
+
+102
+00:02:41,069 --> 00:02:41,079  
+sitting inside of a it has access to all
+ 
+
+103
+00:02:41,079 --> 00:02:44,280  
+sitting inside of a it has access to all
+the variables inside of a scope but this
+
+104
+00:02:44,280 --> 00:02:44,290  
+the variables inside of a scope but this
+ 
+
+105
+00:02:44,290 --> 00:02:45,509  
+the variables inside of a scope but this
+isn't a two-way street
+
+106
+00:02:45,509 --> 00:02:45,519  
+isn't a two-way street
+ 
+
+107
+00:02:45,519 --> 00:02:48,509  
+isn't a two-way street
+if I created a variable for B let's save
+
+108
+00:02:48,509 --> 00:02:48,519  
+if I created a variable for B let's save
+ 
+
+109
+00:02:48,519 --> 00:02:52,289  
+if I created a variable for B let's save
+our banana assigned to the string banana
+
+110
+00:02:52,289 --> 00:02:52,299  
+our banana assigned to the string banana
+ 
+
+111
+00:02:52,299 --> 00:02:56,720  
+our banana assigned to the string banana
+and tried using banana inside of a a
+
+112
+00:02:56,720 --> 00:02:56,730  
+and tried using banana inside of a a
+ 
+
+113
+00:02:56,730 --> 00:03:01,349  
+and tried using banana inside of a a
+will not have access to banana so if I
+
+114
+00:03:01,349 --> 00:03:01,359  
+will not have access to banana so if I
+ 
+
+115
+00:03:01,359 --> 00:03:03,390  
+will not have access to banana so if I
+ran this again notice we're getting a
+
+116
+00:03:03,390 --> 00:03:03,400  
+ran this again notice we're getting a
+ 
+
+117
+00:03:03,400 --> 00:03:05,970  
+ran this again notice we're getting a
+reference error here and that's because
+
+118
+00:03:05,970 --> 00:03:05,980  
+reference error here and that's because
+ 
+
+119
+00:03:05,980 --> 00:03:08,939  
+reference error here and that's because
+everything inside of B's scope is
+
+120
+00:03:08,939 --> 00:03:08,949  
+everything inside of B's scope is
+ 
+
+121
+00:03:08,949 --> 00:03:12,330  
+everything inside of B's scope is
+contained to the B function when it's
+
+122
+00:03:12,330 --> 00:03:12,340  
+contained to the B function when it's
+ 
+
+123
+00:03:12,340 --> 00:03:14,849  
+contained to the B function when it's
+invoked right here variable the variable
+
+124
+00:03:14,849 --> 00:03:14,859  
+invoked right here variable the variable
+ 
+
+125
+00:03:14,859 --> 00:03:17,220  
+invoked right here variable the variable
+banana is not leaked lete to its outer
+
+126
+00:03:17,220 --> 00:03:17,230  
+banana is not leaked lete to its outer
+ 
+
+127
+00:03:17,230 --> 00:03:21,960  
+banana is not leaked lete to its outer
+scope but when we use Apple inside of B
+
+128
+00:03:21,960 --> 00:03:21,970  
+scope but when we use Apple inside of B
+ 
+
+129
+00:03:21,970 --> 00:03:24,780  
+scope but when we use Apple inside of B
+first it looks inside of itself and
+
+130
+00:03:24,780 --> 00:03:24,790  
+first it looks inside of itself and
+ 
+
+131
+00:03:24,790 --> 00:03:26,729  
+first it looks inside of itself and
+can't find Apple and it begins
+
+132
+00:03:26,729 --> 00:03:26,739  
+can't find Apple and it begins
+ 
+
+133
+00:03:26,739 --> 00:03:30,559  
+can't find Apple and it begins
+traversing its scope chain it looks one
+
+134
+00:03:30,559 --> 00:03:30,569  
+traversing its scope chain it looks one
+ 
+
+135
+00:03:30,569 --> 00:03:33,960  
+traversing its scope chain it looks one
+once to its outer scope and five finds
+
+136
+00:03:33,960 --> 00:03:33,970  
+once to its outer scope and five finds
+ 
+
+137
+00:03:33,970 --> 00:03:37,949  
+once to its outer scope and five finds
+Apple there so you will hear this term
+
+138
+00:03:37,949 --> 00:03:37,959  
+Apple there so you will hear this term
+ 
+
+139
+00:03:37,959 --> 00:03:40,289  
+Apple there so you will hear this term
+nested scope and this is a general idea
+
+140
+00:03:40,289 --> 00:03:40,299  
+nested scope and this is a general idea
+ 
+
+141
+00:03:40,299 --> 00:03:43,670  
+nested scope and this is a general idea
+of it it has to do with nested functions
+
+142
+00:03:43,670 --> 00:03:43,680  
+of it it has to do with nested functions
+ 
+
+143
+00:03:43,680 --> 00:03:46,770  
+of it it has to do with nested functions
+it's also applying the concept of
+
+144
+00:03:46,770 --> 00:03:46,780  
+it's also applying the concept of
+ 
+
+145
+00:03:46,780 --> 00:03:49,649  
+it's also applying the concept of
+closure here as well and we haven't
+
+146
+00:03:49,649 --> 00:03:49,659  
+closure here as well and we haven't
+ 
+
+147
+00:03:49,659 --> 00:03:52,379  
+closure here as well and we haven't
+covered closure yet but let's read the
+
+148
+00:03:52,379 --> 00:03:52,389  
+covered closure yet but let's read the
+ 
+
+149
+00:03:52,389 --> 00:03:58,170  
+covered closure yet but let's read the
+definition closures are functions that
+
+150
+00:03:58,170 --> 00:03:58,180  
+definition closures are functions that
+ 
+
+151
+00:03:58,180 --> 00:04:01,080  
+definition closures are functions that
+refer to independent or free variables
+
+152
+00:04:01,080 --> 00:04:01,090  
+refer to independent or free variables
+ 
+
+153
+00:04:01,090 --> 00:04:03,030  
+refer to independent or free variables
+these are variables that are used
+
+154
+00:04:03,030 --> 00:04:03,040  
+these are variables that are used
+ 
+
+155
+00:04:03,040 --> 00:04:07,110  
+these are variables that are used
+locally but defined in an enclosing
+
+156
+00:04:07,110 --> 00:04:07,120  
+locally but defined in an enclosing
+ 
+
+157
+00:04:07,120 --> 00:04:12,839  
+locally but defined in an enclosing
+scope so they're used locally but
+
+158
+00:04:12,839 --> 00:04:12,849  
+scope so they're used locally but
+ 
+
+159
+00:04:12,849 --> 00:04:15,779  
+scope so they're used locally but
+defined in an enclosing scope and that's
+
+160
+00:04:15,779 --> 00:04:15,789  
+defined in an enclosing scope and that's
+ 
+
+161
+00:04:15,789 --> 00:04:17,969  
+defined in an enclosing scope and that's
+exactly what we're doing here with our
+
+162
+00:04:17,969 --> 00:04:17,979  
+exactly what we're doing here with our
+ 
+
+163
+00:04:17,979 --> 00:04:22,350  
+exactly what we're doing here with our
+Apple variable it's used locally inside
+
+164
+00:04:22,350 --> 00:04:22,360  
+Apple variable it's used locally inside
+ 
+
+165
+00:04:22,360 --> 00:04:25,920  
+Apple variable it's used locally inside
+of B scope but it's defined inside of a
+
+166
+00:04:25,920 --> 00:04:25,930  
+of B scope but it's defined inside of a
+ 
+
+167
+00:04:25,930 --> 00:04:29,610  
+of B scope but it's defined inside of a
+scope
+
+168
+00:04:29,610 --> 00:04:29,620  
+ 
+ 
+
+169
+00:04:29,620 --> 00:04:32,560  
+ 
+so in the next video we're going to dive
+
+170
+00:04:32,560 --> 00:04:32,570  
+so in the next video we're going to dive
+ 
+
+171
+00:04:32,570 --> 00:04:35,500  
+so in the next video we're going to dive
+deeper into what exactly closures are
+
+172
+00:04:35,500 --> 00:04:35,510  
+deeper into what exactly closures are
+ 
+
+173
+00:04:35,510 --> 00:04:39,730  
+deeper into what exactly closures are
+and how to use them in programs

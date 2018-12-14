@@ -1,0 +1,1254 @@
+1
+00:00:03,270 --> 00:00:07,050  
+ 
+what is scope scope is a way for your
+
+2
+00:00:07,050 --> 00:00:07,060  
+what is scope scope is a way for your
+ 
+
+3
+00:00:07,060 --> 00:00:09,630  
+what is scope scope is a way for your
+program to determine whether or not it
+
+4
+00:00:09,630 --> 00:00:09,640  
+program to determine whether or not it
+ 
+
+5
+00:00:09,640 --> 00:00:12,150  
+program to determine whether or not it
+has access to a specific variable or
+
+6
+00:00:12,150 --> 00:00:12,160  
+has access to a specific variable or
+ 
+
+7
+00:00:12,160 --> 00:00:15,150  
+has access to a specific variable or
+value you can also determine based on
+
+8
+00:00:15,150 --> 00:00:15,160  
+value you can also determine based on
+ 
+
+9
+00:00:15,160 --> 00:00:16,500  
+value you can also determine based on
+the section of the program you're
+
+10
+00:00:16,500 --> 00:00:16,510  
+the section of the program you're
+ 
+
+11
+00:00:16,510 --> 00:00:18,660  
+the section of the program you're
+currently running at whether or not a
+
+12
+00:00:18,660 --> 00:00:18,670  
+currently running at whether or not a
+ 
+
+13
+00:00:18,670 --> 00:00:20,810  
+currently running at whether or not a
+value belongs to that section
+
+14
+00:00:20,810 --> 00:00:20,820  
+value belongs to that section
+ 
+
+15
+00:00:20,820 --> 00:00:24,269  
+value belongs to that section
+let's take a look here's an image of a
+
+16
+00:00:24,269 --> 00:00:24,279  
+let's take a look here's an image of a
+ 
+
+17
+00:00:24,279 --> 00:00:26,640  
+let's take a look here's an image of a
+few coffee cups my friends and I enjoy
+
+18
+00:00:26,640 --> 00:00:26,650  
+few coffee cups my friends and I enjoy
+ 
+
+19
+00:00:26,650 --> 00:00:28,830  
+few coffee cups my friends and I enjoy
+going to Coffee cafes but we always have
+
+20
+00:00:28,830 --> 00:00:28,840  
+going to Coffee cafes but we always have
+ 
+
+21
+00:00:28,840 --> 00:00:31,320  
+going to Coffee cafes but we always have
+this problem I decide to get a glass of
+
+22
+00:00:31,320 --> 00:00:31,330  
+this problem I decide to get a glass of
+ 
+
+23
+00:00:31,330 --> 00:00:33,420  
+this problem I decide to get a glass of
+water while my other friend decides to
+
+24
+00:00:33,420 --> 00:00:33,430  
+water while my other friend decides to
+ 
+
+25
+00:00:33,430 --> 00:00:35,430  
+water while my other friend decides to
+go to the bathroom and my other friend
+
+26
+00:00:35,430 --> 00:00:35,440  
+go to the bathroom and my other friend
+ 
+
+27
+00:00:35,440 --> 00:00:37,350  
+go to the bathroom and my other friend
+decides to add something else to his
+
+28
+00:00:37,350 --> 00:00:37,360  
+decides to add something else to his
+ 
+
+29
+00:00:37,360 --> 00:00:40,049  
+decides to add something else to his
+order we do this all at the same time so
+
+30
+00:00:40,049 --> 00:00:40,059  
+order we do this all at the same time so
+ 
+
+31
+00:00:40,059 --> 00:00:41,880  
+order we do this all at the same time so
+we leave our seats and then come back
+
+32
+00:00:41,880 --> 00:00:41,890  
+we leave our seats and then come back
+ 
+
+33
+00:00:41,890 --> 00:00:44,459  
+we leave our seats and then come back
+let's say 10 minutes later and have no
+
+34
+00:00:44,459 --> 00:00:44,469  
+let's say 10 minutes later and have no
+ 
+
+35
+00:00:44,469 --> 00:00:47,729  
+let's say 10 minutes later and have no
+idea which coffee cup belongs to him and
+
+36
+00:00:47,729 --> 00:00:47,739  
+idea which coffee cup belongs to him and
+ 
+
+37
+00:00:47,739 --> 00:00:50,880  
+idea which coffee cup belongs to him and
+this is a problem and this is what scope
+
+38
+00:00:50,880 --> 00:00:50,890  
+this is a problem and this is what scope
+ 
+
+39
+00:00:50,890 --> 00:00:53,279  
+this is a problem and this is what scope
+is trying to solve so let's take a
+
+40
+00:00:53,279 --> 00:00:53,289  
+is trying to solve so let's take a
+ 
+
+41
+00:00:53,289 --> 00:00:53,880  
+is trying to solve so let's take a
+deeper look
+
+42
+00:00:53,880 --> 00:00:53,890  
+deeper look
+ 
+
+43
+00:00:53,890 --> 00:00:58,380  
+deeper look
+as we mentioned scope is a term used to
+
+44
+00:00:58,380 --> 00:00:58,390  
+as we mentioned scope is a term used to
+ 
+
+45
+00:00:58,390 --> 00:01:00,599  
+as we mentioned scope is a term used to
+describe what values your program has
+
+46
+00:01:00,599 --> 00:01:00,609  
+describe what values your program has
+ 
+
+47
+00:01:00,609 --> 00:01:03,990  
+describe what values your program has
+access to scope can be determined
+
+48
+00:01:03,990 --> 00:01:04,000  
+access to scope can be determined
+ 
+
+49
+00:01:04,000 --> 00:01:06,570  
+access to scope can be determined
+lexically so that means where it
+
+50
+00:01:06,570 --> 00:01:06,580  
+lexically so that means where it
+ 
+
+51
+00:01:06,580 --> 00:01:09,470  
+lexically so that means where it
+physically sits in your program and
+
+52
+00:01:09,470 --> 00:01:09,480  
+physically sits in your program and
+ 
+
+53
+00:01:09,480 --> 00:01:12,870  
+physically sits in your program and
+there are two main types of scope there
+
+54
+00:01:12,870 --> 00:01:12,880  
+there are two main types of scope there
+ 
+
+55
+00:01:12,880 --> 00:01:15,990  
+there are two main types of scope there
+is a function or local scope and global
+
+56
+00:01:15,990 --> 00:01:16,000  
+is a function or local scope and global
+ 
+
+57
+00:01:16,000 --> 00:01:19,410  
+is a function or local scope and global
+scope let's take a look at some real
+
+58
+00:01:19,410 --> 00:01:19,420  
+scope let's take a look at some real
+ 
+
+59
+00:01:19,420 --> 00:01:23,030  
+scope let's take a look at some real
+code let's take a look at this example
+
+60
+00:01:23,030 --> 00:01:23,040  
+code let's take a look at this example
+ 
+
+61
+00:01:23,040 --> 00:01:25,920  
+code let's take a look at this example
+so we create two variables two and three
+
+62
+00:01:25,920 --> 00:01:25,930  
+so we create two variables two and three
+ 
+
+63
+00:01:25,930 --> 00:01:28,770  
+so we create two variables two and three
+and an add function inside of our add
+
+64
+00:01:28,770 --> 00:01:28,780  
+and an add function inside of our add
+ 
+
+65
+00:01:28,780 --> 00:01:30,450  
+and an add function inside of our add
+function we use variables two and three
+
+66
+00:01:30,450 --> 00:01:30,460  
+function we use variables two and three
+ 
+
+67
+00:01:30,460 --> 00:01:32,970  
+function we use variables two and three
+and add them together last but not least
+
+68
+00:01:32,970 --> 00:01:32,980  
+and add them together last but not least
+ 
+
+69
+00:01:32,980 --> 00:01:35,370  
+and add them together last but not least
+we invoke our add function and check the
+
+70
+00:01:35,370 --> 00:01:35,380  
+we invoke our add function and check the
+ 
+
+71
+00:01:35,380 --> 00:01:37,350  
+we invoke our add function and check the
+values of two and three after our
+
+72
+00:01:37,350 --> 00:01:37,360  
+values of two and three after our
+ 
+
+73
+00:01:37,360 --> 00:01:39,870  
+values of two and three after our
+invocation let's see what it looks like
+
+74
+00:01:39,870 --> 00:01:39,880  
+invocation let's see what it looks like
+ 
+
+75
+00:01:39,880 --> 00:01:42,960  
+invocation let's see what it looks like
+in the browser so after running this
+
+76
+00:01:42,960 --> 00:01:42,970  
+in the browser so after running this
+ 
+
+77
+00:01:42,970 --> 00:01:45,150  
+in the browser so after running this
+code two plus three gives us five and
+
+78
+00:01:45,150 --> 00:01:45,160  
+code two plus three gives us five and
+ 
+
+79
+00:01:45,160 --> 00:01:47,400  
+code two plus three gives us five and
+the habit in our add function we didn't
+
+80
+00:01:47,400 --> 00:01:47,410  
+the habit in our add function we didn't
+ 
+
+81
+00:01:47,410 --> 00:01:49,170  
+the habit in our add function we didn't
+manipulate our two variable at all so
+
+82
+00:01:49,170 --> 00:01:49,180  
+manipulate our two variable at all so
+ 
+
+83
+00:01:49,180 --> 00:01:51,360  
+manipulate our two variable at all so
+it's still two and three is still three
+
+84
+00:01:51,360 --> 00:01:51,370  
+it's still two and three is still three
+ 
+
+85
+00:01:51,370 --> 00:01:54,480  
+it's still two and three is still three
+as well let me ask you a question what
+
+86
+00:01:54,480 --> 00:01:54,490  
+as well let me ask you a question what
+ 
+
+87
+00:01:54,490 --> 00:01:56,760  
+as well let me ask you a question what
+would happen if we relocated variables
+
+88
+00:01:56,760 --> 00:01:56,770  
+would happen if we relocated variables
+ 
+
+89
+00:01:56,770 --> 00:02:00,000  
+would happen if we relocated variables
+two and three to our function so they're
+
+90
+00:02:00,000 --> 00:02:00,010  
+two and three to our function so they're
+ 
+
+91
+00:02:00,010 --> 00:02:02,580  
+two and three to our function so they're
+no longer so they're no longer sitting
+
+92
+00:02:02,580 --> 00:02:02,590  
+no longer so they're no longer sitting
+ 
+
+93
+00:02:02,590 --> 00:02:05,490  
+no longer so they're no longer sitting
+at the top of our program they're now
+
+94
+00:02:05,490 --> 00:02:05,500  
+at the top of our program they're now
+ 
+
+95
+00:02:05,500 --> 00:02:07,530  
+at the top of our program they're now
+sitting inside of our functions code
+
+96
+00:02:07,530 --> 00:02:07,540  
+sitting inside of our functions code
+ 
+
+97
+00:02:07,540 --> 00:02:09,900  
+sitting inside of our functions code
+block do you anticipate any different
+
+98
+00:02:09,900 --> 00:02:09,910  
+block do you anticipate any different
+ 
+
+99
+00:02:09,910 --> 00:02:12,930  
+block do you anticipate any different
+behavior well let's find out when i
+
+100
+00:02:12,930 --> 00:02:12,940  
+behavior well let's find out when i
+ 
+
+101
+00:02:12,940 --> 00:02:15,210  
+behavior well let's find out when i
+refresh this page our add function works
+
+102
+00:02:15,210 --> 00:02:15,220  
+refresh this page our add function works
+ 
+
+103
+00:02:15,220 --> 00:02:16,620  
+refresh this page our add function works
+perfectly fine too
+
+104
+00:02:16,620 --> 00:02:16,630  
+perfectly fine too
+ 
+
+105
+00:02:16,630 --> 00:02:18,390  
+perfectly fine too
+plus three is five but then we get a
+
+106
+00:02:18,390 --> 00:02:18,400  
+plus three is five but then we get a
+ 
+
+107
+00:02:18,400 --> 00:02:20,550  
+plus three is five but then we get a
+reference error two is not defined and
+
+108
+00:02:20,550 --> 00:02:20,560  
+reference error two is not defined and
+ 
+
+109
+00:02:20,560 --> 00:02:24,090  
+reference error two is not defined and
+when we get this error our program stops
+
+110
+00:02:24,090 --> 00:02:24,100  
+when we get this error our program stops
+ 
+
+111
+00:02:24,100 --> 00:02:28,050  
+when we get this error our program stops
+executing so we never get to line 14 but
+
+112
+00:02:28,050 --> 00:02:28,060  
+executing so we never get to line 14 but
+ 
+
+113
+00:02:28,060 --> 00:02:29,460  
+executing so we never get to line 14 but
+why are we getting a reference error for
+
+114
+00:02:29,460 --> 00:02:29,470  
+why are we getting a reference error for
+ 
+
+115
+00:02:29,470 --> 00:02:32,460  
+why are we getting a reference error for
+two we declare two inside of our add
+
+116
+00:02:32,460 --> 00:02:32,470  
+two we declare two inside of our add
+ 
+
+117
+00:02:32,470 --> 00:02:34,770  
+two we declare two inside of our add
+function and that code block runs on
+
+118
+00:02:34,770 --> 00:02:34,780  
+function and that code block runs on
+ 
+
+119
+00:02:34,780 --> 00:02:37,940  
+function and that code block runs on
+line 12 so it should be available
+
+120
+00:02:37,940 --> 00:02:37,950  
+line 12 so it should be available
+ 
+
+121
+00:02:37,950 --> 00:02:40,830  
+line 12 so it should be available
+unfortunately it's not but this is the
+
+122
+00:02:40,830 --> 00:02:40,840  
+unfortunately it's not but this is the
+ 
+
+123
+00:02:40,840 --> 00:02:43,890  
+unfortunately it's not but this is the
+idea of scope anything declared inside
+
+124
+00:02:43,890 --> 00:02:43,900  
+idea of scope anything declared inside
+ 
+
+125
+00:02:43,900 --> 00:02:47,190  
+idea of scope anything declared inside
+of a functions code block is only local
+
+126
+00:02:47,190 --> 00:02:47,200  
+of a functions code block is only local
+ 
+
+127
+00:02:47,200 --> 00:02:49,320  
+of a functions code block is only local
+to that function meaning anything
+
+128
+00:02:49,320 --> 00:02:49,330  
+to that function meaning anything
+ 
+
+129
+00:02:49,330 --> 00:02:51,450  
+to that function meaning anything
+outside of this code block doesn't have
+
+130
+00:02:51,450 --> 00:02:51,460  
+outside of this code block doesn't have
+ 
+
+131
+00:02:51,460 --> 00:02:54,300  
+outside of this code block doesn't have
+access to the variables declared inside
+
+132
+00:02:54,300 --> 00:02:54,310  
+access to the variables declared inside
+ 
+
+133
+00:02:54,310 --> 00:02:57,660  
+access to the variables declared inside
+of there so we don't have access to the
+
+134
+00:02:57,660 --> 00:02:57,670  
+of there so we don't have access to the
+ 
+
+135
+00:02:57,670 --> 00:02:59,880  
+of there so we don't have access to the
+two function or I'm sorry the two
+
+136
+00:02:59,880 --> 00:02:59,890  
+two function or I'm sorry the two
+ 
+
+137
+00:02:59,890 --> 00:03:03,000  
+two function or I'm sorry the two
+variable or the three variable but if I
+
+138
+00:03:03,000 --> 00:03:03,010  
+variable or the three variable but if I
+ 
+
+139
+00:03:03,010 --> 00:03:05,960  
+variable or the three variable but if I
+relocated this console.log statement
+
+140
+00:03:05,960 --> 00:03:05,970  
+relocated this console.log statement
+ 
+
+141
+00:03:05,970 --> 00:03:10,140  
+relocated this console.log statement
+inside of our add function and ran this
+
+142
+00:03:10,140 --> 00:03:10,150  
+inside of our add function and ran this
+ 
+
+143
+00:03:10,150 --> 00:03:15,030  
+inside of our add function and ran this
+code now if i refresh the page notice we
+
+144
+00:03:15,030 --> 00:03:15,040  
+code now if i refresh the page notice we
+ 
+
+145
+00:03:15,040 --> 00:03:17,190  
+code now if i refresh the page notice we
+have access to the two variable and we
+
+146
+00:03:17,190 --> 00:03:17,200  
+have access to the two variable and we
+ 
+
+147
+00:03:17,200 --> 00:03:19,350  
+have access to the two variable and we
+can run that console.log statement but
+
+148
+00:03:19,350 --> 00:03:19,360  
+can run that console.log statement but
+ 
+
+149
+00:03:19,360 --> 00:03:21,180  
+can run that console.log statement but
+we can't run the console.log statement
+
+150
+00:03:21,180 --> 00:03:21,190  
+we can't run the console.log statement
+ 
+
+151
+00:03:21,190 --> 00:03:23,460  
+we can't run the console.log statement
+for three because it's not inside of
+
+152
+00:03:23,460 --> 00:03:23,470  
+for three because it's not inside of
+ 
+
+153
+00:03:23,470 --> 00:03:25,620  
+for three because it's not inside of
+this code block it's not inside of the
+
+154
+00:03:25,620 --> 00:03:25,630  
+this code block it's not inside of the
+ 
+
+155
+00:03:25,630 --> 00:03:30,870  
+this code block it's not inside of the
+add functions scope let me reposition
+
+156
+00:03:30,870 --> 00:03:30,880  
+add functions scope let me reposition
+ 
+
+157
+00:03:30,880 --> 00:03:32,760  
+add functions scope let me reposition
+some code again how we had it originally
+
+158
+00:03:32,760 --> 00:03:32,770  
+some code again how we had it originally
+ 
+
+159
+00:03:32,770 --> 00:03:36,810  
+some code again how we had it originally
+in our first example we had two two and
+
+160
+00:03:36,810 --> 00:03:36,820  
+in our first example we had two two and
+ 
+
+161
+00:03:36,820 --> 00:03:39,000  
+in our first example we had two two and
+three functions sitting at the top of
+
+162
+00:03:39,000 --> 00:03:39,010  
+three functions sitting at the top of
+ 
+
+163
+00:03:39,010 --> 00:03:41,520  
+three functions sitting at the top of
+our program then when our add function
+
+164
+00:03:41,520 --> 00:03:41,530  
+our program then when our add function
+ 
+
+165
+00:03:41,530 --> 00:03:44,850  
+our program then when our add function
+was invoked it was able to calculate 2
+
+166
+00:03:44,850 --> 00:03:44,860  
+was invoked it was able to calculate 2
+ 
+
+167
+00:03:44,860 --> 00:03:48,060  
+was invoked it was able to calculate 2
+plus 3 which was 5 so how does our add
+
+168
+00:03:48,060 --> 00:03:48,070  
+plus 3 which was 5 so how does our add
+ 
+
+169
+00:03:48,070 --> 00:03:51,570  
+plus 3 which was 5 so how does our add
+function have access to these variables
+
+170
+00:03:51,570 --> 00:03:51,580  
+function have access to these variables
+ 
+
+171
+00:03:51,580 --> 00:03:55,110  
+function have access to these variables
+that are sitting just at the top of our
+
+172
+00:03:55,110 --> 00:03:55,120  
+that are sitting just at the top of our
+ 
+
+173
+00:03:55,120 --> 00:03:56,850  
+that are sitting just at the top of our
+program or anywhere in our program
+
+174
+00:03:56,850 --> 00:03:56,860  
+program or anywhere in our program
+ 
+
+175
+00:03:56,860 --> 00:03:59,750  
+program or anywhere in our program
+they're not inside of a function
+
+176
+00:03:59,750 --> 00:03:59,760  
+they're not inside of a function
+ 
+
+177
+00:03:59,760 --> 00:04:01,770  
+they're not inside of a function
+anything that's not wrapped in a
+
+178
+00:04:01,770 --> 00:04:01,780  
+anything that's not wrapped in a
+ 
+
+179
+00:04:01,780 --> 00:04:03,390  
+anything that's not wrapped in a
+function is considered to be in the
+
+180
+00:04:03,390 --> 00:04:03,400  
+function is considered to be in the
+ 
+
+181
+00:04:03,400 --> 00:04:06,420  
+function is considered to be in the
+global scope and anything located in the
+
+182
+00:04:06,420 --> 00:04:06,430  
+global scope and anything located in the
+ 
+
+183
+00:04:06,430 --> 00:04:09,750  
+global scope and anything located in the
+global scope is accessible to any scope
+
+184
+00:04:09,750 --> 00:04:09,760  
+global scope is accessible to any scope
+ 
+
+185
+00:04:09,760 --> 00:04:12,030  
+global scope is accessible to any scope
+in your program it's the top level of
+
+186
+00:04:12,030 --> 00:04:12,040  
+in your program it's the top level of
+ 
+
+187
+00:04:12,040 --> 00:04:14,910  
+in your program it's the top level of
+scope picture the prototype chain where
+
+188
+00:04:14,910 --> 00:04:14,920  
+scope picture the prototype chain where
+ 
+
+189
+00:04:14,920 --> 00:04:16,830  
+scope picture the prototype chain where
+you keep looking at an object and Denia
+
+190
+00:04:16,830 --> 00:04:16,840  
+you keep looking at an object and Denia
+ 
+
+191
+00:04:16,840 --> 00:04:18,930  
+you keep looking at an object and Denia
+look to the next object the same idea
+
+192
+00:04:18,930 --> 00:04:18,940  
+look to the next object the same idea
+ 
+
+193
+00:04:18,940 --> 00:04:22,440  
+look to the next object the same idea
+applies to scope what happens on line 12
+
+194
+00:04:22,440 --> 00:04:22,450  
+applies to scope what happens on line 12
+ 
+
+195
+00:04:22,450 --> 00:04:24,780  
+applies to scope what happens on line 12
+when the add function is invoked it
+
+196
+00:04:24,780 --> 00:04:24,790  
+when the add function is invoked it
+ 
+
+197
+00:04:24,790 --> 00:04:27,690  
+when the add function is invoked it
+looks inside its current scope inside of
+
+198
+00:04:27,690 --> 00:04:27,700  
+looks inside its current scope inside of
+ 
+
+199
+00:04:27,700 --> 00:04:29,580  
+looks inside its current scope inside of
+this code block and it says you know
+
+200
+00:04:29,580 --> 00:04:29,590  
+this code block and it says you know
+ 
+
+201
+00:04:29,590 --> 00:04:30,300  
+this code block and it says you know
+what what is
+
+202
+00:04:30,300 --> 00:04:30,310  
+what what is
+ 
+
+203
+00:04:30,310 --> 00:04:32,730  
+what what is
+is to variable or three variable do I
+
+204
+00:04:32,730 --> 00:04:32,740  
+is to variable or three variable do I
+ 
+
+205
+00:04:32,740 --> 00:04:35,490  
+is to variable or three variable do I
+have access to this it looks inside and
+
+206
+00:04:35,490 --> 00:04:35,500  
+have access to this it looks inside and
+ 
+
+207
+00:04:35,500 --> 00:04:38,340  
+have access to this it looks inside and
+nothing is declared locally so it looks
+
+208
+00:04:38,340 --> 00:04:38,350  
+nothing is declared locally so it looks
+ 
+
+209
+00:04:38,350 --> 00:04:41,220  
+nothing is declared locally so it looks
+outside to its next scope that it's in
+
+210
+00:04:41,220 --> 00:04:41,230  
+outside to its next scope that it's in
+ 
+
+211
+00:04:41,230 --> 00:04:44,280  
+outside to its next scope that it's in
+and since function I'm sorry since the
+
+212
+00:04:44,280 --> 00:04:44,290  
+and since function I'm sorry since the
+ 
+
+213
+00:04:44,290 --> 00:04:47,400  
+and since function I'm sorry since the
+add function is sitting right inside of
+
+214
+00:04:47,400 --> 00:04:47,410  
+add function is sitting right inside of
+ 
+
+215
+00:04:47,410 --> 00:04:50,130  
+add function is sitting right inside of
+the global scope it only has to look one
+
+216
+00:04:50,130 --> 00:04:50,140  
+the global scope it only has to look one
+ 
+
+217
+00:04:50,140 --> 00:04:52,860  
+the global scope it only has to look one
+step up and it finds the two and three
+
+218
+00:04:52,860 --> 00:04:52,870  
+step up and it finds the two and three
+ 
+
+219
+00:04:52,870 --> 00:04:56,340  
+step up and it finds the two and three
+variables here so it finds them and uses
+
+220
+00:04:56,340 --> 00:04:56,350  
+variables here so it finds them and uses
+ 
+
+221
+00:04:56,350 --> 00:04:58,730  
+variables here so it finds them and uses
+their values and has access to them and
+
+222
+00:04:58,730 --> 00:04:58,740  
+their values and has access to them and
+ 
+
+223
+00:04:58,740 --> 00:05:02,850  
+their values and has access to them and
+this is the idea of scope scope can be
+
+224
+00:05:02,850 --> 00:05:02,860  
+this is the idea of scope scope can be
+ 
+
+225
+00:05:02,860 --> 00:05:05,610  
+this is the idea of scope scope can be
+created by functions as we saw here and
+
+226
+00:05:05,610 --> 00:05:05,620  
+created by functions as we saw here and
+ 
+
+227
+00:05:05,620 --> 00:05:08,520  
+created by functions as we saw here and
+when we move these variables inside of
+
+228
+00:05:08,520 --> 00:05:08,530  
+when we move these variables inside of
+ 
+
+229
+00:05:08,530 --> 00:05:12,330  
+when we move these variables inside of
+the add function these variables were
+
+230
+00:05:12,330 --> 00:05:12,340  
+the add function these variables were
+ 
+
+231
+00:05:12,340 --> 00:05:15,480  
+the add function these variables were
+only accessible inside of the add scope
+
+232
+00:05:15,480 --> 00:05:15,490  
+only accessible inside of the add scope
+ 
+
+233
+00:05:15,490 --> 00:05:18,120  
+only accessible inside of the add scope
+they're only available locally to that
+
+234
+00:05:18,120 --> 00:05:18,130  
+they're only available locally to that
+ 
+
+235
+00:05:18,130 --> 00:05:20,760  
+they're only available locally to that
+function but when they're moved outside
+
+236
+00:05:20,760 --> 00:05:20,770  
+function but when they're moved outside
+ 
+
+237
+00:05:20,770 --> 00:05:23,340  
+function but when they're moved outside
+of this function so they're placed
+
+238
+00:05:23,340 --> 00:05:23,350  
+of this function so they're placed
+ 
+
+239
+00:05:23,350 --> 00:05:25,470  
+of this function so they're placed
+inside of the global scope they're
+
+240
+00:05:25,470 --> 00:05:25,480  
+inside of the global scope they're
+ 
+
+241
+00:05:25,480 --> 00:05:27,480  
+inside of the global scope they're
+accessible to all functions and all
+
+242
+00:05:27,480 --> 00:05:27,490  
+accessible to all functions and all
+ 
+
+243
+00:05:27,490 --> 00:05:31,230  
+accessible to all functions and all
+sections of your program now that you
+
+244
+00:05:31,230 --> 00:05:31,240  
+sections of your program now that you
+ 
+
+245
+00:05:31,240 --> 00:05:33,210  
+sections of your program now that you
+have an understanding of global scope
+
+246
+00:05:33,210 --> 00:05:33,220  
+have an understanding of global scope
+ 
+
+247
+00:05:33,220 --> 00:05:36,150  
+have an understanding of global scope
+and function scope in the next video we
+
+248
+00:05:36,150 --> 00:05:36,160  
+and function scope in the next video we
+ 
+
+249
+00:05:36,160 --> 00:05:38,670  
+and function scope in the next video we
+will show an example of nested functions
+
+250
+00:05:38,670 --> 00:05:38,680  
+will show an example of nested functions
+ 
+
+251
+00:05:38,680 --> 00:05:43,080  
+will show an example of nested functions
+and have an introduction to closure

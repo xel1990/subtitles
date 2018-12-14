@@ -1,0 +1,2264 @@
+1
+00:00:01,679 --> 00:00:04,410  
+ 
+let's discuss the scope chain the scope
+
+2
+00:00:04,410 --> 00:00:04,420  
+let's discuss the scope chain the scope
+ 
+
+3
+00:00:04,420 --> 00:00:05,790  
+let's discuss the scope chain the scope
+chain is the mechanism used by a
+
+4
+00:00:05,790 --> 00:00:05,800  
+chain is the mechanism used by a
+ 
+
+5
+00:00:05,800 --> 00:00:08,820  
+chain is the mechanism used by a
+JavaScript runtime that represent scopes
+
+6
+00:00:08,820 --> 00:00:08,830  
+JavaScript runtime that represent scopes
+ 
+
+7
+00:00:08,830 --> 00:00:11,640  
+JavaScript runtime that represent scopes
+to resolve an identifier when an
+
+8
+00:00:11,640 --> 00:00:11,650  
+to resolve an identifier when an
+ 
+
+9
+00:00:11,650 --> 00:00:14,220  
+to resolve an identifier when an
+identifier is referenced but isn't used
+
+10
+00:00:14,220 --> 00:00:14,230  
+identifier is referenced but isn't used
+ 
+
+11
+00:00:14,230 --> 00:00:16,230  
+identifier is referenced but isn't used
+in the local scope the scope chain
+
+12
+00:00:16,230 --> 00:00:16,240  
+in the local scope the scope chain
+ 
+
+13
+00:00:16,240 --> 00:00:19,170  
+in the local scope the scope chain
+traverses up to a parent scope until the
+
+14
+00:00:19,170 --> 00:00:19,180  
+traverses up to a parent scope until the
+ 
+
+15
+00:00:19,180 --> 00:00:22,050  
+traverses up to a parent scope until the
+identifier is found so here we have a
+
+16
+00:00:22,050 --> 00:00:22,060  
+identifier is found so here we have a
+ 
+
+17
+00:00:22,060 --> 00:00:24,210  
+identifier is found so here we have a
+diagram showing our execution contexts
+
+18
+00:00:24,210 --> 00:00:24,220  
+diagram showing our execution contexts
+ 
+
+19
+00:00:24,220 --> 00:00:26,400  
+diagram showing our execution contexts
+and a code example on the right-hand
+
+20
+00:00:26,400 --> 00:00:26,410  
+and a code example on the right-hand
+ 
+
+21
+00:00:26,410 --> 00:00:29,040  
+and a code example on the right-hand
+side the code example is reflected in
+
+22
+00:00:29,040 --> 00:00:29,050  
+side the code example is reflected in
+ 
+
+23
+00:00:29,050 --> 00:00:31,200  
+side the code example is reflected in
+this diagram so let's discuss how the
+
+24
+00:00:31,200 --> 00:00:31,210  
+this diagram so let's discuss how the
+ 
+
+25
+00:00:31,210 --> 00:00:33,930  
+this diagram so let's discuss how the
+scope chain works in the green box here
+
+26
+00:00:33,930 --> 00:00:33,940  
+scope chain works in the green box here
+ 
+
+27
+00:00:33,940 --> 00:00:35,880  
+scope chain works in the green box here
+on the right hand side we this is
+
+28
+00:00:35,880 --> 00:00:35,890  
+on the right hand side we this is
+ 
+
+29
+00:00:35,890 --> 00:00:37,230  
+on the right hand side we this is
+demonstrating everything in our global
+
+30
+00:00:37,230 --> 00:00:37,240  
+demonstrating everything in our global
+ 
+
+31
+00:00:37,240 --> 00:00:40,110  
+demonstrating everything in our global
+scope and global execution context so
+
+32
+00:00:40,110 --> 00:00:40,120  
+scope and global execution context so
+ 
+
+33
+00:00:40,120 --> 00:00:42,750  
+scope and global execution context so
+peanuts and allergies are in our global
+
+34
+00:00:42,750 --> 00:00:42,760  
+peanuts and allergies are in our global
+ 
+
+35
+00:00:42,760 --> 00:00:44,610  
+peanuts and allergies are in our global
+scope and if we remember back to the
+
+36
+00:00:44,610 --> 00:00:44,620  
+scope and if we remember back to the
+ 
+
+37
+00:00:44,620 --> 00:00:46,950  
+scope and if we remember back to the
+global execution context section what is
+
+38
+00:00:46,950 --> 00:00:46,960  
+global execution context section what is
+ 
+
+39
+00:00:46,960 --> 00:00:49,530  
+global execution context section what is
+created when a execution context is is
+
+40
+00:00:49,530 --> 00:00:49,540  
+created when a execution context is is
+ 
+
+41
+00:00:49,540 --> 00:00:51,270  
+created when a execution context is is
+created right you have a global object
+
+42
+00:00:51,270 --> 00:00:51,280  
+created right you have a global object
+ 
+
+43
+00:00:51,280 --> 00:00:52,500  
+created right you have a global object
+and at least the global execution
+
+44
+00:00:52,500 --> 00:00:52,510  
+and at least the global execution
+ 
+
+45
+00:00:52,510 --> 00:00:54,330  
+and at least the global execution
+context you have a scope chain and you
+
+46
+00:00:54,330 --> 00:00:54,340  
+context you have a scope chain and you
+ 
+
+47
+00:00:54,340 --> 00:00:56,190  
+context you have a scope chain and you
+have a disc binding we're gonna focus on
+
+48
+00:00:56,190 --> 00:00:56,200  
+have a disc binding we're gonna focus on
+ 
+
+49
+00:00:56,200 --> 00:00:57,540  
+have a disc binding we're gonna focus on
+the global object and scope chain for
+
+50
+00:00:57,540 --> 00:00:57,550  
+the global object and scope chain for
+ 
+
+51
+00:00:57,550 --> 00:01:00,090  
+the global object and scope chain for
+now attached to this global object is
+
+52
+00:01:00,090 --> 00:01:00,100  
+now attached to this global object is
+ 
+
+53
+00:01:00,100 --> 00:01:01,830  
+now attached to this global object is
+anything in the global space of our
+
+54
+00:01:01,830 --> 00:01:01,840  
+anything in the global space of our
+ 
+
+55
+00:01:01,840 --> 00:01:03,480  
+anything in the global space of our
+program or anything not wrapped in
+
+56
+00:01:03,480 --> 00:01:03,490  
+program or anything not wrapped in
+ 
+
+57
+00:01:03,490 --> 00:01:05,340  
+program or anything not wrapped in
+another function so what are those
+
+58
+00:01:05,340 --> 00:01:05,350  
+another function so what are those
+ 
+
+59
+00:01:05,350 --> 00:01:07,230  
+another function so what are those
+values well be a peanuts in our program
+
+60
+00:01:07,230 --> 00:01:07,240  
+values well be a peanuts in our program
+ 
+
+61
+00:01:07,240 --> 00:01:08,760  
+values well be a peanuts in our program
+so that's attached to our global object
+
+62
+00:01:08,760 --> 00:01:08,770  
+so that's attached to our global object
+ 
+
+63
+00:01:08,770 --> 00:01:10,499  
+so that's attached to our global object
+and we have the allergies function which
+
+64
+00:01:10,499 --> 00:01:10,509  
+and we have the allergies function which
+ 
+
+65
+00:01:10,509 --> 00:01:12,510  
+and we have the allergies function which
+is also attached now the scope chain
+
+66
+00:01:12,510 --> 00:01:12,520  
+is also attached now the scope chain
+ 
+
+67
+00:01:12,520 --> 00:01:14,819  
+is also attached now the scope chain
+that is created this is the the global
+
+68
+00:01:14,819 --> 00:01:14,829  
+that is created this is the the global
+ 
+
+69
+00:01:14,829 --> 00:01:16,529  
+that is created this is the the global
+scope of our program and that this is a
+
+70
+00:01:16,529 --> 00:01:16,539  
+scope of our program and that this is a
+ 
+
+71
+00:01:16,539 --> 00:01:19,050  
+scope of our program and that this is a
+top-level scope of our program so our
+
+72
+00:01:19,050 --> 00:01:19,060  
+top-level scope of our program so our
+ 
+
+73
+00:01:19,060 --> 00:01:20,880  
+top-level scope of our program so our
+scope chain just has a reference to this
+
+74
+00:01:20,880 --> 00:01:20,890  
+scope chain just has a reference to this
+ 
+
+75
+00:01:20,890 --> 00:01:23,249  
+scope chain just has a reference to this
+global object so anything in our program
+
+76
+00:01:23,249 --> 00:01:23,259  
+global object so anything in our program
+ 
+
+77
+00:01:23,259 --> 00:01:24,779  
+global object so anything in our program
+can have access to the peanuts and
+
+78
+00:01:24,779 --> 00:01:24,789  
+can have access to the peanuts and
+ 
+
+79
+00:01:24,789 --> 00:01:27,929  
+can have access to the peanuts and
+allergies functions and variables now
+
+80
+00:01:27,929 --> 00:01:27,939  
+allergies functions and variables now
+ 
+
+81
+00:01:27,939 --> 00:01:29,249  
+allergies functions and variables now
+let's look at allergies and how is
+
+82
+00:01:29,249 --> 00:01:29,259  
+let's look at allergies and how is
+ 
+
+83
+00:01:29,259 --> 00:01:30,389  
+let's look at allergies and how is
+allergies different done to this go
+
+84
+00:01:30,389 --> 00:01:30,399  
+allergies different done to this go
+ 
+
+85
+00:01:30,399 --> 00:01:35,639  
+allergies different done to this go
+global scope well when allergies is
+
+86
+00:01:35,639 --> 00:01:35,649  
+global scope well when allergies is
+ 
+
+87
+00:01:35,649 --> 00:01:37,440  
+global scope well when allergies is
+invoked it creates its own execution
+
+88
+00:01:37,440 --> 00:01:37,450  
+invoked it creates its own execution
+ 
+
+89
+00:01:37,450 --> 00:01:39,120  
+invoked it creates its own execution
+context and what comes along with that a
+
+90
+00:01:39,120 --> 00:01:39,130  
+context and what comes along with that a
+ 
+
+91
+00:01:39,130 --> 00:01:41,760  
+context and what comes along with that a
+variable object a scope chain and a dis
+
+92
+00:01:41,760 --> 00:01:41,770  
+variable object a scope chain and a dis
+ 
+
+93
+00:01:41,770 --> 00:01:43,800  
+variable object a scope chain and a dis
+binding so inside of our allergies
+
+94
+00:01:43,800 --> 00:01:43,810  
+binding so inside of our allergies
+ 
+
+95
+00:01:43,810 --> 00:01:46,020  
+binding so inside of our allergies
+function notice we don't make any type
+
+96
+00:01:46,020 --> 00:01:46,030  
+function notice we don't make any type
+ 
+
+97
+00:01:46,030 --> 00:01:47,279  
+function notice we don't make any type
+of assignments and we don't create any
+
+98
+00:01:47,279 --> 00:01:47,289  
+of assignments and we don't create any
+ 
+
+99
+00:01:47,289 --> 00:01:49,529  
+of assignments and we don't create any
+new values here so our variable object
+
+100
+00:01:49,529 --> 00:01:49,539  
+new values here so our variable object
+ 
+
+101
+00:01:49,539 --> 00:01:51,690  
+new values here so our variable object
+is empty for now but notice that
+
+102
+00:01:51,690 --> 00:01:51,700  
+is empty for now but notice that
+ 
+
+103
+00:01:51,700 --> 00:01:53,489  
+is empty for now but notice that
+reference is peanuts so how does it get
+
+104
+00:01:53,489 --> 00:01:53,499  
+reference is peanuts so how does it get
+ 
+
+105
+00:01:53,499 --> 00:01:54,989  
+reference is peanuts so how does it get
+access to peanuts which isn't in its
+
+106
+00:01:54,989 --> 00:01:54,999  
+access to peanuts which isn't in its
+ 
+
+107
+00:01:54,999 --> 00:01:57,779  
+access to peanuts which isn't in its
+current local scope and the way it does
+
+108
+00:01:57,779 --> 00:01:57,789  
+current local scope and the way it does
+ 
+
+109
+00:01:57,789 --> 00:01:58,859  
+current local scope and the way it does
+that is through the scope chain
+
+110
+00:01:58,859 --> 00:01:58,869  
+that is through the scope chain
+ 
+
+111
+00:01:58,869 --> 00:02:02,370  
+that is through the scope chain
+so first the allergies function looks at
+
+112
+00:02:02,370 --> 00:02:02,380  
+so first the allergies function looks at
+ 
+
+113
+00:02:02,380 --> 00:02:04,139  
+so first the allergies function looks at
+its scope chain object here and it looks
+
+114
+00:02:04,139 --> 00:02:04,149  
+its scope chain object here and it looks
+ 
+
+115
+00:02:04,149 --> 00:02:06,059  
+its scope chain object here and it looks
+at its variable object and it notices
+
+116
+00:02:06,059 --> 00:02:06,069  
+at its variable object and it notices
+ 
+
+117
+00:02:06,069 --> 00:02:07,770  
+at its variable object and it notices
+peanuts is not to find anywhere on this
+
+118
+00:02:07,770 --> 00:02:07,780  
+peanuts is not to find anywhere on this
+ 
+
+119
+00:02:07,780 --> 00:02:09,810  
+peanuts is not to find anywhere on this
+variable object so now goes to step two
+
+120
+00:02:09,810 --> 00:02:09,820  
+variable object so now goes to step two
+ 
+
+121
+00:02:09,820 --> 00:02:11,610  
+variable object so now goes to step two
+which is it has to look at his parent
+
+122
+00:02:11,610 --> 00:02:11,620  
+which is it has to look at his parent
+ 
+
+123
+00:02:11,620 --> 00:02:14,130  
+which is it has to look at his parent
+scope and its parent scope is a
+
+124
+00:02:14,130 --> 00:02:14,140  
+scope and its parent scope is a
+ 
+
+125
+00:02:14,140 --> 00:02:15,160  
+scope and its parent scope is a
+reference to
+
+126
+00:02:15,160 --> 00:02:15,170  
+reference to
+ 
+
+127
+00:02:15,170 --> 00:02:17,740  
+reference to
+the global object and the global object
+
+128
+00:02:17,740 --> 00:02:17,750  
+the global object and the global object
+ 
+
+129
+00:02:17,750 --> 00:02:19,540  
+the global object and the global object
+has the Peanuts variable and it's
+
+130
+00:02:19,540 --> 00:02:19,550  
+has the Peanuts variable and it's
+ 
+
+131
+00:02:19,550 --> 00:02:21,070  
+has the Peanuts variable and it's
+resolved here right we get access to it
+
+132
+00:02:21,070 --> 00:02:21,080  
+resolved here right we get access to it
+ 
+
+133
+00:02:21,080 --> 00:02:22,660  
+resolved here right we get access to it
+and we use the value that we find at
+
+134
+00:02:22,660 --> 00:02:22,670  
+and we use the value that we find at
+ 
+
+135
+00:02:22,670 --> 00:02:25,809  
+and we use the value that we find at
+this property on the global object so
+
+136
+00:02:25,809 --> 00:02:25,819  
+this property on the global object so
+ 
+
+137
+00:02:25,819 --> 00:02:27,430  
+this property on the global object so
+let's take another look at this right
+
+138
+00:02:27,430 --> 00:02:27,440  
+let's take another look at this right
+ 
+
+139
+00:02:27,440 --> 00:02:28,570  
+let's take another look at this right
+that was just a general overview of how
+
+140
+00:02:28,570 --> 00:02:28,580  
+that was just a general overview of how
+ 
+
+141
+00:02:28,580 --> 00:02:30,280  
+that was just a general overview of how
+the scope chain works using some of the
+
+142
+00:02:30,280 --> 00:02:30,290  
+the scope chain works using some of the
+ 
+
+143
+00:02:30,290 --> 00:02:31,630  
+the scope chain works using some of the
+knowledge we have with execution
+
+144
+00:02:31,630 --> 00:02:31,640  
+knowledge we have with execution
+ 
+
+145
+00:02:31,640 --> 00:02:33,400  
+knowledge we have with execution
+contexts let's take a look at another
+
+146
+00:02:33,400 --> 00:02:33,410  
+contexts let's take a look at another
+ 
+
+147
+00:02:33,410 --> 00:02:35,380  
+contexts let's take a look at another
+example but before we move into that
+
+148
+00:02:35,380 --> 00:02:35,390  
+example but before we move into that
+ 
+
+149
+00:02:35,390 --> 00:02:36,910  
+example but before we move into that
+just keep in mind when we're talking
+
+150
+00:02:36,910 --> 00:02:36,920  
+just keep in mind when we're talking
+ 
+
+151
+00:02:36,920 --> 00:02:38,650  
+just keep in mind when we're talking
+about the scope chain and its traversal
+
+152
+00:02:38,650 --> 00:02:38,660  
+about the scope chain and its traversal
+ 
+
+153
+00:02:38,660 --> 00:02:41,410  
+about the scope chain and its traversal
+it can only move up so the allergies
+
+154
+00:02:41,410 --> 00:02:41,420  
+it can only move up so the allergies
+ 
+
+155
+00:02:41,420 --> 00:02:45,010  
+it can only move up so the allergies
+local scope is kind of the child
+
+156
+00:02:45,010 --> 00:02:45,020  
+local scope is kind of the child
+ 
+
+157
+00:02:45,020 --> 00:02:46,780  
+local scope is kind of the child
+of the global scope and allergies can
+
+158
+00:02:46,780 --> 00:02:46,790  
+of the global scope and allergies can
+ 
+
+159
+00:02:46,790 --> 00:02:48,370  
+of the global scope and allergies can
+look up to the global scope but the
+
+160
+00:02:48,370 --> 00:02:48,380  
+look up to the global scope but the
+ 
+
+161
+00:02:48,380 --> 00:02:50,050  
+look up to the global scope but the
+global scope can't look down into
+
+162
+00:02:50,050 --> 00:02:50,060  
+global scope can't look down into
+ 
+
+163
+00:02:50,060 --> 00:02:52,240  
+global scope can't look down into
+allergies and find any of the variables
+
+164
+00:02:52,240 --> 00:02:52,250  
+allergies and find any of the variables
+ 
+
+165
+00:02:52,250 --> 00:02:54,400  
+allergies and find any of the variables
+defined within that function and we'll
+
+166
+00:02:54,400 --> 00:02:54,410  
+defined within that function and we'll
+ 
+
+167
+00:02:54,410 --> 00:02:57,340  
+defined within that function and we'll
+show an example of that so let's take a
+
+168
+00:02:57,340 --> 00:02:57,350  
+show an example of that so let's take a
+ 
+
+169
+00:02:57,350 --> 00:03:01,360  
+show an example of that so let's take a
+look at nested functions a nested
+
+170
+00:03:01,360 --> 00:03:01,370  
+look at nested functions a nested
+ 
+
+171
+00:03:01,370 --> 00:03:02,949  
+look at nested functions a nested
+function is this a function defined
+
+172
+00:03:02,949 --> 00:03:02,959  
+function is this a function defined
+ 
+
+173
+00:03:02,959 --> 00:03:05,140  
+function is this a function defined
+inside of another function and our code
+
+174
+00:03:05,140 --> 00:03:05,150  
+inside of another function and our code
+ 
+
+175
+00:03:05,150 --> 00:03:06,370  
+inside of another function and our code
+example here we have a few of them
+
+176
+00:03:06,370 --> 00:03:06,380  
+example here we have a few of them
+ 
+
+177
+00:03:06,380 --> 00:03:08,860  
+example here we have a few of them
+notice we define Manhattan and inside of
+
+178
+00:03:08,860 --> 00:03:08,870  
+notice we define Manhattan and inside of
+ 
+
+179
+00:03:08,870 --> 00:03:10,720  
+notice we define Manhattan and inside of
+Manhattan we define a Soho function and
+
+180
+00:03:10,720 --> 00:03:10,730  
+Manhattan we define a Soho function and
+ 
+
+181
+00:03:10,730 --> 00:03:13,960  
+Manhattan we define a Soho function and
+inside of Soho we define Chelsea let's
+
+182
+00:03:13,960 --> 00:03:13,970  
+inside of Soho we define Chelsea let's
+ 
+
+183
+00:03:13,970 --> 00:03:16,360  
+inside of Soho we define Chelsea let's
+take a look at how parent the parent
+
+184
+00:03:16,360 --> 00:03:16,370  
+take a look at how parent the parent
+ 
+
+185
+00:03:16,370 --> 00:03:19,090  
+take a look at how parent the parent
+scope is defined for nested functions
+
+186
+00:03:19,090 --> 00:03:19,100  
+scope is defined for nested functions
+ 
+
+187
+00:03:19,100 --> 00:03:21,430  
+scope is defined for nested functions
+and to do that let's outline all the
+
+188
+00:03:21,430 --> 00:03:21,440  
+and to do that let's outline all the
+ 
+
+189
+00:03:21,440 --> 00:03:23,140  
+and to do that let's outline all the
+different scopes we have so we have a
+
+190
+00:03:23,140 --> 00:03:23,150  
+different scopes we have so we have a
+ 
+
+191
+00:03:23,150 --> 00:03:25,509  
+different scopes we have so we have a
+global scope Manhattan has its own local
+
+192
+00:03:25,509 --> 00:03:25,519  
+global scope Manhattan has its own local
+ 
+
+193
+00:03:25,519 --> 00:03:28,289  
+global scope Manhattan has its own local
+scope Soho has its own local scope and
+
+194
+00:03:28,289 --> 00:03:28,299  
+scope Soho has its own local scope and
+ 
+
+195
+00:03:28,299 --> 00:03:31,150  
+scope Soho has its own local scope and
+Chelsea has its own local scope notice
+
+196
+00:03:31,150 --> 00:03:31,160  
+Chelsea has its own local scope notice
+ 
+
+197
+00:03:31,160 --> 00:03:32,560  
+Chelsea has its own local scope notice
+all these functions are being invoked in
+
+198
+00:03:32,560 --> 00:03:32,570  
+all these functions are being invoked in
+ 
+
+199
+00:03:32,570 --> 00:03:35,740  
+all these functions are being invoked in
+our program so the general rule of thumb
+
+200
+00:03:35,740 --> 00:03:35,750  
+our program so the general rule of thumb
+ 
+
+201
+00:03:35,750 --> 00:03:38,080  
+our program so the general rule of thumb
+with our scope chain is that our scopes
+
+202
+00:03:38,080 --> 00:03:38,090  
+with our scope chain is that our scopes
+ 
+
+203
+00:03:38,090 --> 00:03:40,330  
+with our scope chain is that our scopes
+can traverse upwards but we can't
+
+204
+00:03:40,330 --> 00:03:40,340  
+can traverse upwards but we can't
+ 
+
+205
+00:03:40,340 --> 00:03:42,819  
+can traverse upwards but we can't
+Traverse downwards so this Manhattan
+
+206
+00:03:42,819 --> 00:03:42,829  
+Traverse downwards so this Manhattan
+ 
+
+207
+00:03:42,829 --> 00:03:46,030  
+Traverse downwards so this Manhattan
+function can't get access to this Soho
+
+208
+00:03:46,030 --> 00:03:46,040  
+function can't get access to this Soho
+ 
+
+209
+00:03:46,040 --> 00:03:48,460  
+function can't get access to this Soho
+LS variable inside of Soho right it's
+
+210
+00:03:48,460 --> 00:03:48,470  
+LS variable inside of Soho right it's
+ 
+
+211
+00:03:48,470 --> 00:03:50,680  
+LS variable inside of Soho right it's
+inside its own scope and it's blocked
+
+212
+00:03:50,680 --> 00:03:50,690  
+inside its own scope and it's blocked
+ 
+
+213
+00:03:50,690 --> 00:03:52,270  
+inside its own scope and it's blocked
+off here so we can't Traverse
+
+214
+00:03:52,270 --> 00:03:52,280  
+off here so we can't Traverse
+ 
+
+215
+00:03:52,280 --> 00:03:54,550  
+off here so we can't Traverse
+down the chain and when you see all
+
+216
+00:03:54,550 --> 00:03:54,560  
+down the chain and when you see all
+ 
+
+217
+00:03:54,560 --> 00:03:56,259  
+down the chain and when you see all
+these LS is here these are just
+
+218
+00:03:56,259 --> 00:03:56,269  
+these LS is here these are just
+ 
+
+219
+00:03:56,269 --> 00:03:57,699  
+these LS is here these are just
+referencing local scope that's what the
+
+220
+00:03:57,699 --> 00:03:57,709  
+referencing local scope that's what the
+ 
+
+221
+00:03:57,709 --> 00:04:00,520  
+referencing local scope that's what the
+LS is supposed to stand for so we know
+
+222
+00:04:00,520 --> 00:04:00,530  
+LS is supposed to stand for so we know
+ 
+
+223
+00:04:00,530 --> 00:04:02,949  
+LS is supposed to stand for so we know
+Manhattan can't look down into Soho's
+
+224
+00:04:02,949 --> 00:04:02,959  
+Manhattan can't look down into Soho's
+ 
+
+225
+00:04:02,959 --> 00:04:05,350  
+Manhattan can't look down into Soho's
+local scope but let's take Chelsea as
+
+226
+00:04:05,350 --> 00:04:05,360  
+local scope but let's take Chelsea as
+ 
+
+227
+00:04:05,360 --> 00:04:06,880  
+local scope but let's take Chelsea as
+another example and let's look at the
+
+228
+00:04:06,880 --> 00:04:06,890  
+another example and let's look at the
+ 
+
+229
+00:04:06,890 --> 00:04:09,400  
+another example and let's look at the
+other end of this can Chelsea traverse
+
+230
+00:04:09,400 --> 00:04:09,410  
+other end of this can Chelsea traverse
+ 
+
+231
+00:04:09,410 --> 00:04:12,400  
+other end of this can Chelsea traverse
+upwards to find this Soho LS variable
+
+232
+00:04:12,400 --> 00:04:12,410  
+upwards to find this Soho LS variable
+ 
+
+233
+00:04:12,410 --> 00:04:16,240  
+upwards to find this Soho LS variable
+and it can because Soho is the parent of
+
+234
+00:04:16,240 --> 00:04:16,250  
+and it can because Soho is the parent of
+ 
+
+235
+00:04:16,250 --> 00:04:18,729  
+and it can because Soho is the parent of
+Chelsea's scope it's the parent in the
+
+236
+00:04:18,729 --> 00:04:18,739  
+Chelsea's scope it's the parent in the
+ 
+
+237
+00:04:18,739 --> 00:04:21,279  
+Chelsea's scope it's the parent in the
+scope chain so we have a variable
+
+238
+00:04:21,279 --> 00:04:21,289  
+scope chain so we have a variable
+ 
+
+239
+00:04:21,289 --> 00:04:23,170  
+scope chain so we have a variable
+essentially defined in every function
+
+240
+00:04:23,170 --> 00:04:23,180  
+essentially defined in every function
+ 
+
+241
+00:04:23,180 --> 00:04:25,450  
+essentially defined in every function
+and let's look at this other diagram
+
+242
+00:04:25,450 --> 00:04:25,460  
+and let's look at this other diagram
+ 
+
+243
+00:04:25,460 --> 00:04:27,610  
+and let's look at this other diagram
+here where we define everything in our
+
+244
+00:04:27,610 --> 00:04:27,620  
+here where we define everything in our
+ 
+
+245
+00:04:27,620 --> 00:04:28,550  
+here where we define everything in our
+local scope
+
+246
+00:04:28,550 --> 00:04:28,560  
+local scope
+ 
+
+247
+00:04:28,560 --> 00:04:31,220  
+local scope
+and what our parent scope is and we're
+
+248
+00:04:31,220 --> 00:04:31,230  
+and what our parent scope is and we're
+ 
+
+249
+00:04:31,230 --> 00:04:32,330  
+and what our parent scope is and we're
+going to specifically look at the
+
+250
+00:04:32,330 --> 00:04:32,340  
+going to specifically look at the
+ 
+
+251
+00:04:32,340 --> 00:04:35,180  
+going to specifically look at the
+Chelsea scope team so this is not
+
+252
+00:04:35,180 --> 00:04:35,190  
+Chelsea scope team so this is not
+ 
+
+253
+00:04:35,190 --> 00:04:37,220  
+Chelsea scope team so this is not
+executable code here this is a diagram
+
+254
+00:04:37,220 --> 00:04:37,230  
+executable code here this is a diagram
+ 
+
+255
+00:04:37,230 --> 00:04:40,280  
+executable code here this is a diagram
+to illustrate Chelsea's scope team so in
+
+256
+00:04:40,280 --> 00:04:40,290  
+to illustrate Chelsea's scope team so in
+ 
+
+257
+00:04:40,290 --> 00:04:41,659  
+to illustrate Chelsea's scope team so in
+the local scope of Chelsea it has the
+
+258
+00:04:41,659 --> 00:04:41,669  
+the local scope of Chelsea it has the
+ 
+
+259
+00:04:41,669 --> 00:04:43,850  
+the local scope of Chelsea it has the
+Chelsea LS variable and a reference to
+
+260
+00:04:43,850 --> 00:04:43,860  
+Chelsea LS variable and a reference to
+ 
+
+261
+00:04:43,860 --> 00:04:45,530  
+Chelsea LS variable and a reference to
+itself so all functions always have a
+
+262
+00:04:45,530 --> 00:04:45,540  
+itself so all functions always have a
+ 
+
+263
+00:04:45,540 --> 00:04:48,140  
+itself so all functions always have a
+reference to themselves let's say we
+
+264
+00:04:48,140 --> 00:04:48,150  
+reference to themselves let's say we
+ 
+
+265
+00:04:48,150 --> 00:04:50,000  
+reference to themselves let's say we
+were trying to get access to this New
+
+266
+00:04:50,000 --> 00:04:50,010  
+were trying to get access to this New
+ 
+
+267
+00:04:50,010 --> 00:04:52,550  
+were trying to get access to this New
+York boroughs array and in our code step
+
+268
+00:04:52,550 --> 00:04:52,560  
+York boroughs array and in our code step
+ 
+
+269
+00:04:52,560 --> 00:04:53,900  
+York boroughs array and in our code step
+that we can see it's all the way up in
+
+270
+00:04:53,900 --> 00:04:53,910  
+that we can see it's all the way up in
+ 
+
+271
+00:04:53,910 --> 00:04:56,210  
+that we can see it's all the way up in
+the global scope right so Chelsea has a
+
+272
+00:04:56,210 --> 00:04:56,220  
+the global scope right so Chelsea has a
+ 
+
+273
+00:04:56,220 --> 00:05:00,020  
+the global scope right so Chelsea has a
+far way to travel well the first thing
+
+274
+00:05:00,020 --> 00:05:00,030  
+far way to travel well the first thing
+ 
+
+275
+00:05:00,030 --> 00:05:01,520  
+far way to travel well the first thing
+Chelsea does is it looks on itself and
+
+276
+00:05:01,520 --> 00:05:01,530  
+Chelsea does is it looks on itself and
+ 
+
+277
+00:05:01,530 --> 00:05:02,930  
+Chelsea does is it looks on itself and
+it asks well do I have New York borrows
+
+278
+00:05:02,930 --> 00:05:02,940  
+it asks well do I have New York borrows
+ 
+
+279
+00:05:02,940 --> 00:05:05,030  
+it asks well do I have New York borrows
+in my current local scope it doesn't so
+
+280
+00:05:05,030 --> 00:05:05,040  
+in my current local scope it doesn't so
+ 
+
+281
+00:05:05,040 --> 00:05:06,830  
+in my current local scope it doesn't so
+what does it do it checks its parent
+
+282
+00:05:06,830 --> 00:05:06,840  
+what does it do it checks its parent
+ 
+
+283
+00:05:06,840 --> 00:05:08,750  
+what does it do it checks its parent
+scope which is Soho because Chelsea is
+
+284
+00:05:08,750 --> 00:05:08,760  
+scope which is Soho because Chelsea is
+ 
+
+285
+00:05:08,760 --> 00:05:11,540  
+scope which is Soho because Chelsea is
+nested inside of Soho Soho is its parent
+
+286
+00:05:11,540 --> 00:05:11,550  
+nested inside of Soho Soho is its parent
+ 
+
+287
+00:05:11,550 --> 00:05:14,270  
+nested inside of Soho Soho is its parent
+scope now Soho checks itself divide New
+
+288
+00:05:14,270 --> 00:05:14,280  
+scope now Soho checks itself divide New
+ 
+
+289
+00:05:14,280 --> 00:05:14,870  
+scope now Soho checks itself divide New
+York boroughs
+
+290
+00:05:14,870 --> 00:05:14,880  
+York boroughs
+ 
+
+291
+00:05:14,880 --> 00:05:17,510  
+York boroughs
+it doesn't so now Soho checks its parent
+
+292
+00:05:17,510 --> 00:05:17,520  
+it doesn't so now Soho checks its parent
+ 
+
+293
+00:05:17,520 --> 00:05:20,240  
+it doesn't so now Soho checks its parent
+scope and what is Soho nested inside its
+
+294
+00:05:20,240 --> 00:05:20,250  
+scope and what is Soho nested inside its
+ 
+
+295
+00:05:20,250 --> 00:05:21,860  
+scope and what is Soho nested inside its
+nested inside of the manhattan function
+
+296
+00:05:21,860 --> 00:05:21,870  
+nested inside of the manhattan function
+ 
+
+297
+00:05:21,870 --> 00:05:24,700  
+nested inside of the manhattan function
+right that's its outer scope
+
+298
+00:05:24,700 --> 00:05:24,710  
+right that's its outer scope
+ 
+
+299
+00:05:24,710 --> 00:05:26,600  
+right that's its outer scope
+so now Manhattan looks where New York
+
+300
+00:05:26,600 --> 00:05:26,610  
+so now Manhattan looks where New York
+ 
+
+301
+00:05:26,610 --> 00:05:28,400  
+so now Manhattan looks where New York
+borrows it can't find it either so it
+
+302
+00:05:28,400 --> 00:05:28,410  
+borrows it can't find it either so it
+ 
+
+303
+00:05:28,410 --> 00:05:30,140  
+borrows it can't find it either so it
+looks at its parent scope which is the
+
+304
+00:05:30,140 --> 00:05:30,150  
+looks at its parent scope which is the
+ 
+
+305
+00:05:30,150 --> 00:05:33,080  
+looks at its parent scope which is the
+global scope as we can see right here
+
+306
+00:05:33,080 --> 00:05:33,090  
+global scope as we can see right here
+ 
+
+307
+00:05:33,090 --> 00:05:35,300  
+global scope as we can see right here
+right here's Manhattan and its global
+
+308
+00:05:35,300 --> 00:05:35,310  
+right here's Manhattan and its global
+ 
+
+309
+00:05:35,310 --> 00:05:40,610  
+right here's Manhattan and its global
+scope is New York borrows now let's take
+
+310
+00:05:40,610 --> 00:05:40,620  
+scope is New York borrows now let's take
+ 
+
+311
+00:05:40,620 --> 00:05:42,409  
+scope is New York borrows now let's take
+a look at another example here all right
+
+312
+00:05:42,409 --> 00:05:42,419  
+a look at another example here all right
+ 
+
+313
+00:05:42,419 --> 00:05:44,600  
+a look at another example here all right
+I changed our program a bit we're now
+
+314
+00:05:44,600 --> 00:05:44,610  
+I changed our program a bit we're now
+ 
+
+315
+00:05:44,610 --> 00:05:48,230  
+I changed our program a bit we're now
+the Chelsea function is outside and it's
+
+316
+00:05:48,230 --> 00:05:48,240  
+the Chelsea function is outside and it's
+ 
+
+317
+00:05:48,240 --> 00:05:50,060  
+the Chelsea function is outside and it's
+in its own scope right it's only really
+
+318
+00:05:50,060 --> 00:05:50,070  
+in its own scope right it's only really
+ 
+
+319
+00:05:50,070 --> 00:05:51,980  
+in its own scope right it's only really
+nested inside of the global scope below
+
+320
+00:05:51,980 --> 00:05:51,990  
+nested inside of the global scope below
+ 
+
+321
+00:05:51,990 --> 00:05:53,570  
+nested inside of the global scope below
+right here right so no longer nested
+
+322
+00:05:53,570 --> 00:05:53,580  
+right here right so no longer nested
+ 
+
+323
+00:05:53,580 --> 00:05:55,850  
+right here right so no longer nested
+inside of Soho so let's define all of
+
+324
+00:05:55,850 --> 00:05:55,860  
+inside of Soho so let's define all of
+ 
+
+325
+00:05:55,860 --> 00:05:57,110  
+inside of Soho so let's define all of
+our different scopes with the global
+
+326
+00:05:57,110 --> 00:05:57,120  
+our different scopes with the global
+ 
+
+327
+00:05:57,120 --> 00:05:59,870  
+our different scopes with the global
+scope Manhattan has its own scope so has
+
+328
+00:05:59,870 --> 00:05:59,880  
+scope Manhattan has its own scope so has
+ 
+
+329
+00:05:59,880 --> 00:06:01,540  
+scope Manhattan has its own scope so has
+its own local scope and so does Chelsea
+
+330
+00:06:01,540 --> 00:06:01,550  
+its own local scope and so does Chelsea
+ 
+
+331
+00:06:01,550 --> 00:06:05,659  
+its own local scope and so does Chelsea
+but when we invoke Chelsea now what is
+
+332
+00:06:05,659 --> 00:06:05,669  
+but when we invoke Chelsea now what is
+ 
+
+333
+00:06:05,669 --> 00:06:07,640  
+but when we invoke Chelsea now what is
+its outermost scope right how does it
+
+334
+00:06:07,640 --> 00:06:07,650  
+its outermost scope right how does it
+ 
+
+335
+00:06:07,650 --> 00:06:09,500  
+its outermost scope right how does it
+get access to New York burrows how many
+
+336
+00:06:09,500 --> 00:06:09,510  
+get access to New York burrows how many
+ 
+
+337
+00:06:09,510 --> 00:06:10,990  
+get access to New York burrows how many
+steps in the scope chain does it take
+
+338
+00:06:10,990 --> 00:06:11,000  
+steps in the scope chain does it take
+ 
+
+339
+00:06:11,000 --> 00:06:14,510  
+steps in the scope chain does it take
+well here's our diagram again so the
+
+340
+00:06:14,510 --> 00:06:14,520  
+well here's our diagram again so the
+ 
+
+341
+00:06:14,520 --> 00:06:16,400  
+well here's our diagram again so the
+Chelsea LS variable is defined and
+
+342
+00:06:16,400 --> 00:06:16,410  
+Chelsea LS variable is defined and
+ 
+
+343
+00:06:16,410 --> 00:06:18,379  
+Chelsea LS variable is defined and
+Chelsea is also defined in our local
+
+344
+00:06:18,379 --> 00:06:18,389  
+Chelsea is also defined in our local
+ 
+
+345
+00:06:18,389 --> 00:06:20,360  
+Chelsea is also defined in our local
+scope and when we look up at scope chain
+
+346
+00:06:20,360 --> 00:06:20,370  
+scope and when we look up at scope chain
+ 
+
+347
+00:06:20,370 --> 00:06:22,100  
+scope and when we look up at scope chain
+notice it's only traveling up to one
+
+348
+00:06:22,100 --> 00:06:22,110  
+notice it's only traveling up to one
+ 
+
+349
+00:06:22,110 --> 00:06:24,650  
+notice it's only traveling up to one
+scope and that's because Chelsea is no
+
+350
+00:06:24,650 --> 00:06:24,660  
+scope and that's because Chelsea is no
+ 
+
+351
+00:06:24,660 --> 00:06:28,580  
+scope and that's because Chelsea is no
+longer defined inside of Soho so its
+
+352
+00:06:28,580 --> 00:06:28,590  
+longer defined inside of Soho so its
+ 
+
+353
+00:06:28,590 --> 00:06:31,330  
+longer defined inside of Soho so its
+outermost scope now is the global scope
+
+354
+00:06:31,330 --> 00:06:31,340  
+outermost scope now is the global scope
+ 
+
+355
+00:06:31,340 --> 00:06:33,650  
+outermost scope now is the global scope
+but let's say if I were to ask you well
+
+356
+00:06:33,650 --> 00:06:33,660  
+but let's say if I were to ask you well
+ 
+
+357
+00:06:33,660 --> 00:06:35,900  
+but let's say if I were to ask you well
+what Soho's outer outer scope or the
+
+358
+00:06:35,900 --> 00:06:35,910  
+what Soho's outer outer scope or the
+ 
+
+359
+00:06:35,910 --> 00:06:38,570  
+what Soho's outer outer scope or the
+next step in traversing the scope chain
+
+360
+00:06:38,570 --> 00:06:38,580  
+next step in traversing the scope chain
+ 
+
+361
+00:06:38,580 --> 00:06:41,420  
+next step in traversing the scope chain
+it would be Manhattan so notice when you
+
+362
+00:06:41,420 --> 00:06:41,430  
+it would be Manhattan so notice when you
+ 
+
+363
+00:06:41,430 --> 00:06:42,110  
+it would be Manhattan so notice when you
+have nested
+
+364
+00:06:42,110 --> 00:06:42,120  
+have nested
+ 
+
+365
+00:06:42,120 --> 00:06:44,200  
+have nested
+functions but a function is nested
+
+366
+00:06:44,200 --> 00:06:44,210  
+functions but a function is nested
+ 
+
+367
+00:06:44,210 --> 00:06:46,790  
+functions but a function is nested
+that's where that parents in our diagram
+
+368
+00:06:46,790 --> 00:06:46,800  
+that's where that parents in our diagram
+ 
+
+369
+00:06:46,800 --> 00:06:48,350  
+that's where that parents in our diagram
+from before and excuse me for doing this
+
+370
+00:06:48,350 --> 00:06:48,360  
+from before and excuse me for doing this
+ 
+
+371
+00:06:48,360 --> 00:06:50,210  
+from before and excuse me for doing this
+but before when we had this parents go
+
+372
+00:06:50,210 --> 00:06:50,220  
+but before when we had this parents go
+ 
+
+373
+00:06:50,220 --> 00:06:52,310  
+but before when we had this parents go
+property in our scope chain it's defined
+
+374
+00:06:52,310 --> 00:06:52,320  
+property in our scope chain it's defined
+ 
+
+375
+00:06:52,320 --> 00:06:55,010  
+property in our scope chain it's defined
+by the scopes it's nested inside and our
+
+376
+00:06:55,010 --> 00:06:55,020  
+by the scopes it's nested inside and our
+ 
+
+377
+00:06:55,020 --> 00:06:58,750  
+by the scopes it's nested inside and our
+runtime does that for us
+
+378
+00:06:58,750 --> 00:06:58,760  
+ 
+ 
+
+379
+00:06:58,760 --> 00:07:01,070  
+ 
+so hopefully have a better idea now on
+
+380
+00:07:01,070 --> 00:07:01,080  
+so hopefully have a better idea now on
+ 
+
+381
+00:07:01,080 --> 00:07:03,950  
+so hopefully have a better idea now on
+how this scope chain works and I just
+
+382
+00:07:03,950 --> 00:07:03,960  
+how this scope chain works and I just
+ 
+
+383
+00:07:03,960 --> 00:07:06,710  
+how this scope chain works and I just
+wanted to show you one last example of a
+
+384
+00:07:06,710 --> 00:07:06,720  
+wanted to show you one last example of a
+ 
+
+385
+00:07:06,720 --> 00:07:08,420  
+wanted to show you one last example of a
+reference error so I'm sure you have
+
+386
+00:07:08,420 --> 00:07:08,430  
+reference error so I'm sure you have
+ 
+
+387
+00:07:08,430 --> 00:07:10,159  
+reference error so I'm sure you have
+experienced a reference error before and
+
+388
+00:07:10,159 --> 00:07:10,169  
+experienced a reference error before and
+ 
+
+389
+00:07:10,169 --> 00:07:11,629  
+experienced a reference error before and
+a reference error is just when your
+
+390
+00:07:11,629 --> 00:07:11,639  
+a reference error is just when your
+ 
+
+391
+00:07:11,639 --> 00:07:13,879  
+a reference error is just when your
+runtime or your program can't find an
+
+392
+00:07:13,879 --> 00:07:13,889  
+runtime or your program can't find an
+ 
+
+393
+00:07:13,889 --> 00:07:15,439  
+runtime or your program can't find an
+identifier so either a variable or a
+
+394
+00:07:15,439 --> 00:07:15,449  
+identifier so either a variable or a
+ 
+
+395
+00:07:15,449 --> 00:07:16,550  
+identifier so either a variable or a
+function or something to find in your
+
+396
+00:07:16,550 --> 00:07:16,560  
+function or something to find in your
+ 
+
+397
+00:07:16,560 --> 00:07:18,200  
+function or something to find in your
+program that it can't find it doesn't
+
+398
+00:07:18,200 --> 00:07:18,210  
+program that it can't find it doesn't
+ 
+
+399
+00:07:18,210 --> 00:07:20,120  
+program that it can't find it doesn't
+have access to it traversed all the way
+
+400
+00:07:20,120 --> 00:07:20,130  
+have access to it traversed all the way
+ 
+
+401
+00:07:20,130 --> 00:07:22,070  
+have access to it traversed all the way
+up the scope chain it gets to the global
+
+402
+00:07:22,070 --> 00:07:22,080  
+up the scope chain it gets to the global
+ 
+
+403
+00:07:22,080 --> 00:07:23,810  
+up the scope chain it gets to the global
+scope and it says you know I still can't
+
+404
+00:07:23,810 --> 00:07:23,820  
+scope and it says you know I still can't
+ 
+
+405
+00:07:23,820 --> 00:07:26,450  
+scope and it says you know I still can't
+find it here this must not exist here's
+
+406
+00:07:26,450 --> 00:07:26,460  
+find it here this must not exist here's
+ 
+
+407
+00:07:26,460 --> 00:07:27,950  
+find it here this must not exist here's
+a function Manhattan very similar to the
+
+408
+00:07:27,950 --> 00:07:27,960  
+a function Manhattan very similar to the
+ 
+
+409
+00:07:27,960 --> 00:07:28,850  
+a function Manhattan very similar to the
+examples we had before
+
+410
+00:07:28,850 --> 00:07:28,860  
+examples we had before
+ 
+
+411
+00:07:28,860 --> 00:07:30,800  
+examples we had before
+and inside of Manhattan in the local
+
+412
+00:07:30,800 --> 00:07:30,810  
+and inside of Manhattan in the local
+ 
+
+413
+00:07:30,810 --> 00:07:32,600  
+and inside of Manhattan in the local
+scope it has a Manhattan LS variable and
+
+414
+00:07:32,600 --> 00:07:32,610  
+scope it has a Manhattan LS variable and
+ 
+
+415
+00:07:32,610 --> 00:07:34,730  
+scope it has a Manhattan LS variable and
+a reference to itself Manhattan but
+
+416
+00:07:34,730 --> 00:07:34,740  
+a reference to itself Manhattan but
+ 
+
+417
+00:07:34,740 --> 00:07:35,900  
+a reference to itself Manhattan but
+notice it's using this identifier
+
+418
+00:07:35,900 --> 00:07:35,910  
+notice it's using this identifier
+ 
+
+419
+00:07:35,910 --> 00:07:37,640  
+notice it's using this identifier
+Brooklyn so this could be a function it
+
+420
+00:07:37,640 --> 00:07:37,650  
+Brooklyn so this could be a function it
+ 
+
+421
+00:07:37,650 --> 00:07:38,810  
+Brooklyn so this could be a function it
+could be an array it could be anything
+
+422
+00:07:38,810 --> 00:07:38,820  
+could be an array it could be anything
+ 
+
+423
+00:07:38,820 --> 00:07:40,400  
+could be an array it could be anything
+we don't really know what it is yet it's
+
+424
+00:07:40,400 --> 00:07:40,410  
+we don't really know what it is yet it's
+ 
+
+425
+00:07:40,410 --> 00:07:42,529  
+we don't really know what it is yet it's
+not defined it hasn't been resolved so
+
+426
+00:07:42,529 --> 00:07:42,539  
+not defined it hasn't been resolved so
+ 
+
+427
+00:07:42,539 --> 00:07:44,750  
+not defined it hasn't been resolved so
+what does Manhattan do well it looks up
+
+428
+00:07:44,750 --> 00:07:44,760  
+what does Manhattan do well it looks up
+ 
+
+429
+00:07:44,760 --> 00:07:46,490  
+what does Manhattan do well it looks up
+at scope chain and its outer scope is
+
+430
+00:07:46,490 --> 00:07:46,500  
+at scope chain and its outer scope is
+ 
+
+431
+00:07:46,500 --> 00:07:48,170  
+at scope chain and its outer scope is
+the global scope and if we look in the
+
+432
+00:07:48,170 --> 00:07:48,180  
+the global scope and if we look in the
+ 
+
+433
+00:07:48,180 --> 00:07:49,969  
+the global scope and if we look in the
+global scope notice that Brooklyn is not
+
+434
+00:07:49,969 --> 00:07:49,979  
+global scope notice that Brooklyn is not
+ 
+
+435
+00:07:49,979 --> 00:07:51,830  
+global scope notice that Brooklyn is not
+defined anywhere and we get a reference
+
+436
+00:07:51,830 --> 00:07:51,840  
+defined anywhere and we get a reference
+ 
+
+437
+00:07:51,840 --> 00:07:53,510  
+defined anywhere and we get a reference
+reference error here Brooklyn is not
+
+438
+00:07:53,510 --> 00:07:53,520  
+reference error here Brooklyn is not
+ 
+
+439
+00:07:53,520 --> 00:07:56,120  
+reference error here Brooklyn is not
+defined so nine times out of ten when I
+
+440
+00:07:56,120 --> 00:07:56,130  
+defined so nine times out of ten when I
+ 
+
+441
+00:07:56,130 --> 00:07:57,830  
+defined so nine times out of ten when I
+get a reference error it's either a
+
+442
+00:07:57,830 --> 00:07:57,840  
+get a reference error it's either a
+ 
+
+443
+00:07:57,840 --> 00:08:00,020  
+get a reference error it's either a
+scoping issue or I just misspelled the
+
+444
+00:08:00,020 --> 00:08:00,030  
+scoping issue or I just misspelled the
+ 
+
+445
+00:08:00,030 --> 00:08:01,969  
+scoping issue or I just misspelled the
+variable name so when you get a
+
+446
+00:08:01,969 --> 00:08:01,979  
+variable name so when you get a
+ 
+
+447
+00:08:01,979 --> 00:08:03,830  
+variable name so when you get a
+reference error make sure to look at the
+
+448
+00:08:03,830 --> 00:08:03,840  
+reference error make sure to look at the
+ 
+
+449
+00:08:03,840 --> 00:08:05,800  
+reference error make sure to look at the
+spelling and then double check that
+
+450
+00:08:05,800 --> 00:08:05,810  
+spelling and then double check that
+ 
+
+451
+00:08:05,810 --> 00:08:08,029  
+spelling and then double check that
+wherever you're calling that variable
+
+452
+00:08:08,029 --> 00:08:08,039  
+wherever you're calling that variable
+ 
+
+453
+00:08:08,039 --> 00:08:12,139  
+wherever you're calling that variable
+your program has access to it
