@@ -1,0 +1,572 @@
+1
+00:00:03,340 --> 00:00:04,360
+"One bottle of beer?"
+
+2
+00:00:04,360 --> 00:00:05,100
+"One bottle of beer?"
+/ "Yes"
+
+3
+00:00:05,640 --> 00:00:08,840
+"I like meat the most."
+
+4
+00:00:09,700 --> 00:00:12,600
+"It will get better when we get to know each other."
+
+5
+00:00:27,580 --> 00:00:30,720
+[Min Jung]
+"Hello, My name is Kim Min Jung."
+
+6
+00:00:30,720 --> 00:00:33,360
+[Min Jung]
+"I’m 28 years old"
+
+7
+00:00:33,360 --> 00:00:38,040
+[Min Jung]
+"and currently working at an entertainment agency."
+
+8
+00:00:38,960 --> 00:00:43,780
+[Hyo Yun]
+"Hello. My name is Nam Hyo Yun, 
+studying business administration
+in CHUNG-ANG University."
+
+9
+00:00:43,780 --> 00:00:46,520
+[Hyo Yun]
+"I'm 25 years old."
+
+10
+00:00:47,380 --> 00:00:49,640
+&lt;Q. Which celebrity do you look like ?&gt;
+"A little embarrassing to say it myself."
+
+11
+00:00:50,260 --> 00:00:54,180
+"But people tell me I look like Song Joong-Ki."
+
+12
+00:00:54,760 --> 00:00:58,760
+&lt;Q. What's your ideal type ?&gt;
+"Someone with heavy tone and low voice.."
+
+13
+00:00:58,760 --> 00:01:00,960
+"...would be very attractive."
+
+14
+00:01:01,600 --> 00:01:06,180
+"I’d like someone with pure style shows up."
+
+15
+00:01:08,960 --> 00:01:10,420
+[Min Jung]
+"Hello."
+
+16
+00:01:11,200 --> 00:01:12,740
+[Hyo Yun]
+"Hi."
+
+17
+00:01:16,680 --> 00:01:18,980
+[Min Jung]
+"You have very attractive voice."
+
+18
+00:01:18,980 --> 00:01:21,000
+[Hyo Yun]
+"Thank you."
+
+19
+00:01:21,240 --> 00:01:24,780
+[Min Jung]
+"I’ll ask first."
+
+20
+00:01:25,220 --> 00:01:28,400
+[Min Jung]
+"(Q)Do you have any type of style in mind?"
+
+21
+00:01:28,780 --> 00:01:31,740
+[Hyo Yun]
+"I like someone who is white.."
+
+22
+00:01:31,740 --> 00:01:32,960
+[Hyo Yun]
+"Um.."
+
+23
+00:01:32,960 --> 00:01:35,300
+[Hyo Yun]
+"and I like someone who is pure style."
+
+24
+00:01:35,640 --> 00:01:39,280
+[Hyo Yun]
+"(Q)The moment you fall for the opposite gender?"
+
+25
+00:01:39,540 --> 00:01:46,760
+[Min Jung]
+"I fall for little things"
+
+26
+00:01:46,760 --> 00:01:52,320
+[Min Jung]
+"like the voice I like"
+
+27
+00:01:52,640 --> 00:01:54,720
+[Hyo Yun]
+"You said about voice."
+
+28
+00:01:54,720 --> 00:01:57,740
+[Hyo Yun]
+"How’s mine?"
+
+29
+00:01:57,740 --> 00:02:00,300
+[Min Jung]
+"Yes. I like it."
+
+30
+00:02:00,320 --> 00:02:02,320
+[Hyo Yun]
+"Thank you."
+
+31
+00:02:03,680 --> 00:02:14,720
+[Hyo Yun]
+I moved because I thought she can be moved
+and be thankful for small things.
+
+32
+00:02:15,260 --> 00:02:19,160
+[Min Jung]
+"I’ll ask another question."
+
+33
+00:02:19,160 --> 00:02:22,840
+[Min Jung]
+"Any personality you prefer ?"
+
+34
+00:02:23,080 --> 00:02:26,040
+[Hyo Yun]
+"Someone who isn’t too extroverted."
+
+35
+00:02:26,040 --> 00:02:31,180
+[Hyo Yun]
+"I don’t like it when there are too many guys around."
+
+36
+00:02:32,040 --> 00:02:37,180
+[Min Jung]
+"I’m actually a little extroverted."
+
+37
+00:02:38,820 --> 00:02:44,720
+[Min Jung]
+"So I thought I should be more careful for my next answers."
+
+38
+00:02:44,940 --> 00:02:48,660
+[Min Jung]
+"(Q)When was your last date?"
+
+39
+00:02:50,960 --> 00:02:55,520
+[Hyo Yun]
+"Umm… I think it’s been about 5 months ago."
+
+40
+00:02:55,520 --> 00:03:00,700
+[Min Jung]
+"Did you frequently had blind dates after your break up?"
+
+41
+00:03:00,700 --> 00:03:02,660
+[Hyo Yun]
+"No, this is my first one."
+
+42
+00:03:02,660 --> 00:03:08,220
+[Min Jung]
+"Ahh...Okay."
+
+43
+00:03:08,220 --> 00:03:14,360
+[Min Jung]
+"I think it’s not good to meet someone at a blind date who just broke up."
+
+44
+00:03:14,360 --> 00:03:20,720
+[Min Jung]
+"Also I liked his answer that he never had any blind dates afterwards."
+
+45
+00:03:21,360 --> 00:03:26,480
+[Hyo Yun]
+"(Q)What are 3 things I have to know to get close to you."
+
+46
+00:03:27,120 --> 00:03:36,400
+[Min Jung]
+"It’ll be nice if you know what I’m recently interested in."
+
+47
+00:03:36,400 --> 00:03:40,920
+[Hyo Yun]
+"What is that?"
+
+48
+00:03:40,920 --> 00:03:45,980
+[Min Jung]
+"I like to decorate my house"
+
+49
+00:03:45,980 --> 00:03:50,540
+[Min Jung]
+"and umm…. What else…"
+
+50
+00:03:50,540 --> 00:03:55,580
+[Min Jung]
+"It will get better when we get to know each other."
+
+51
+00:03:55,580 --> 00:03:58,600
+[Hyo Yun]
+"Umm… Okay, thanks."
+
+52
+00:04:01,040 --> 00:04:05,800
+[Hyo Yun]
+"I moved not because of a particular answer"
+
+53
+00:04:05,800 --> 00:04:15,340
+[Hyo Yun]
+"but when she said ‘want to get to know each other’ I moved."
+
+54
+00:04:15,900 --> 00:04:19,840
+[Hyo Yun]
+"(Q)What’s your favorite food?"
+
+55
+00:04:20,300 --> 00:04:24,820
+[Min Jung]
+"I like most of Korean foods."
+
+56
+00:04:24,820 --> 00:04:28,720
+[Hyo Yun]
+"I like meat the most."
+
+57
+00:04:29,200 --> 00:04:31,200
+[Min Jung]
+"Which kind of meat?"
+
+58
+00:04:31,540 --> 00:04:34,600
+[Hyo Yun]
+"I think pork is the most delicious."
+
+59
+00:04:34,600 --> 00:04:36,340
+[Min Jung]
+"Samgyeopsal? (pork belly)"
+
+60
+00:04:36,800 --> 00:04:42,880
+[Hyo Yun]
+"Yes I like samgyeopsal (pork belly) and also moksal (pork neck)"
+
+61
+00:04:43,240 --> 00:04:45,340
+[Min Jung]
+"How about gopchang (pork small intestine)?"
+
+62
+00:04:45,340 --> 00:04:46,660
+[Hyo Yun]
+"I like it !"
+
+63
+00:04:48,920 --> 00:04:54,040
+[Min Jung]
+"There are a few men who doesn’t eat gopchang."
+
+64
+00:04:54,040 --> 00:05:00,260
+[Min Jung]
+"So I asked carefully if he likes it and said yes."
+
+65
+00:05:00,260 --> 00:05:05,400
+[Min Jung]
+"I thought we have similar tastes."
+
+66
+00:05:05,740 --> 00:05:09,580
+[Hyo Yun]
+"(Q)How much do you drink?"
+
+67
+00:05:09,580 --> 00:05:12,600
+[Min Jung]
+"Enough not to ruin the atmosphere?"
+
+68
+00:05:13,080 --> 00:05:15,120
+[Hyo Yun]
+"How much is that exactly?"
+
+69
+00:05:15,120 --> 00:05:16,640
+[Min Jung]
+"About one bottle of beer?"
+
+70
+00:05:17,480 --> 00:05:18,600
+[Hyo Yun]
+"One bottle of beer?"
+
+71
+00:05:18,600 --> 00:05:19,500
+[Min Jung]
+"Yes."
+
+72
+00:05:23,560 --> 00:05:26,640
+[Hyo Yun]
+"You don’t drink a lot."
+
+73
+00:05:26,640 --> 00:05:34,160
+[Hyo Yun]
+"There was no reason to move forward"
+
+74
+00:05:34,160 --> 00:05:44,340
+[Hyo Yun]
+"because it really doesn’t matter how much you drink if it’s fun while drinking"
+
+75
+00:05:44,340 --> 00:05:46,740
+[Hyo Yun]
+"Although it’s not so good if she’s a heavy drinker."
+
+76
+00:05:47,040 --> 00:05:49,140
+[Min Jung]
+"Actually I really like drinking."
+
+77
+00:05:52,160 --> 00:05:53,900
+&lt;Q. How much do you drink?&gt;
+
+78
+00:05:53,900 --> 00:05:57,600
+[Min Jung]
+"About two bottles of soju?"
+
+79
+00:05:57,600 --> 00:06:02,920
+[Min Jung]
+"But he said he likes feminine style."
+
+80
+00:06:03,440 --> 00:06:07,100
+[Hyo Yun]
+"(Q)Do you have a hobby you want to share with your boyfriend?"
+
+81
+00:06:07,100 --> 00:06:11,020
+[Min Jung]
+"I hope we can enjoy outdoor activity together."
+
+82
+00:06:11,800 --> 00:06:23,320
+[Hyo Yun]
+"I don’t like to put too much time into something."
+
+83
+00:06:23,320 --> 00:06:33,120
+[Hyo Yun]
+"I also thought I wanted to share the same hobby so I moved back."
+
+84
+00:06:33,320 --> 00:06:38,540
+[Min Jung]
+"(Q)Do you like to go on a vacation with your girlfriend?"
+
+85
+00:06:38,540 --> 00:06:44,880
+[Hyo Yun]
+If I have the chance, I’d like to.
+
+86
+00:06:46,420 --> 00:06:52,180
+[Min Jung]
+"(Q)What do you want to do if you go out on a date?"
+
+87
+00:06:52,180 --> 00:07:08,560
+[Hyo Yun]
+"Going to Han river, going to a good restaurant or drinking together,
+nothing so special."
+
+88
+00:07:09,400 --> 00:07:26,900
+[Min Jung]
+"He said he likes traveling and dates that aren’t so special."
+
+89
+00:07:26,900 --> 00:07:34,060
+[Min Jung]
+"After hearing his answers I moved because we have a lot in common
+so I thought we could really hit it off "
+
+90
+00:07:34,320 --> 00:07:42,480
+[Hyo Yun]
+"(Q)My last question is, what do you think about friends of opposite gender?"
+
+91
+00:07:42,780 --> 00:07:48,900
+[Min Jung]
+"I could make new friends through my boyfriend"
+
+92
+00:07:48,900 --> 00:07:53,500
+[Min Jung]
+"so it’ll be nice if you can take me to those meetings."
+
+93
+00:07:53,500 --> 00:07:58,260
+[Min Jung]
+"I don’t really care."
+
+94
+00:07:58,520 --> 00:08:02,220
+[Hyo Yun]
+"I’m a little jealous."
+
+95
+00:08:02,220 --> 00:08:11,320
+[Hyo Yun]
+"If I tell you I don’t like meeting with a male friend"
+
+96
+00:08:11,320 --> 00:08:13,020
+[Hyo Yun]
+"What will you do?"
+
+97
+00:08:13,020 --> 00:08:15,100
+[Min Jung]
+"Then I won’t."
+
+98
+00:08:15,100 --> 00:08:20,180
+[Min Jung]
+"If my boyfriend doesn’t like something I wouldn’t do it."
+
+99
+00:08:53,160 --> 00:08:54,620
+[Min Jung] : "Hello" /
+[Hyo Yun] : "Hello"
+
+100
+00:08:59,900 --> 00:09:01,280
+[Hyo Yun]
+"Pleasure meeting you."
+
+101
+00:09:01,280 --> 00:09:02,740
+[Min Jung]
+"I’m Kim Min Jung."
+
+102
+00:09:02,740 --> 00:09:04,340
+[Hyo Yun]
+"Nam Hyo Yun."
+
+103
+00:09:07,720 --> 00:09:10,840
+[Hyo Yun]
+"Nice to meet you."
+
+104
+00:09:10,840 --> 00:09:16,360
+[Min Jung]
+"I never thought someone younger than me would show up."
+
+105
+00:09:16,360 --> 00:09:20,520
+[Min Jung]
+"I wanted to be more active but"
+
+106
+00:09:20,520 --> 00:09:25,060
+[Min Jung]
+"he said he didn’t like extrovertish person in the beginning."
+
+107
+00:09:25,060 --> 00:09:29,100
+[Min Jung]
+"So I acted introvert which I regret…."
+
+108
+00:09:29,100 --> 00:09:34,260
+[Hyo Yun]
+"She was much better than what I thought."
+
+109
+00:09:34,260 --> 00:09:36,620
+[Min Jung]
+"Wow he’s handsome."
+
+110
+00:09:38,340 --> 00:09:40,340
+[Min Jung]
+"A pure young man?"
+
+111
+00:09:41,100 --> 00:09:46,980
+[Min Jung]
+"He was like an idol."
+
+112
+00:09:46,980 --> 00:09:49,520
+[Min Jung]
+"Even though it was different with what I thought I still liked it."
+
+113
+00:09:49,800 --> 00:09:55,320
+[Hyo Yun]
+"When we faced each other I thought she was very pretty."
+
+114
+00:09:55,320 --> 00:10:00,460
+[Hyo Yun]
+"Although she wasn’t 100% my type just by seeing her"
+
+115
+00:10:00,460 --> 00:10:08,520
+[Hyo Yun]
+"but wanted to get to know more about her."
