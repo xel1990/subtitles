@@ -1,0 +1,752 @@
+1
+00:00:00,000 --> 00:00:01,940
+1,2,3
+
+2
+00:00:03,500 --> 00:00:06,220
+Hello
+
+3
+00:00:10,200 --> 00:00:11,800
+Hello
+
+4
+00:00:18,000 --> 00:00:19,760
+My name is Seo Dong-won
+
+5
+00:00:19,900 --> 00:00:20,880
+My name is Jeong Yu-rim
+
+6
+00:00:21,160 --> 00:00:21,660
+Yu-rim?
+
+7
+00:00:21,660 --> 00:00:22,260
+Yes, Yu-rim
+
+8
+00:00:24,880 --> 00:00:26,080
+Nice to meet you!
+
+9
+00:00:26,400 --> 00:00:27,980
+Shall we take a shot?
+
+10
+00:00:28,080 --> 00:00:28,580
+Sure
+
+11
+00:00:30,540 --> 00:00:31,040
+Cheers?
+
+12
+00:00:32,600 --> 00:00:34,380
+Nice to meet you!
+
+13
+00:00:39,200 --> 00:00:41,200
+Let’s draw the card.
+
+14
+00:00:43,280 --> 00:00:47,960
+‘Based only on the first impression, in what year did Yu-rim enter the University?’
+
+15
+00:00:48,260 --> 00:00:49,140
+Year 2014?
+
+16
+00:00:49,440 --> 00:00:49,940
+Nope
+
+17
+00:00:50,200 --> 00:00:51,060
+I’m wrong?
+
+18
+00:00:51,100 --> 00:00:52,500
+You should take a shot.
+
+19
+00:00:54,200 --> 00:00:56,020
+It’s year 2009.
+
+20
+00:00:56,880 --> 00:00:58,880
+Wow, you look so young
+
+21
+00:00:58,880 --> 00:01:00,320
+How old you are..?
+
+22
+00:01:00,320 --> 00:01:01,400
+28 years old
+
+23
+00:01:02,140 --> 00:01:03,200
+Oh is this..?
+
+24
+00:01:04,260 --> 00:01:06,040
+How old do I look?
+
+25
+00:01:06,380 --> 00:01:07,860
+Twenty-
+
+26
+00:01:07,860 --> 00:01:08,920
+Twenty-?
+
+27
+00:01:08,920 --> 00:01:09,920
+Five?
+
+28
+00:01:09,920 --> 00:01:10,500
+25?
+
+29
+00:01:10,540 --> 00:01:11,220
+I am pretty good right?
+
+30
+00:01:11,220 --> 00:01:11,720
+Yeah
+
+31
+00:01:11,720 --> 00:01:12,780
+You look really young.
+
+32
+00:01:12,780 --> 00:01:15,660
+Your skin looks so clean.
+
+33
+00:01:15,660 --> 00:01:17,500
+Even better than mine!
+
+34
+00:01:17,500 --> 00:01:19,400
+Not at all. Yours looks great.
+
+35
+00:01:19,400 --> 00:01:20,400
+It’s the make-up
+
+36
+00:01:20,500 --> 00:01:24,320
+Well your make-up doesn’t look that heavy
+
+37
+00:01:24,320 --> 00:01:25,660
+Slow-down cowboy.
+
+38
+00:01:26,100 --> 00:01:28,100
+Alcohol’s hitting me up today
+
+39
+00:01:28,100 --> 00:01:29,220
+Big time!
+
+40
+00:01:35,200 --> 00:01:37,200
+Why, what’s the question?
+
+41
+00:01:37,380 --> 00:01:41,900
+‘Which part does Yu-rim look at first when she sees a man?’
+
+42
+00:01:41,900 --> 00:01:43,340
+Maybe thighs?
+
+43
+00:01:44,840 --> 00:01:46,840
+Oh guess I should take a shot then
+
+44
+00:01:46,840 --> 00:01:47,420
+Please do
+
+45
+00:01:47,700 --> 00:01:49,320
+I look at guy’s hands a lot
+
+46
+00:01:49,320 --> 00:01:50,000
+Hands?
+
+47
+00:01:50,180 --> 00:01:52,180
+Yes, I like men with pretty hands
+
+48
+00:01:52,180 --> 00:01:53,260
+Mine are pretty
+
+49
+00:01:54,280 --> 00:01:55,960
+You say it so proudly!
+
+50
+00:01:55,960 --> 00:01:56,960
+Did the camera get it?
+
+51
+00:01:59,000 --> 00:02:03,220
+Actually my hands are huge
+
+52
+00:02:06,860 --> 00:02:07,680
+Aren’t they?
+
+53
+00:02:07,700 --> 00:02:09,700
+No, to be exact, mine was lower
+
+54
+00:02:09,700 --> 00:02:11,220
+Come on, if you’re being that technical
+
+55
+00:02:11,220 --> 00:02:12,480
+Yeah put it up there
+
+56
+00:02:12,700 --> 00:02:13,720
+Still it’s big
+
+57
+00:02:13,980 --> 00:02:15,560
+Don’t be ridiculous!
+
+58
+00:02:18,480 --> 00:02:20,480
+Why am I getting all the difficult ones?
+
+59
+00:02:21,080 --> 00:02:23,540
+‘What do you do when your girlfriend’s mad at you?’
+
+60
+00:02:23,560 --> 00:02:25,260
+Maybe you throw special events for her?
+
+61
+00:02:25,260 --> 00:02:26,080
+Wrong!
+
+62
+00:02:26,200 --> 00:02:28,100
+Isn’t it normal to do special events?
+
+63
+00:02:28,100 --> 00:02:29,360
+Is it?
+
+64
+00:02:31,620 --> 00:02:32,680
+I act cute for her
+
+65
+00:02:32,680 --> 00:02:34,020
+(Can you show us how?)
+
+66
+00:02:35,600 --> 00:02:36,220
+Like a role play?
+
+67
+00:02:36,220 --> 00:02:37,300
+A role play?
+
+68
+00:02:37,300 --> 00:02:39,160
+Let’s say you’re mad because I was late
+
+69
+00:02:39,160 --> 00:02:40,620
+How could you be late?
+
+70
+00:02:41,500 --> 00:02:43,320
+You know I waited
+
+71
+00:02:43,400 --> 00:02:45,220
+Can you look at my face?
+
+72
+00:02:45,640 --> 00:02:47,200
+I’m so sorry
+
+73
+00:02:49,400 --> 00:02:51,400
+I love you!
+
+74
+00:02:52,620 --> 00:02:57,160
+‘When Yu-rim likes a guy, she does a certain gesture what is it?’
+
+75
+00:02:57,160 --> 00:02:59,000
+I think you’ll smile a lot in front of that person
+
+76
+00:02:59,380 --> 00:03:01,380
+I usually look into his eyes a lot
+
+77
+00:03:01,380 --> 00:03:02,200
+Eye contact?
+
+78
+00:03:02,200 --> 00:03:02,720
+Yes
+
+79
+00:03:07,800 --> 00:03:08,380
+ah~
+
+80
+00:03:08,500 --> 00:03:10,300
+You know we made eye contact with each other
+
+81
+00:03:13,700 --> 00:03:15,000
+Sure we did
+
+82
+00:03:15,420 --> 00:03:21,580
+‘Dong-won prefers to date someone younger, same age, or older?’
+
+83
+00:03:21,580 --> 00:03:22,900
+Someone older?
+
+84
+00:03:22,900 --> 00:03:24,900
+Wow, you’re psychic!
+
+85
+00:03:24,900 --> 00:03:26,300
+Psychic?!
+
+86
+00:03:26,300 --> 00:03:27,540
+Then how about you
+
+87
+00:03:27,540 --> 00:03:28,080
+Take a guess
+
+88
+00:03:28,140 --> 00:03:30,960
+I’d wish you’d go for boys younger than you
+
+89
+00:03:31,100 --> 00:03:33,100
+Normally I prefer someone as my age or older
+
+90
+00:03:33,240 --> 00:03:37,880
+It’s a pressure for me to date younger guys
+
+91
+00:03:38,100 --> 00:03:42,480
+because I feel like I have to take care of the
+
+92
+00:03:43,280 --> 00:03:45,280
+but it can depend on the person
+
+93
+00:03:45,400 --> 00:03:48,640
+It’s not like a strict rule and if the person is nice, it wouldn’t matter
+
+94
+00:03:49,300 --> 00:03:52,240
+Well I am a nice person you know.
+
+95
+00:03:56,200 --> 00:03:57,220
+I wonder what it is.
+
+96
+00:03:57,320 --> 00:04:02,740
+‘Can Dong-won say “I love you” to his GF in front of his friends or not?’
+
+97
+00:04:03,000 --> 00:04:04,140
+I think you can!
+
+98
+00:04:04,140 --> 00:04:05,080
+Yes I can
+
+99
+00:04:05,080 --> 00:04:06,100
+I knew it.
+
+100
+00:04:06,260 --> 00:04:08,160
+Is it hard to say I love you?
+
+101
+00:04:08,160 --> 00:04:10,160
+I can’t do it.
+
+102
+00:04:10,160 --> 00:04:10,660
+Really?
+
+103
+00:04:10,660 --> 00:04:11,560
+In front of your friends?
+
+104
+00:04:12,960 --> 00:04:14,960
+Do you feel embarrassed?
+
+105
+00:04:14,960 --> 00:04:16,320
+It’s a cringy thing to do.
+
+106
+00:04:16,500 --> 00:04:18,880
+The thing is
+
+107
+00:04:18,880 --> 00:04:19,840
+if I don’t express
+
+108
+00:04:19,840 --> 00:04:23,520
+my feelings to my girlfriend she might see me as careless
+
+109
+00:04:23,520 --> 00:04:25,520
+And with my friends
+
+110
+00:04:25,520 --> 00:04:28,620
+I want them to know my GF is the best
+
+111
+00:04:28,620 --> 00:04:29,800
+I like your way of thinking
+
+112
+00:04:29,860 --> 00:04:31,860
+To let them know that she’s my top priority?
+
+113
+00:04:31,860 --> 00:04:32,980
+I want to be good to her
+
+114
+00:04:32,980 --> 00:04:36,800
+more than to my friends
+I want to tell her my feelings often
+
+115
+00:04:38,400 --> 00:04:39,540
+Oh~~
+
+116
+00:04:39,540 --> 00:04:40,920
+interesting question.
+
+117
+00:04:40,920 --> 00:04:47,740
+Does Yu-rim prefer easy relationships like friends or a passionate romance?
+
+118
+00:04:47,740 --> 00:04:49,100
+The easy one?
+
+119
+00:04:50,400 --> 00:04:52,400
+I don’t want to be too comfortable.
+
+120
+00:04:52,400 --> 00:04:53,820
+I want to be special
+
+121
+00:04:53,820 --> 00:04:56,120
+and precious to that person
+
+122
+00:04:56,120 --> 00:04:59,940
+I’d like to be reminded that I’m being loved
+
+123
+00:05:00,240 --> 00:05:02,240
+You like being comfortable huh?
+
+124
+00:05:02,300 --> 00:05:05,280
+Do you fart or burp in front of your girlfriend?
+
+125
+00:05:05,320 --> 00:05:07,320
+I want her to do it right away, comfortably
+
+126
+00:05:07,780 --> 00:05:10,000
+My parents still don’t fart in front of each other
+
+127
+00:05:10,000 --> 00:05:11,660
+That was the environment I grew up in
+
+128
+00:05:12,000 --> 00:05:14,240
+Manners should be kept between loved ones.
+
+129
+00:05:14,240 --> 00:05:15,460
+I know how to keep them.
+
+130
+00:05:15,560 --> 00:05:16,780
+I have manners
+
+131
+00:05:16,780 --> 00:05:18,200
+By accident is fine
+
+132
+00:05:18,200 --> 00:05:19,780
+What about burping and going like, “Wanna smell it?”
+
+133
+00:05:19,780 --> 00:05:20,480
+No I hate that
+
+134
+00:05:20,480 --> 00:05:21,440
+I’m not like that!
+
+135
+00:05:25,380 --> 00:05:30,640
+Have you ever met a guy through social media? Yes or no?
+
+136
+00:05:31,080 --> 00:05:33,080
+I think it’s hard not to for you
+
+137
+00:05:33,080 --> 00:05:35,060
+What do you mean hard not to?
+
+138
+00:05:35,060 --> 00:05:36,160
+You’re very pretty so..
+
+139
+00:05:36,160 --> 00:05:38,160
+Are you on Instagram?
+
+140
+00:05:38,160 --> 00:05:39,100
+Yes
+
+141
+00:05:39,100 --> 00:05:40,120
+If you’re on it, that’s-
+
+142
+00:05:40,380 --> 00:05:41,340
+100% chance?
+
+143
+00:05:41,460 --> 00:05:42,740
+(sigh) I get it
+
+144
+00:05:46,160 --> 00:05:47,000
+Yes, I have
+
+145
+00:05:47,000 --> 00:05:48,000
+I see
+
+146
+00:05:48,000 --> 00:05:49,260
+Have you?
+
+147
+00:05:49,260 --> 00:05:50,240
+I think you have
+
+148
+00:05:50,400 --> 00:05:51,500
+I haven’t
+
+149
+00:05:51,500 --> 00:05:52,480
+Really?
+
+150
+00:05:52,780 --> 00:05:55,280
+To meet people via social media,
+
+151
+00:05:55,280 --> 00:05:57,160
+I thought it’d be too casual
+
+152
+00:05:57,160 --> 00:05:58,280
+If that person DM'd me,
+
+153
+00:05:58,280 --> 00:06:01,160
+she might have DM'd another guy
+
+154
+00:06:01,160 --> 00:06:02,820
+I’m a bit uncomfortable about that
+
+155
+00:06:02,820 --> 00:06:07,980
+I was slightly against it
+
+156
+00:06:09,780 --> 00:06:10,600
+But...
+
+157
+00:06:11,000 --> 00:06:14,380
+if that person is really sincere
+
+158
+00:06:14,380 --> 00:06:16,260
+I could maybe give it a try
+
+159
+00:06:18,140 --> 00:06:20,140
+Oh this one is the last question
+
+160
+00:06:24,600 --> 00:06:31,540
+Seo Dong-won feels the same now as when he saw Yu-rim the first time? Or not?
+
+161
+00:06:34,700 --> 00:06:35,840
+The same
+
+162
+00:06:35,840 --> 00:06:36,580
+Yes, you’re right
+
+163
+00:06:36,580 --> 00:06:37,500
+Why is that?
+
+164
+00:06:37,940 --> 00:06:41,740
+My first impression of you was good because of your bright smile
+
+165
+00:06:42,300 --> 00:06:44,180
+Because of your smile
+
+166
+00:06:44,200 --> 00:06:46,280
+I had a feeling that you’re a nice person,
+
+167
+00:06:46,280 --> 00:06:49,900
+so yes your smile left me a good impression
+
+168
+00:06:52,040 --> 00:06:54,040
+Then....
+
+169
+00:06:54,780 --> 00:06:57,580
+Do you happen to have....
+
+170
+00:06:59,340 --> 00:07:01,560
+plan after this..?
+
+171
+00:07:03,420 --> 00:07:05,320
+…after this?
+
+172
+00:07:05,320 --> 00:07:05,820
+Plans?
+
+173
+00:07:06,520 --> 00:07:09,140
+Umm..
+
+174
+00:07:12,300 --> 00:07:14,800
+Let me get your number first.
+
+175
+00:07:14,980 --> 00:07:16,980
+I should have said that first
+
+176
+00:07:16,980 --> 00:07:18,340
+Ah I was so stupid!
+
+177
+00:07:18,340 --> 00:07:20,020
+I know! You should know better
+
+178
+00:07:20,020 --> 00:07:21,100
+What an idiot!
+
+179
+00:07:21,500 --> 00:07:24,040
+I had a great time today
+
+180
+00:07:24,040 --> 00:07:25,360
+I did too
+
+181
+00:07:25,360 --> 00:07:27,120
+After the wrap-up, we’ll see
+
+182
+00:07:37,160 --> 00:07:39,660
+‘When dong-won likes a girl,
+
+183
+00:07:39,660 --> 00:07:41,660
+He’ll smile and laugh a lot.”
+
+184
+00:07:42,020 --> 00:07:46,000
+I usually rub my neck or touch my ears
+
+185
+00:07:46,000 --> 00:07:47,580
+No wonder your hands were so still
+
+186
+00:07:47,580 --> 00:07:48,280
+Me?
+
+187
+00:07:48,280 --> 00:07:50,280
+Really?
+
+188
+00:07:50,280 --> 00:07:53,500
+We’ll have to see the video later to find that out.
