@@ -1,0 +1,1674 @@
+1
+00:00:00,060 --> 00:00:02,090  
+ 
+here's the solution to this hands-on
+
+2
+00:00:02,090 --> 00:00:02,100  
+here's the solution to this hands-on
+ 
+
+3
+00:00:02,100 --> 00:00:04,999  
+here's the solution to this hands-on
+exercise I'm going to create a new
+
+4
+00:00:04,999 --> 00:00:05,009  
+exercise I'm going to create a new
+ 
+
+5
+00:00:05,009 --> 00:00:15,160  
+exercise I'm going to create a new
+folder 0 3 and then create a new file
+
+6
+00:00:15,160 --> 00:00:15,170  
+folder 0 3 and then create a new file
+ 
+
+7
+00:00:15,170 --> 00:00:20,660  
+folder 0 3 and then create a new file
+thing and this is package main and func
+
+8
+00:00:20,660 --> 00:00:20,670  
+thing and this is package main and func
+ 
+
+9
+00:00:20,670 --> 00:00:23,480  
+thing and this is package main and func
+main and then I have to create a new
+
+10
+00:00:23,480 --> 00:00:23,490  
+main and then I have to create a new
+ 
+
+11
+00:00:23,490 --> 00:00:30,439  
+main and then I have to create a new
+function so funk foo and and if I had
+
+12
+00:00:30,439 --> 00:00:30,449  
+function so funk foo and and if I had
+ 
+
+13
+00:00:30,449 --> 00:00:31,759  
+function so funk foo and and if I had
+returned to be there but that's the
+
+14
+00:00:31,759 --> 00:00:31,769  
+returned to be there but that's the
+ 
+
+15
+00:00:31,769 --> 00:00:37,520  
+returned to be there but that's the
+basics for function and I want to take
+
+16
+00:00:37,520 --> 00:00:37,530  
+basics for function and I want to take
+ 
+
+17
+00:00:37,530 --> 00:00:43,760  
+basics for function and I want to take
+in a string any variable and I also want
+
+18
+00:00:43,760 --> 00:00:43,770  
+in a string any variable and I also want
+ 
+
+19
+00:00:43,770 --> 00:00:48,170  
+in a string any variable and I also want
+to take in an int and so this these are
+
+20
+00:00:48,170 --> 00:00:48,180  
+to take in an int and so this these are
+ 
+
+21
+00:00:48,180 --> 00:00:52,100  
+to take in an int and so this these are
+the parameters when I define my function
+
+22
+00:00:52,100 --> 00:00:52,110  
+the parameters when I define my function
+ 
+
+23
+00:00:52,110 --> 00:00:57,439  
+the parameters when I define my function
+I could pass values in so I define my
+
+24
+00:00:57,439 --> 00:00:57,449  
+I could pass values in so I define my
+ 
+
+25
+00:00:57,449 --> 00:01:00,170  
+I could pass values in so I define my
+function with parameters I could pass
+
+26
+00:01:00,170 --> 00:01:00,180  
+function with parameters I could pass
+ 
+
+27
+00:01:00,180 --> 00:01:08,149  
+function with parameters I could pass
+values into that so when I pass a value
+
+28
+00:01:08,149 --> 00:01:08,159  
+values into that so when I pass a value
+ 
+
+29
+00:01:08,159 --> 00:01:11,020  
+values into that so when I pass a value
+of type string into this function and
+
+30
+00:01:11,020 --> 00:01:11,030  
+of type string into this function and
+ 
+
+31
+00:01:11,030 --> 00:01:14,149  
+of type string into this function and
+type int into this function I'm gonna
+
+32
+00:01:14,149 --> 00:01:14,159  
+type int into this function I'm gonna
+ 
+
+33
+00:01:14,159 --> 00:01:16,700  
+type int into this function I'm gonna
+pass in a string in an int I have to
+
+34
+00:01:16,700 --> 00:01:16,710  
+pass in a string in an int I have to
+ 
+
+35
+00:01:16,710 --> 00:01:19,760  
+pass in a string in an int I have to
+pass them in as this in this order so I
+
+36
+00:01:19,760 --> 00:01:19,770  
+pass them in as this in this order so I
+ 
+
+37
+00:01:19,770 --> 00:01:23,330  
+pass them in as this in this order so I
+will call this function foo and I have
+
+38
+00:01:23,330 --> 00:01:23,340  
+will call this function foo and I have
+ 
+
+39
+00:01:23,340 --> 00:01:28,460  
+will call this function foo and I have
+to pass in a string and I also have to
+
+40
+00:01:28,460 --> 00:01:28,470  
+to pass in a string and I also have to
+ 
+
+41
+00:01:28,470 --> 00:01:33,920  
+to pass in a string and I also have to
+pass in an int so I defined my function
+
+42
+00:01:33,920 --> 00:01:33,930  
+pass in an int so I defined my function
+ 
+
+43
+00:01:33,930 --> 00:01:36,980  
+pass in an int so I defined my function
+with parameters it's gonna take a value
+
+44
+00:01:36,980 --> 00:01:36,990  
+with parameters it's gonna take a value
+ 
+
+45
+00:01:36,990 --> 00:01:38,810  
+with parameters it's gonna take a value
+of type string and a value of type int
+
+46
+00:01:38,810 --> 00:01:38,820  
+of type string and a value of type int
+ 
+
+47
+00:01:38,820 --> 00:01:44,440  
+of type string and a value of type int
+and I call my function with arguments
+
+48
+00:01:44,440 --> 00:01:44,450  
+and I call my function with arguments
+ 
+
+49
+00:01:44,450 --> 00:01:47,899  
+and I call my function with arguments
+it's going to take an argument of types
+
+50
+00:01:47,899 --> 00:01:47,909  
+it's going to take an argument of types
+ 
+
+51
+00:01:47,909 --> 00:01:50,420  
+it's going to take an argument of types
+of type string and an argument of type
+
+52
+00:01:50,420 --> 00:01:50,430  
+of type string and an argument of type
+ 
+
+53
+00:01:50,430 --> 00:01:53,389  
+of type string and an argument of type
+int in that order when I pass in Tod
+
+54
+00:01:53,389 --> 00:01:53,399  
+int in that order when I pass in Tod
+ 
+
+55
+00:01:53,399 --> 00:01:57,230  
+int in that order when I pass in Tod
+here to this string it gets assigned to
+
+56
+00:01:57,230 --> 00:01:57,240  
+here to this string it gets assigned to
+ 
+
+57
+00:01:57,240 --> 00:02:02,030  
+here to this string it gets assigned to
+a variable X when I pass in 42 here to
+
+58
+00:02:02,030 --> 00:02:02,040  
+a variable X when I pass in 42 here to
+ 
+
+59
+00:02:02,040 --> 00:02:04,429  
+a variable X when I pass in 42 here to
+this int it gets assigned to a variable
+
+60
+00:02:04,429 --> 00:02:04,439  
+this int it gets assigned to a variable
+ 
+
+61
+00:02:04,439 --> 00:02:10,550  
+this int it gets assigned to a variable
+Y the scope of x and y is this function
+
+62
+00:02:10,550 --> 00:02:10,560  
+Y the scope of x and y is this function
+ 
+
+63
+00:02:10,560 --> 00:02:14,300  
+Y the scope of x and y is this function
+I could use and reference the variable
+
+64
+00:02:14,300 --> 00:02:14,310  
+I could use and reference the variable
+ 
+
+65
+00:02:14,310 --> 00:02:17,780  
+I could use and reference the variable
+X&amp;Y inside that function not anywhere
+
+66
+00:02:17,780 --> 00:02:17,790  
+X&amp;Y inside that function not anywhere
+ 
+
+67
+00:02:17,790 --> 00:02:21,170  
+X&amp;Y inside that function not anywhere
+else so I could come here and I could do
+
+68
+00:02:21,170 --> 00:02:21,180  
+else so I could come here and I could do
+ 
+
+69
+00:02:21,180 --> 00:02:26,660  
+else so I could come here and I could do
+format print line X comma Y and that
+
+70
+00:02:26,660 --> 00:02:26,670  
+format print line X comma Y and that
+ 
+
+71
+00:02:26,670 --> 00:02:39,949  
+format print line X comma Y and that
+should run now the nice thing about
+
+72
+00:02:39,949 --> 00:02:39,959  
+should run now the nice thing about
+ 
+
+73
+00:02:39,959 --> 00:02:42,110  
+should run now the nice thing about
+functions this allows us to modularize
+
+74
+00:02:42,110 --> 00:02:42,120  
+functions this allows us to modularize
+ 
+
+75
+00:02:42,120 --> 00:02:47,570  
+functions this allows us to modularize
+our code we take a chunk of code and we
+
+76
+00:02:47,570 --> 00:02:47,580  
+our code we take a chunk of code and we
+ 
+
+77
+00:02:47,580 --> 00:02:49,970  
+our code we take a chunk of code and we
+put it into a function and we call that
+
+78
+00:02:49,970 --> 00:02:49,980  
+put it into a function and we call that
+ 
+
+79
+00:02:49,980 --> 00:02:52,690  
+put it into a function and we call that
+function something that it does a
+
+80
+00:02:52,690 --> 00:02:52,700  
+function something that it does a
+ 
+
+81
+00:02:52,700 --> 00:02:56,660  
+function something that it does a
+calculate grade maybe so if we are you
+
+82
+00:02:56,660 --> 00:02:56,670  
+calculate grade maybe so if we are you
+ 
+
+83
+00:02:56,670 --> 00:02:59,240  
+calculate grade maybe so if we are you
+know working with students we could have
+
+84
+00:02:59,240 --> 00:02:59,250  
+know working with students we could have
+ 
+
+85
+00:02:59,250 --> 00:03:02,830  
+know working with students we could have
+a function calculate grade which will
+
+86
+00:03:02,830 --> 00:03:02,840  
+a function calculate grade which will
+ 
+
+87
+00:03:02,840 --> 00:03:05,150  
+a function calculate grade which will
+get all the scores for a student
+
+88
+00:03:05,150 --> 00:03:05,160  
+get all the scores for a student
+ 
+
+89
+00:03:05,160 --> 00:03:07,190  
+get all the scores for a student
+calculate the grade grade and return a
+
+90
+00:03:07,190 --> 00:03:07,200  
+calculate the grade grade and return a
+ 
+
+91
+00:03:07,200 --> 00:03:10,160  
+calculate the grade grade and return a
+result we only have to write that
+
+92
+00:03:10,160 --> 00:03:10,170  
+result we only have to write that
+ 
+
+93
+00:03:10,170 --> 00:03:12,470  
+result we only have to write that
+function once and we could call it over
+
+94
+00:03:12,470 --> 00:03:12,480  
+function once and we could call it over
+ 
+
+95
+00:03:12,480 --> 00:03:15,380  
+function once and we could call it over
+and over so it allows us to not repeat
+
+96
+00:03:15,380 --> 00:03:15,390  
+and over so it allows us to not repeat
+ 
+
+97
+00:03:15,390 --> 00:03:17,509  
+and over so it allows us to not repeat
+ourselves in our code do not repeat
+
+98
+00:03:17,509 --> 00:03:17,519  
+ourselves in our code do not repeat
+ 
+
+99
+00:03:17,519 --> 00:03:20,690  
+ourselves in our code do not repeat
+yourself DRI is the principal and it
+
+100
+00:03:20,690 --> 00:03:20,700  
+yourself DRI is the principal and it
+ 
+
+101
+00:03:20,700 --> 00:03:33,780  
+yourself DRI is the principal and it
+allows us to call a function many times
+
+102
+00:03:33,780 --> 00:03:33,790  
+ 
+ 
+
+103
+00:03:33,790 --> 00:03:46,110  
+ 
+I don't know who 17 I will do my friend
+
+104
+00:03:46,110 --> 00:03:46,120  
+I don't know who 17 I will do my friend
+ 
+
+105
+00:03:46,120 --> 00:03:52,110  
+I don't know who 17 I will do my friend
+Cole and now when I run this right each
+
+106
+00:03:52,110 --> 00:03:52,120  
+Cole and now when I run this right each
+ 
+
+107
+00:03:52,120 --> 00:03:55,170  
+Cole and now when I run this right each
+time it called that function it passed
+
+108
+00:03:55,170 --> 00:03:55,180  
+time it called that function it passed
+ 
+
+109
+00:03:55,180 --> 00:03:59,509  
+time it called that function it passed
+in arguments of the requested type and
+
+110
+00:03:59,509 --> 00:03:59,519  
+in arguments of the requested type and
+ 
+
+111
+00:03:59,519 --> 00:04:02,460  
+in arguments of the requested type and
+then you sign those two variables and
+
+112
+00:04:02,460 --> 00:04:02,470  
+then you sign those two variables and
+ 
+
+113
+00:04:02,470 --> 00:04:06,360  
+then you sign those two variables and
+then it ran the code here so the program
+
+114
+00:04:06,360 --> 00:04:06,370  
+then it ran the code here so the program
+ 
+
+115
+00:04:06,370 --> 00:04:10,349  
+then it ran the code here so the program
+entered here it ran foo I ran foo I ran
+
+116
+00:04:10,349 --> 00:04:10,359  
+entered here it ran foo I ran foo I ran
+ 
+
+117
+00:04:10,359 --> 00:04:16,529  
+entered here it ran foo I ran foo I ran
+foo around food program accident so
+
+118
+00:04:16,529 --> 00:04:16,539  
+foo around food program accident so
+ 
+
+119
+00:04:16,539 --> 00:04:18,810  
+foo around food program accident so
+that's this solution to this problem
+
+120
+00:04:18,810 --> 00:04:18,820  
+that's this solution to this problem
+ 
+
+121
+00:04:18,820 --> 00:04:23,760  
+that's this solution to this problem
+create a func and created a func it
+
+122
+00:04:23,760 --> 00:04:23,770  
+create a func and created a func it
+ 
+
+123
+00:04:23,770 --> 00:04:25,529  
+create a func and created a func it
+takes two arguments a value of type
+
+124
+00:04:25,529 --> 00:04:25,539  
+takes two arguments a value of type
+ 
+
+125
+00:04:25,539 --> 00:04:27,600  
+takes two arguments a value of type
+string and a value of type int takes two
+
+126
+00:04:27,600 --> 00:04:27,610  
+string and a value of type int takes two
+ 
+
+127
+00:04:27,610 --> 00:04:29,460  
+string and a value of type int takes two
+arguments about you type string about
+
+128
+00:04:29,460 --> 00:04:29,470  
+arguments about you type string about
+ 
+
+129
+00:04:29,470 --> 00:04:32,909  
+arguments about you type string about
+you've type int the func should print
+
+130
+00:04:32,909 --> 00:04:32,919  
+you've type int the func should print
+ 
+
+131
+00:04:32,919 --> 00:04:37,250  
+you've type int the func should print
+out two values prints out the two values
+
+132
+00:04:37,250 --> 00:04:37,260  
+out two values prints out the two values
+ 
+
+133
+00:04:37,260 --> 00:04:40,020  
+out two values prints out the two values
+from func main call the funky made and
+
+134
+00:04:40,020 --> 00:04:40,030  
+from func main call the funky made and
+ 
+
+135
+00:04:40,030 --> 00:04:42,510  
+from func main call the funky made and
+passing your name and age called the
+
+136
+00:04:42,510 --> 00:04:42,520  
+passing your name and age called the
+ 
+
+137
+00:04:42,520 --> 00:04:44,939  
+passing your name and age called the
+func I made passed in my name and a
+
+138
+00:04:44,939 --> 00:04:44,949  
+func I made passed in my name and a
+ 
+
+139
+00:04:44,949 --> 00:04:49,740  
+func I made passed in my name and a
+number and then call the func in and
+
+140
+00:04:49,740 --> 00:04:49,750  
+number and then call the func in and
+ 
+
+141
+00:04:49,750 --> 00:04:51,390  
+number and then call the func in and
+pass in the name and age of one of your
+
+142
+00:04:51,390 --> 00:04:51,400  
+pass in the name and age of one of your
+ 
+
+143
+00:04:51,400 --> 00:04:54,180  
+pass in the name and age of one of your
+friends so I called it again and passed
+
+144
+00:04:54,180 --> 00:04:54,190  
+friends so I called it again and passed
+ 
+
+145
+00:04:54,190 --> 00:04:58,250  
+friends so I called it again and passed
+in the name of age of other people so
+
+146
+00:04:58,250 --> 00:04:58,260  
+ 
+ 
+
+147
+00:04:58,260 --> 00:05:03,500  
+ 
+some important concepts covered there
+
+148
+00:05:03,500 --> 00:05:03,510  
+ 
+ 
+
+149
+00:05:03,510 --> 00:05:07,529  
+ 
+this is a function alright so we created
+
+150
+00:05:07,529 --> 00:05:07,539  
+this is a function alright so we created
+ 
+
+151
+00:05:07,539 --> 00:05:09,570  
+this is a function alright so we created
+a function functions allow us to
+
+152
+00:05:09,570 --> 00:05:09,580  
+a function functions allow us to
+ 
+
+153
+00:05:09,580 --> 00:05:10,320  
+a function functions allow us to
+modularize
+
+154
+00:05:10,320 --> 00:05:10,330  
+modularize
+ 
+
+155
+00:05:10,330 --> 00:05:17,490  
+modularize
+our code and dry do not don't repeat
+
+156
+00:05:17,490 --> 00:05:17,500  
+our code and dry do not don't repeat
+ 
+
+157
+00:05:17,500 --> 00:05:21,060  
+our code and dry do not don't repeat
+yourself all right as opposed to if I
+
+158
+00:05:21,060 --> 00:05:21,070  
+yourself all right as opposed to if I
+ 
+
+159
+00:05:21,070 --> 00:05:24,390  
+yourself all right as opposed to if I
+just had you know all of that over and
+
+160
+00:05:24,390 --> 00:05:24,400  
+just had you know all of that over and
+ 
+
+161
+00:05:24,400 --> 00:05:27,390  
+just had you know all of that over and
+over and over again up here I am writing
+
+162
+00:05:27,390 --> 00:05:27,400  
+over and over again up here I am writing
+ 
+
+163
+00:05:27,400 --> 00:05:29,450  
+over and over again up here I am writing
+the same code over and over and over
+
+164
+00:05:29,450 --> 00:05:29,460  
+the same code over and over and over
+ 
+
+165
+00:05:29,460 --> 00:05:34,800  
+the same code over and over and over
+modularize it right and this function
+
+166
+00:05:34,800 --> 00:05:34,810  
+modularize it right and this function
+ 
+
+167
+00:05:34,810 --> 00:05:38,129  
+modularize it right and this function
+functions bunks are defined with
+
+168
+00:05:38,129 --> 00:05:38,139  
+functions bunks are defined with
+ 
+
+169
+00:05:38,139 --> 00:05:46,320  
+functions bunks are defined with
+parameters parameters specify value of a
+
+170
+00:05:46,320 --> 00:05:46,330  
+parameters parameters specify value of a
+ 
+
+171
+00:05:46,330 --> 00:05:48,260  
+parameters parameters specify value of a
+certain
+
+172
+00:05:48,260 --> 00:05:48,270  
+certain
+ 
+
+173
+00:05:48,270 --> 00:05:57,540  
+certain
+tight to be passed and when the funk is
+
+174
+00:05:57,540 --> 00:05:57,550  
+tight to be passed and when the funk is
+ 
+
+175
+00:05:57,550 --> 00:06:07,290  
+tight to be passed and when the funk is
+called and then when we call a funk we
+
+176
+00:06:07,290 --> 00:06:07,300  
+called and then when we call a funk we
+ 
+
+177
+00:06:07,300 --> 00:06:17,670  
+called and then when we call a funk we
+pass in arguments right anybody have any
+
+178
+00:06:17,670 --> 00:06:17,680  
+pass in arguments right anybody have any
+ 
+
+179
+00:06:17,680 --> 00:06:26,640  
+pass in arguments right anybody have any
+questions about that I see some people
+
+180
+00:06:26,640 --> 00:06:26,650  
+questions about that I see some people
+ 
+
+181
+00:06:26,650 --> 00:06:29,610  
+questions about that I see some people
+struggling a little bit maybe with just
+
+182
+00:06:29,610 --> 00:06:29,620  
+struggling a little bit maybe with just
+ 
+
+183
+00:06:29,620 --> 00:06:33,060  
+struggling a little bit maybe with just
+sort of understanding this idea of
+
+184
+00:06:33,060 --> 00:06:33,070  
+sort of understanding this idea of
+ 
+
+185
+00:06:33,070 --> 00:06:35,010  
+sort of understanding this idea of
+putting our code into different places
+
+186
+00:06:35,010 --> 00:06:35,020  
+putting our code into different places
+ 
+
+187
+00:06:35,020 --> 00:06:38,969  
+putting our code into different places
+and then calling it so the mind learns
+
+188
+00:06:38,969 --> 00:06:38,979  
+and then calling it so the mind learns
+ 
+
+189
+00:06:38,979 --> 00:06:44,339  
+and then calling it so the mind learns
+well through association and what that
+
+190
+00:06:44,339 --> 00:06:44,349  
+well through association and what that
+ 
+
+191
+00:06:44,349 --> 00:06:51,270  
+well through association and what that
+means is if you go to like let's say
+
+192
+00:06:51,270 --> 00:06:51,280  
+means is if you go to like let's say
+ 
+
+193
+00:06:51,280 --> 00:06:54,689  
+means is if you go to like let's say
+friend takes you to karate his karate
+
+194
+00:06:54,689 --> 00:06:54,699  
+friend takes you to karate his karate
+ 
+
+195
+00:06:54,699 --> 00:06:57,210  
+friend takes you to karate his karate
+practice and then afterwards you go get
+
+196
+00:06:57,210 --> 00:06:57,220  
+practice and then afterwards you go get
+ 
+
+197
+00:06:57,220 --> 00:07:00,029  
+practice and then afterwards you go get
+amazing Mexican food and then next week
+
+198
+00:07:00,029 --> 00:07:00,039  
+amazing Mexican food and then next week
+ 
+
+199
+00:07:00,039 --> 00:07:04,080  
+amazing Mexican food and then next week
+he says hey let's go to karate and you
+
+200
+00:07:04,080 --> 00:07:04,090  
+he says hey let's go to karate and you
+ 
+
+201
+00:07:04,090 --> 00:07:06,300  
+he says hey let's go to karate and you
+think cool I want to forego an amazing
+
+202
+00:07:06,300 --> 00:07:06,310  
+think cool I want to forego an amazing
+ 
+
+203
+00:07:06,310 --> 00:07:08,580  
+think cool I want to forego an amazing
+Mexican food afterwards karate and
+
+204
+00:07:08,580 --> 00:07:08,590  
+Mexican food afterwards karate and
+ 
+
+205
+00:07:08,590 --> 00:07:10,680  
+Mexican food afterwards karate and
+Mexican food got associated in your mind
+
+206
+00:07:10,680 --> 00:07:10,690  
+Mexican food got associated in your mind
+ 
+
+207
+00:07:10,690 --> 00:07:13,290  
+Mexican food got associated in your mind
+or in my sequel class which roxanne's in
+
+208
+00:07:13,290 --> 00:07:13,300  
+or in my sequel class which roxanne's in
+ 
+
+209
+00:07:13,300 --> 00:07:17,250  
+or in my sequel class which roxanne's in
+with me I can't remember the students
+
+210
+00:07:17,250 --> 00:07:17,260  
+with me I can't remember the students
+ 
+
+211
+00:07:17,260 --> 00:07:21,870  
+with me I can't remember the students
+name until I I told a story about how
+
+212
+00:07:21,870 --> 00:07:21,880  
+name until I I told a story about how
+ 
+
+213
+00:07:21,880 --> 00:07:25,710  
+name until I I told a story about how
+you say can in Spanish lotta like a can
+
+214
+00:07:25,710 --> 00:07:25,720  
+you say can in Spanish lotta like a can
+ 
+
+215
+00:07:25,720 --> 00:07:28,890  
+you say can in Spanish lotta like a can
+and then as soon as like I did that my
+
+216
+00:07:28,890 --> 00:07:28,900  
+and then as soon as like I did that my
+ 
+
+217
+00:07:28,900 --> 00:07:31,170  
+and then as soon as like I did that my
+mind went back to when that story
+
+218
+00:07:31,170 --> 00:07:31,180  
+mind went back to when that story
+ 
+
+219
+00:07:31,180 --> 00:07:33,060  
+mind went back to when that story
+occurred a week before and when I
+
+220
+00:07:33,060 --> 00:07:33,070  
+occurred a week before and when I
+ 
+
+221
+00:07:33,070 --> 00:07:35,399  
+occurred a week before and when I
+learned his name and his name Jose came
+
+222
+00:07:35,399 --> 00:07:35,409  
+learned his name and his name Jose came
+ 
+
+223
+00:07:35,409 --> 00:07:38,700  
+learned his name and his name Jose came
+to me so that story lotta and his name
+
+224
+00:07:38,700 --> 00:07:38,710  
+to me so that story lotta and his name
+ 
+
+225
+00:07:38,710 --> 00:07:41,279  
+to me so that story lotta and his name
+were all associated in my mind so as
+
+226
+00:07:41,279 --> 00:07:41,289  
+were all associated in my mind so as
+ 
+
+227
+00:07:41,289 --> 00:07:43,290  
+were all associated in my mind so as
+soon as I said the lot to store and like
+
+228
+00:07:43,290 --> 00:07:43,300  
+soon as I said the lot to store and like
+ 
+
+229
+00:07:43,300 --> 00:07:45,810  
+soon as I said the lot to store and like
+oh yeah his name's Jose came to my head
+
+230
+00:07:45,810 --> 00:07:45,820  
+oh yeah his name's Jose came to my head
+ 
+
+231
+00:07:45,820 --> 00:07:47,850  
+oh yeah his name's Jose came to my head
+so the mind learns through association
+
+232
+00:07:47,850 --> 00:07:47,860  
+so the mind learns through association
+ 
+
+233
+00:07:47,860 --> 00:07:49,920  
+so the mind learns through association
+I'm telling you that because some of you
+
+234
+00:07:49,920 --> 00:07:49,930  
+I'm telling you that because some of you
+ 
+
+235
+00:07:49,930 --> 00:07:51,210  
+I'm telling you that because some of you
+I could see are struggling a little bit
+
+236
+00:07:51,210 --> 00:07:51,220  
+I could see are struggling a little bit
+ 
+
+237
+00:07:51,220 --> 00:07:54,510  
+I could see are struggling a little bit
+with this idea that you know we kind of
+
+238
+00:07:54,510 --> 00:07:54,520  
+with this idea that you know we kind of
+ 
+
+239
+00:07:54,520 --> 00:07:56,730  
+with this idea that you know we kind of
+modularize our code and put it into
+
+240
+00:07:56,730 --> 00:07:56,740  
+modularize our code and put it into
+ 
+
+241
+00:07:56,740 --> 00:07:58,560  
+modularize our code and put it into
+functions and then call those functions
+
+242
+00:07:58,560 --> 00:07:58,570  
+functions and then call those functions
+ 
+
+243
+00:07:58,570 --> 00:08:00,600  
+functions and then call those functions
+and so a good thing is to think about
+
+244
+00:08:00,600 --> 00:08:00,610  
+and so a good thing is to think about
+ 
+
+245
+00:08:00,610 --> 00:08:01,410  
+and so a good thing is to think about
+some
+
+246
+00:08:01,410 --> 00:08:01,420  
+some
+ 
+
+247
+00:08:01,420 --> 00:08:04,230  
+some
+that we can compare that to some sort of
+
+248
+00:08:04,230 --> 00:08:04,240  
+that we can compare that to some sort of
+ 
+
+249
+00:08:04,240 --> 00:08:08,250  
+that we can compare that to some sort of
+an analogy and an analogy might be like
+
+250
+00:08:08,250 --> 00:08:08,260  
+an analogy and an analogy might be like
+ 
+
+251
+00:08:08,260 --> 00:08:13,440  
+an analogy and an analogy might be like
+storage containers in your fridge right
+
+252
+00:08:13,440 --> 00:08:13,450  
+storage containers in your fridge right
+ 
+
+253
+00:08:13,450 --> 00:08:15,360  
+storage containers in your fridge right
+like so you get done with dinner and you
+
+254
+00:08:15,360 --> 00:08:15,370  
+like so you get done with dinner and you
+ 
+
+255
+00:08:15,370 --> 00:08:18,150  
+like so you get done with dinner and you
+had steak and you get salad and you had
+
+256
+00:08:18,150 --> 00:08:18,160  
+had steak and you get salad and you had
+ 
+
+257
+00:08:18,160 --> 00:08:20,760  
+had steak and you get salad and you had
+rice well if you threw all that into one
+
+258
+00:08:20,760 --> 00:08:20,770  
+rice well if you threw all that into one
+ 
+
+259
+00:08:20,770 --> 00:08:22,440  
+rice well if you threw all that into one
+container it's just kind of gonna be a
+
+260
+00:08:22,440 --> 00:08:22,450  
+container it's just kind of gonna be a
+ 
+
+261
+00:08:22,450 --> 00:08:24,600  
+container it's just kind of gonna be a
+big mess you know
+
+262
+00:08:24,600 --> 00:08:24,610  
+big mess you know
+ 
+
+263
+00:08:24,610 --> 00:08:26,010  
+big mess you know
+and you throw that in the fridge you
+
+264
+00:08:26,010 --> 00:08:26,020  
+and you throw that in the fridge you
+ 
+
+265
+00:08:26,020 --> 00:08:28,320  
+and you throw that in the fridge you
+pull it out now the rice the salad and
+
+266
+00:08:28,320 --> 00:08:28,330  
+pull it out now the rice the salad and
+ 
+
+267
+00:08:28,330 --> 00:08:31,160  
+pull it out now the rice the salad and
+the steak all the flavors are messed up
+
+268
+00:08:31,160 --> 00:08:31,170  
+the steak all the flavors are messed up
+ 
+
+269
+00:08:31,170 --> 00:08:33,570  
+the steak all the flavors are messed up
+but if you put them each into their own
+
+270
+00:08:33,570 --> 00:08:33,580  
+but if you put them each into their own
+ 
+
+271
+00:08:33,580 --> 00:08:36,270  
+but if you put them each into their own
+container and then store them in the
+
+272
+00:08:36,270 --> 00:08:36,280  
+container and then store them in the
+ 
+
+273
+00:08:36,280 --> 00:08:38,190  
+container and then store them in the
+fridge when you're ready to use them
+
+274
+00:08:38,190 --> 00:08:38,200  
+fridge when you're ready to use them
+ 
+
+275
+00:08:38,200 --> 00:08:40,200  
+fridge when you're ready to use them
+again you pull them back up out and open
+
+276
+00:08:40,200 --> 00:08:40,210  
+again you pull them back up out and open
+ 
+
+277
+00:08:40,210 --> 00:08:42,290  
+again you pull them back up out and open
+up each container and it's like oh cool
+
+278
+00:08:42,290 --> 00:08:42,300  
+up each container and it's like oh cool
+ 
+
+279
+00:08:42,300 --> 00:08:44,970  
+up each container and it's like oh cool
+you know there's my salad container
+
+280
+00:08:44,970 --> 00:08:44,980  
+you know there's my salad container
+ 
+
+281
+00:08:44,980 --> 00:08:48,660  
+you know there's my salad container
+there's my my container for steak
+
+282
+00:08:48,660 --> 00:08:48,670  
+there's my my container for steak
+ 
+
+283
+00:08:48,670 --> 00:08:51,990  
+there's my my container for steak
+there's my container for rice and you
+
+284
+00:08:51,990 --> 00:08:52,000  
+there's my container for rice and you
+ 
+
+285
+00:08:52,000 --> 00:08:53,580  
+there's my container for rice and you
+get the container with the stuff in it
+
+286
+00:08:53,580 --> 00:08:53,590  
+get the container with the stuff in it
+ 
+
+287
+00:08:53,590 --> 00:08:55,470  
+get the container with the stuff in it
+that you want in the same way these are
+
+288
+00:08:55,470 --> 00:08:55,480  
+that you want in the same way these are
+ 
+
+289
+00:08:55,480 --> 00:08:58,440  
+that you want in the same way these are
+containers and we put into them things
+
+290
+00:08:58,440 --> 00:08:58,450  
+containers and we put into them things
+ 
+
+291
+00:08:58,450 --> 00:09:00,930  
+containers and we put into them things
+that are related like here's the
+
+292
+00:09:00,930 --> 00:09:00,940  
+that are related like here's the
+ 
+
+293
+00:09:00,940 --> 00:09:02,490  
+that are related like here's the
+function which prints out the name and
+
+294
+00:09:02,490 --> 00:09:02,500  
+function which prints out the name and
+ 
+
+295
+00:09:02,500 --> 00:09:06,030  
+function which prints out the name and
+the age cool we only want to write that
+
+296
+00:09:06,030 --> 00:09:06,040  
+the age cool we only want to write that
+ 
+
+297
+00:09:06,040 --> 00:09:07,590  
+the age cool we only want to write that
+function once and then we could use it
+
+298
+00:09:07,590 --> 00:09:07,600  
+function once and then we could use it
+ 
+
+299
+00:09:07,600 --> 00:09:10,200  
+function once and then we could use it
+over and over and over or here's the
+
+300
+00:09:10,200 --> 00:09:10,210  
+over and over and over or here's the
+ 
+
+301
+00:09:10,210 --> 00:09:11,760  
+over and over and over or here's the
+function that calculates a student's
+
+302
+00:09:11,760 --> 00:09:11,770  
+function that calculates a student's
+ 
+
+303
+00:09:11,770 --> 00:09:13,380  
+function that calculates a student's
+great cool we only want to write that
+
+304
+00:09:13,380 --> 00:09:13,390  
+great cool we only want to write that
+ 
+
+305
+00:09:13,390 --> 00:09:14,820  
+great cool we only want to write that
+once and then for each student we'll
+
+306
+00:09:14,820 --> 00:09:14,830  
+once and then for each student we'll
+ 
+
+307
+00:09:14,830 --> 00:09:17,790  
+once and then for each student we'll
+call it so that's called calling a
+
+308
+00:09:17,790 --> 00:09:17,800  
+call it so that's called calling a
+ 
+
+309
+00:09:17,800 --> 00:09:20,270  
+call it so that's called calling a
+function when we call a func
+
+310
+00:09:20,270 --> 00:09:20,280  
+function when we call a func
+ 
+
+311
+00:09:20,280 --> 00:09:23,910  
+function when we call a func
+right we passed in arguments does that
+
+312
+00:09:23,910 --> 00:09:23,920  
+right we passed in arguments does that
+ 
+
+313
+00:09:23,920 --> 00:09:25,950  
+right we passed in arguments does that
+how many people are feeling like on a
+
+314
+00:09:25,950 --> 00:09:25,960  
+how many people are feeling like on a
+ 
+
+315
+00:09:25,960 --> 00:09:28,230  
+how many people are feeling like on a
+scale of zero to ten what's your clarity
+
+316
+00:09:28,230 --> 00:09:28,240  
+scale of zero to ten what's your clarity
+ 
+
+317
+00:09:28,240 --> 00:09:42,890  
+scale of zero to ten what's your clarity
+on this stuff here good 10 10 10 8 9 e 9
+
+318
+00:09:42,890 --> 00:09:42,900  
+on this stuff here good 10 10 10 8 9 e 9
+ 
+
+319
+00:09:42,900 --> 00:09:50,490  
+on this stuff here good 10 10 10 8 9 e 9
+huh good good 9 8 good cool all right
+
+320
+00:09:50,490 --> 00:09:50,500  
+huh good good 9 8 good cool all right
+ 
+
+321
+00:09:50,500 --> 00:09:52,440  
+huh good good 9 8 good cool all right
+great glad you hear it forget it
+
+322
+00:09:52,440 --> 00:09:52,450  
+great glad you hear it forget it
+ 
+
+323
+00:09:52,450 --> 00:09:54,840  
+great glad you hear it forget it
+I want to make sure the pace is right
+
+324
+00:09:54,840 --> 00:09:54,850  
+I want to make sure the pace is right
+ 
+
+325
+00:09:54,850 --> 00:09:57,060  
+I want to make sure the pace is right
+for the audience that I got so it
+
+326
+00:09:57,060 --> 00:09:57,070  
+for the audience that I got so it
+ 
+
+327
+00:09:57,070 --> 00:10:00,090  
+for the audience that I got so it
+doesn't matter how far we go if we go
+
+328
+00:10:00,090 --> 00:10:00,100  
+doesn't matter how far we go if we go
+ 
+
+329
+00:10:00,100 --> 00:10:02,160  
+doesn't matter how far we go if we go
+too fast and you don't understand any
+
+330
+00:10:02,160 --> 00:10:02,170  
+too fast and you don't understand any
+ 
+
+331
+00:10:02,170 --> 00:10:04,350  
+too fast and you don't understand any
+but that's not gonna serve anyone so
+
+332
+00:10:04,350 --> 00:10:04,360  
+but that's not gonna serve anyone so
+ 
+
+333
+00:10:04,360 --> 00:10:06,750  
+but that's not gonna serve anyone so
+we're just doing what we do doing what
+
+334
+00:10:06,750 --> 00:10:06,760  
+we're just doing what we do doing what
+ 
+
+335
+00:10:06,760 --> 00:10:09,150  
+we're just doing what we do doing what
+we can do

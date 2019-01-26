@@ -1,0 +1,774 @@
+1
+00:00:00,380 --> 00:00:02,659  
+ 
+so we're just continuing to kind of go
+
+2
+00:00:02,659 --> 00:00:02,669  
+so we're just continuing to kind of go
+ 
+
+3
+00:00:02,669 --> 00:00:06,230  
+so we're just continuing to kind of go
+through these assignments and so
+
+4
+00:00:06,230 --> 00:00:06,240  
+through these assignments and so
+ 
+
+5
+00:00:06,240 --> 00:00:07,579  
+through these assignments and so
+describe the client-server architecture
+
+6
+00:00:07,579 --> 00:00:07,589  
+describe the client-server architecture
+ 
+
+7
+00:00:07,589 --> 00:00:09,680  
+describe the client-server architecture
+what analogy was using class what do
+
+8
+00:00:09,680 --> 00:00:09,690  
+what analogy was using class what do
+ 
+
+9
+00:00:09,690 --> 00:00:13,600  
+what analogy was using class what do
+clients do and what do servers do so
+
+10
+00:00:13,600 --> 00:00:13,610  
+clients do and what do servers do so
+ 
+
+11
+00:00:13,610 --> 00:00:15,560  
+clients do and what do servers do so
+client-server architecture is a way to
+
+12
+00:00:15,560 --> 00:00:15,570  
+client-server architecture is a way to
+ 
+
+13
+00:00:15,570 --> 00:00:18,650  
+client-server architecture is a way to
+arrange the roles of computers on a
+
+14
+00:00:18,650 --> 00:00:18,660  
+arrange the roles of computers on a
+ 
+
+15
+00:00:18,660 --> 00:00:21,410  
+arrange the roles of computers on a
+network just like in a restaurant this
+
+16
+00:00:21,410 --> 00:00:21,420  
+network just like in a restaurant this
+ 
+
+17
+00:00:21,420 --> 00:00:23,870  
+network just like in a restaurant this
+is the analogy in a restaurant we have
+
+18
+00:00:23,870 --> 00:00:23,880  
+is the analogy in a restaurant we have
+ 
+
+19
+00:00:23,880 --> 00:00:27,560  
+is the analogy in a restaurant we have
+clients and servers servers serve food
+
+20
+00:00:27,560 --> 00:00:27,570  
+clients and servers servers serve food
+ 
+
+21
+00:00:27,570 --> 00:00:29,330  
+clients and servers servers serve food
+clients ask the service for food the
+
+22
+00:00:29,330 --> 00:00:29,340  
+clients ask the service for food the
+ 
+
+23
+00:00:29,340 --> 00:00:31,519  
+clients ask the service for food the
+server's go and get it bring it back the
+
+24
+00:00:31,519 --> 00:00:31,529  
+server's go and get it bring it back the
+ 
+
+25
+00:00:31,529 --> 00:00:34,340  
+server's go and get it bring it back the
+same analogies kind of what the roles of
+
+26
+00:00:34,340 --> 00:00:34,350  
+same analogies kind of what the roles of
+ 
+
+27
+00:00:34,350 --> 00:00:36,350  
+same analogies kind of what the roles of
+computers on the network do their
+
+28
+00:00:36,350 --> 00:00:36,360  
+computers on the network do their
+ 
+
+29
+00:00:36,360 --> 00:00:38,180  
+computers on the network do their
+clients who ask for information and
+
+30
+00:00:38,180 --> 00:00:38,190  
+clients who ask for information and
+ 
+
+31
+00:00:38,190 --> 00:00:40,160  
+clients who ask for information and
+servers fulfill them servers are just
+
+32
+00:00:40,160 --> 00:00:40,170  
+servers fulfill them servers are just
+ 
+
+33
+00:00:40,170 --> 00:00:42,139  
+servers fulfill them servers are just
+regular computers running certain
+
+34
+00:00:42,139 --> 00:00:42,149  
+regular computers running certain
+ 
+
+35
+00:00:42,149 --> 00:00:44,209  
+regular computers running certain
+software they're ready to accept
+
+36
+00:00:44,209 --> 00:00:44,219  
+software they're ready to accept
+ 
+
+37
+00:00:44,219 --> 00:00:47,299  
+software they're ready to accept
+requests and fulfill those requests like
+
+38
+00:00:47,299 --> 00:00:47,309  
+requests and fulfill those requests like
+ 
+
+39
+00:00:47,309 --> 00:00:49,100  
+requests and fulfill those requests like
+on the web we have web servers regular
+
+40
+00:00:49,100 --> 00:00:49,110  
+on the web we have web servers regular
+ 
+
+41
+00:00:49,110 --> 00:00:51,049  
+on the web we have web servers regular
+computers running certain software and
+
+42
+00:00:51,049 --> 00:00:51,059  
+computers running certain software and
+ 
+
+43
+00:00:51,059 --> 00:00:53,779  
+computers running certain software and
+goes the software we could use to
+
+44
+00:00:53,779 --> 00:00:53,789  
+goes the software we could use to
+ 
+
+45
+00:00:53,789 --> 00:00:55,700  
+goes the software we could use to
+fulfill those requests to create a
+
+46
+00:00:55,700 --> 00:00:55,710  
+fulfill those requests to create a
+ 
+
+47
+00:00:55,710 --> 00:00:57,979  
+fulfill those requests to create a
+server so that's a client-server
+
+48
+00:00:57,979 --> 00:00:57,989  
+server so that's a client-server
+ 
+
+49
+00:00:57,989 --> 00:01:01,369  
+server so that's a client-server
+architecture and Linux user permissions
+
+50
+00:01:01,369 --> 00:01:01,379  
+architecture and Linux user permissions
+ 
+
+51
+00:01:01,379 --> 00:01:03,470  
+architecture and Linux user permissions
+what does this mean who has access what
+
+52
+00:01:03,470 --> 00:01:03,480  
+what does this mean who has access what
+ 
+
+53
+00:01:03,480 --> 00:01:04,820  
+what does this mean who has access what
+kind of access to they have is this a
+
+54
+00:01:04,820 --> 00:01:04,830  
+kind of access to they have is this a
+ 
+
+55
+00:01:04,830 --> 00:01:07,130  
+kind of access to they have is this a
+directory or a file - directory we know
+
+56
+00:01:07,130 --> 00:01:07,140  
+directory or a file - directory we know
+ 
+
+57
+00:01:07,140 --> 00:01:10,490  
+directory or a file - directory we know
+that by the D and we have owner group
+
+58
+00:01:10,490 --> 00:01:10,500  
+that by the D and we have owner group
+ 
+
+59
+00:01:10,500 --> 00:01:12,140  
+that by the D and we have owner group
+world the owner has read write execute
+
+60
+00:01:12,140 --> 00:01:12,150  
+world the owner has read write execute
+ 
+
+61
+00:01:12,150 --> 00:01:17,780  
+world the owner has read write execute
+the group has read execute and the world
+
+62
+00:01:17,780 --> 00:01:17,790  
+the group has read execute and the world
+ 
+
+63
+00:01:17,790 --> 00:01:20,749  
+the group has read execute and the world
+has read and write I think I have too
+
+64
+00:01:20,749 --> 00:01:20,759  
+has read and write I think I have too
+ 
+
+65
+00:01:20,759 --> 00:01:22,850  
+has read and write I think I have too
+many things in there we need to edit
+
+66
+00:01:22,850 --> 00:01:22,860  
+many things in there we need to edit
+ 
+
+67
+00:01:22,860 --> 00:01:31,370  
+many things in there we need to edit
+this so it's owner group world
+
+68
+00:01:31,370 --> 00:01:31,380  
+this so it's owner group world
+ 
+
+69
+00:01:31,380 --> 00:01:35,300  
+this so it's owner group world
+so the first three our owner the first
+
+70
+00:01:35,300 --> 00:01:35,310  
+so the first three our owner the first
+ 
+
+71
+00:01:35,310 --> 00:01:42,190  
+so the first three our owner the first
+three our owner the next three are group
+
+72
+00:01:42,190 --> 00:01:42,200  
+ 
+ 
+
+73
+00:01:42,200 --> 00:01:49,020  
+ 
+read and execute for the group
+
+74
+00:01:49,020 --> 00:01:49,030  
+ 
+ 
+
+75
+00:01:49,030 --> 00:01:52,350  
+ 
+and the last three are the world read
+
+76
+00:01:52,350 --> 00:01:52,360  
+and the last three are the world read
+ 
+
+77
+00:01:52,360 --> 00:01:57,539  
+and the last three are the world read
+and write for the world and when we see
+
+78
+00:01:57,539 --> 00:01:57,549  
+and write for the world and when we see
+ 
+
+79
+00:01:57,549 --> 00:02:00,870  
+and write for the world and when we see
+that like in our course outline you have
+
+80
+00:02:00,870 --> 00:02:00,880  
+that like in our course outline you have
+ 
+
+81
+00:02:00,880 --> 00:02:06,030  
+that like in our course outline you have
+that nice diagram let's see that here we
+
+82
+00:02:06,030 --> 00:02:06,040  
+that nice diagram let's see that here we
+ 
+
+83
+00:02:06,040 --> 00:02:11,790  
+that nice diagram let's see that here we
+could see the owner we could see the
+
+84
+00:02:11,790 --> 00:02:11,800  
+could see the owner we could see the
+ 
+
+85
+00:02:11,800 --> 00:02:23,130  
+could see the owner we could see the
+group and in the world is everyone so
+
+86
+00:02:23,130 --> 00:02:23,140  
+group and in the world is everyone so
+ 
+
+87
+00:02:23,140 --> 00:02:25,110  
+group and in the world is everyone so
+just understanding the terminal the
+
+88
+00:02:25,110 --> 00:02:25,120  
+just understanding the terminal the
+ 
+
+89
+00:02:25,120 --> 00:02:29,150  
+just understanding the terminal the
+shell bash okay
+
+90
+00:02:29,150 --> 00:02:29,160  
+shell bash okay
+ 
+
+91
+00:02:29,160 --> 00:02:41,820  
+shell bash okay
+so save that and then we have a changing
+
+92
+00:02:41,820 --> 00:02:41,830  
+so save that and then we have a changing
+ 
+
+93
+00:02:41,830 --> 00:02:44,160  
+so save that and then we have a changing
+user commit permissions and Linux what
+
+94
+00:02:44,160 --> 00:02:44,170  
+user commit permissions and Linux what
+ 
+
+95
+00:02:44,170 --> 00:02:46,080  
+user commit permissions and Linux what
+command will use at the terminal to get
+
+96
+00:02:46,080 --> 00:02:46,090  
+command will use at the terminal to get
+ 
+
+97
+00:02:46,090 --> 00:02:47,400  
+command will use at the terminal to get
+the following users the following
+
+98
+00:02:47,400 --> 00:02:47,410  
+the following users the following
+ 
+
+99
+00:02:47,410 --> 00:02:49,220  
+the following users the following
+permissions owner read write execute
+
+100
+00:02:49,220 --> 00:02:49,230  
+permissions owner read write execute
+ 
+
+101
+00:02:49,230 --> 00:02:56,490  
+permissions owner read write execute
+what would the number be 41 remember for
+
+102
+00:02:56,490 --> 00:02:56,500  
+what would the number be 41 remember for
+ 
+
+103
+00:02:56,500 --> 00:02:59,250  
+what would the number be 41 remember for
+for read to four right one for execute
+
+104
+00:02:59,250 --> 00:02:59,260  
+for read to four right one for execute
+ 
+
+105
+00:02:59,260 --> 00:03:01,199  
+for read to four right one for execute
+so if you want the owner to have read
+
+106
+00:03:01,199 --> 00:03:01,209  
+so if you want the owner to have read
+ 
+
+107
+00:03:01,209 --> 00:03:11,940  
+so if you want the owner to have read
+write execute what number seven
+
+108
+00:03:11,940 --> 00:03:11,950  
+ 
+ 
+
+109
+00:03:11,950 --> 00:03:16,060  
+ 
+so the owner read/write/execute
+
+110
+00:03:16,060 --> 00:03:16,070  
+so the owner read/write/execute
+ 
+
+111
+00:03:16,070 --> 00:03:18,250  
+so the owner read/write/execute
+I'm sorry to belabor this if you're
+
+112
+00:03:18,250 --> 00:03:18,260  
+I'm sorry to belabor this if you're
+ 
+
+113
+00:03:18,260 --> 00:03:20,320  
+I'm sorry to belabor this if you're
+watching this video online but we have a
+
+114
+00:03:20,320 --> 00:03:20,330  
+watching this video online but we have a
+ 
+
+115
+00:03:20,330 --> 00:03:22,600  
+watching this video online but we have a
+deaf student in class and so we're just
+
+116
+00:03:22,600 --> 00:03:22,610  
+deaf student in class and so we're just
+ 
+
+117
+00:03:22,610 --> 00:03:24,400  
+deaf student in class and so we're just
+making sure we go slow she's having to
+
+118
+00:03:24,400 --> 00:03:24,410  
+making sure we go slow she's having to
+ 
+
+119
+00:03:24,410 --> 00:03:26,620  
+making sure we go slow she's having to
+watch the person signing at the same
+
+120
+00:03:26,620 --> 00:03:26,630  
+watch the person signing at the same
+ 
+
+121
+00:03:26,630 --> 00:03:30,550  
+watch the person signing at the same
+time and then looked at the screen but
+
+122
+00:03:30,550 --> 00:03:30,560  
+time and then looked at the screen but
+ 
+
+123
+00:03:30,560 --> 00:03:33,840  
+time and then looked at the screen but
+here we have the owner
+
+124
+00:03:33,840 --> 00:03:33,850  
+here we have the owner
+ 
+
+125
+00:03:33,850 --> 00:03:37,710  
+here we have the owner
+read/write/execute
+
+126
+00:03:37,710 --> 00:03:37,720  
+ 
+ 
+
+127
+00:03:37,720 --> 00:03:48,970  
+ 
+read for right to execute 1 4 plus 2
+
+128
+00:03:48,970 --> 00:03:48,980  
+read for right to execute 1 4 plus 2
+ 
+
+129
+00:03:48,980 --> 00:03:55,270  
+read for right to execute 1 4 plus 2
+plus 1 7 and the group is read and
+
+130
+00:03:55,270 --> 00:03:55,280  
+plus 1 7 and the group is read and
+ 
+
+131
+00:03:55,280 --> 00:04:02,680  
+plus 1 7 and the group is read and
+execute so that's going to be 4 + 1 5
+
+132
+00:04:02,680 --> 00:04:02,690  
+execute so that's going to be 4 + 1 5
+ 
+
+133
+00:04:02,690 --> 00:04:06,220  
+execute so that's going to be 4 + 1 5
+and then the public is read and that's 4
+
+134
+00:04:06,220 --> 00:04:06,230  
+and then the public is read and that's 4
+ 
+
+135
+00:04:06,230 --> 00:04:10,320  
+and then the public is read and that's 4
+and I'm just gonna confirm that
+
+136
+00:04:10,320 --> 00:04:10,330  
+and I'm just gonna confirm that
+ 
+
+137
+00:04:10,330 --> 00:04:13,930  
+and I'm just gonna confirm that
+read/write/execute 4 2 1 read write
+
+138
+00:04:13,930 --> 00:04:13,940  
+read/write/execute 4 2 1 read write
+ 
+
+139
+00:04:13,940 --> 00:04:16,390  
+read/write/execute 4 2 1 read write
+execute and here we had read write
+
+140
+00:04:16,390 --> 00:04:16,400  
+execute and here we had read write
+ 
+
+141
+00:04:16,400 --> 00:04:17,860  
+execute and here we had read write
+execute just making sure they're in the
+
+142
+00:04:17,860 --> 00:04:17,870  
+execute just making sure they're in the
+ 
+
+143
+00:04:17,870 --> 00:04:20,680  
+execute just making sure they're in the
+right order cuz I'm no genius I know
+
+144
+00:04:20,680 --> 00:04:20,690  
+right order cuz I'm no genius I know
+ 
+
+145
+00:04:20,690 --> 00:04:23,290  
+right order cuz I'm no genius I know
+what I know and I know what I don't know
+
+146
+00:04:23,290 --> 00:04:23,300  
+what I know and I know what I don't know
+ 
+
+147
+00:04:23,300 --> 00:04:29,440  
+what I know and I know what I don't know
+and it's important to understand both of
+
+148
+00:04:29,440 --> 00:04:29,450  
+and it's important to understand both of
+ 
+
+149
+00:04:29,450 --> 00:04:34,980  
+and it's important to understand both of
+those so I'm still learning to you
+
+150
+00:04:34,980 --> 00:04:34,990  
+ 
+ 
+
+151
+00:04:34,990 --> 00:04:37,300  
+ 
+alright and then we get into variables
+
+152
+00:04:37,300 --> 00:04:37,310  
+alright and then we get into variables
+ 
+
+153
+00:04:37,310 --> 00:04:39,100  
+alright and then we get into variables
+we'll do that in the next video this is
+
+154
+00:04:39,100 --> 00:04:39,110  
+we'll do that in the next video this is
+ 
+
+155
+00:04:39,110 --> 00:04:42,790  
+we'll do that in the next video this is
+finishing up terminal commands

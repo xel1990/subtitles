@@ -1,0 +1,164 @@
+1
+00:00:00,030 --> 00:00:03,500  
+ 
+for this next hands-on exercise create a
+
+2
+00:00:03,500 --> 00:00:03,510  
+for this next hands-on exercise create a
+ 
+
+3
+00:00:03,510 --> 00:00:06,530  
+for this next hands-on exercise create a
+func which takes two arguments a value
+
+4
+00:00:06,530 --> 00:00:06,540  
+func which takes two arguments a value
+ 
+
+5
+00:00:06,540 --> 00:00:08,240  
+func which takes two arguments a value
+of type string and a value of type int
+
+6
+00:00:08,240 --> 00:00:08,250  
+of type string and a value of type int
+ 
+
+7
+00:00:08,250 --> 00:00:11,629  
+of type string and a value of type int
+the func should print out the two values
+
+8
+00:00:11,629 --> 00:00:11,639  
+the func should print out the two values
+ 
+
+9
+00:00:11,639 --> 00:00:14,299  
+the func should print out the two values
+from func main call the funky main and
+
+10
+00:00:14,299 --> 00:00:14,309  
+from func main call the funky main and
+ 
+
+11
+00:00:14,309 --> 00:00:17,029  
+from func main call the funky main and
+pass in your name and your age call the
+
+12
+00:00:17,029 --> 00:00:17,039  
+pass in your name and your age call the
+ 
+
+13
+00:00:17,039 --> 00:00:18,950  
+pass in your name and your age call the
+func again and pass in the name and age
+
+14
+00:00:18,950 --> 00:00:18,960  
+func again and pass in the name and age
+ 
+
+15
+00:00:18,960 --> 00:00:22,310  
+func again and pass in the name and age
+of one of your friends submit the URL to
+
+16
+00:00:22,310 --> 00:00:22,320  
+of one of your friends submit the URL to
+ 
+
+17
+00:00:22,320 --> 00:00:23,779  
+of one of your friends submit the URL to
+your program so that's the next hands-on
+
+18
+00:00:23,779 --> 00:00:23,789  
+your program so that's the next hands-on
+ 
+
+19
+00:00:23,789 --> 00:00:25,609  
+your program so that's the next hands-on
+one it's very similar similar to the
+
+20
+00:00:25,609 --> 00:00:25,619  
+one it's very similar similar to the
+ 
+
+21
+00:00:25,619 --> 00:00:27,920  
+one it's very similar similar to the
+last one but this time we're defining a
+
+22
+00:00:27,920 --> 00:00:27,930  
+last one but this time we're defining a
+ 
+
+23
+00:00:27,930 --> 00:00:29,540  
+last one but this time we're defining a
+function with parameters then when we
+
+24
+00:00:29,540 --> 00:00:29,550  
+function with parameters then when we
+ 
+
+25
+00:00:29,550 --> 00:00:31,669  
+function with parameters then when we
+call it we're passing in arguments and
+
+26
+00:00:31,669 --> 00:00:31,679  
+call it we're passing in arguments and
+ 
+
+27
+00:00:31,679 --> 00:00:33,639  
+call it we're passing in arguments and
+we're going to call that function twice
+
+28
+00:00:33,639 --> 00:00:33,649  
+we're going to call that function twice
+ 
+
+29
+00:00:33,649 --> 00:00:35,360  
+we're going to call that function twice
+let's do it
+
+30
+00:00:35,360 --> 00:00:35,370  
+let's do it
+ 
+
+31
+00:00:35,370 --> 00:00:38,150  
+let's do it
+let's do this let's do this hands-on
+
+32
+00:00:38,150 --> 00:00:38,160  
+let's do this let's do this hands-on
+ 
+
+33
+00:00:38,160 --> 00:00:40,670  
+let's do this let's do this hands-on
+exercise

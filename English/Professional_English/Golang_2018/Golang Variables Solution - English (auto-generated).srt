@@ -1,0 +1,224 @@
+1
+00:00:00,060 --> 00:00:01,819  
+ 
+so we'll look at the solution to this
+
+2
+00:00:01,819 --> 00:00:01,829  
+so we'll look at the solution to this
+ 
+
+3
+00:00:01,829 --> 00:00:07,220  
+so we'll look at the solution to this
+hands-on exercise and I guess I'll do it
+
+4
+00:00:07,220 --> 00:00:07,230  
+hands-on exercise and I guess I'll do it
+ 
+
+5
+00:00:07,230 --> 00:00:11,690  
+hands-on exercise and I guess I'll do it
+here so that code goes up create a new
+
+6
+00:00:11,690 --> 00:00:11,700  
+here so that code goes up create a new
+ 
+
+7
+00:00:11,700 --> 00:00:16,640  
+here so that code goes up create a new
+folder and we'll call this 0 on 0 and on
+
+8
+00:00:16,640 --> 00:00:16,650  
+folder and we'll call this 0 on 0 and on
+ 
+
+9
+00:00:16,650 --> 00:00:19,760  
+folder and we'll call this 0 on 0 and on
+and then inside there we'll create a new
+
+10
+00:00:19,760 --> 00:00:19,770  
+and then inside there we'll create a new
+ 
+
+11
+00:00:19,770 --> 00:00:25,370  
+and then inside there we'll create a new
+folder I'll call it 1 and inside there
+
+12
+00:00:25,370 --> 00:00:25,380  
+folder I'll call it 1 and inside there
+ 
+
+13
+00:00:25,380 --> 00:00:31,450  
+folder I'll call it 1 and inside there
+will create a new go file call it main
+
+14
+00:00:31,450 --> 00:00:31,460  
+will create a new go file call it main
+ 
+
+15
+00:00:31,460 --> 00:00:35,950  
+will create a new go file call it main
+and its package main and func main and
+
+16
+00:00:35,950 --> 00:00:35,960  
+and its package main and func main and
+ 
+
+17
+00:00:35,960 --> 00:00:38,180  
+and its package main and func main and
+we want to create a program that stores
+
+18
+00:00:38,180 --> 00:00:38,190  
+we want to create a program that stores
+ 
+
+19
+00:00:38,190 --> 00:00:40,190  
+we want to create a program that stores
+two in values and two different
+
+20
+00:00:40,190 --> 00:00:40,200  
+two in values and two different
+ 
+
+21
+00:00:40,200 --> 00:00:46,760  
+two in values and two different
+variables so X colon equal 40 Y colon
+
+22
+00:00:46,760 --> 00:00:46,770  
+variables so X colon equal 40 Y colon
+ 
+
+23
+00:00:46,770 --> 00:00:55,850  
+variables so X colon equal 40 Y colon
+equal to z : equal X plus y and format
+
+24
+00:00:55,850 --> 00:00:55,860  
+equal to z : equal X plus y and format
+ 
+
+25
+00:00:55,860 --> 00:01:02,420  
+equal to z : equal X plus y and format
+print line see I think that's what we're
+
+26
+00:01:02,420 --> 00:01:02,430  
+print line see I think that's what we're
+ 
+
+27
+00:01:02,430 --> 00:01:05,240  
+print line see I think that's what we're
+looking for to multiplies the values and
+
+28
+00:01:05,240 --> 00:01:05,250  
+looking for to multiplies the values and
+ 
+
+29
+00:01:05,250 --> 00:01:06,800  
+looking for to multiplies the values and
+those variables together and stores
+
+30
+00:01:06,800 --> 00:01:06,810  
+those variables together and stores
+ 
+
+31
+00:01:06,810 --> 00:01:08,210  
+those variables together and stores
+result in third round and prints out the
+
+32
+00:01:08,210 --> 00:01:08,220  
+result in third round and prints out the
+ 
+
+33
+00:01:08,220 --> 00:01:10,490  
+result in third round and prints out the
+value of the third variable so we don't
+
+34
+00:01:10,490 --> 00:01:10,500  
+value of the third variable so we don't
+ 
+
+35
+00:01:10,500 --> 00:01:15,859  
+value of the third variable so we don't
+multiplication and then to run that CD
+
+36
+00:01:15,859 --> 00:01:15,869  
+multiplication and then to run that CD
+ 
+
+37
+00:01:15,869 --> 00:01:20,149  
+multiplication and then to run that CD
+go source github goes to 11
+
+38
+00:01:20,149 --> 00:01:20,159  
+go source github goes to 11
+ 
+
+39
+00:01:20,159 --> 00:01:31,700  
+go source github goes to 11
+and golang webdev and then 0 0 0 and 63
+
+40
+00:01:31,700 --> 00:01:31,710  
+and golang webdev and then 0 0 0 and 63
+ 
+
+41
+00:01:31,710 --> 00:01:39,920  
+and golang webdev and then 0 0 0 and 63
+and 0 1 0 and o 100 or 80 sweet so that
+
+42
+00:01:39,920 --> 00:01:39,930  
+and 0 1 0 and o 100 or 80 sweet so that
+ 
+
+43
+00:01:39,930 --> 00:01:42,319  
+and 0 1 0 and o 100 or 80 sweet so that
+was our first hands-on exercise and get
+
+44
+00:01:42,319 --> 00:01:42,329  
+was our first hands-on exercise and get
+ 
+
+45
+00:01:42,329 --> 00:01:45,380  
+was our first hands-on exercise and get
+another one in the next video

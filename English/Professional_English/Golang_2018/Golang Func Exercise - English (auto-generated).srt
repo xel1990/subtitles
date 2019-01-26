@@ -1,0 +1,54 @@
+1
+00:00:00,299 --> 00:00:02,659  
+ 
+for this hands-on exercise create a funk
+
+2
+00:00:02,659 --> 00:00:02,669  
+for this hands-on exercise create a funk
+ 
+
+3
+00:00:02,669 --> 00:00:04,370  
+for this hands-on exercise create a funk
+which stores your name and a variable
+
+4
+00:00:04,370 --> 00:00:04,380  
+which stores your name and a variable
+ 
+
+5
+00:00:04,380 --> 00:00:06,889  
+which stores your name and a variable
+stores your agent variable prints your
+
+6
+00:00:06,889 --> 00:00:06,899  
+stores your agent variable prints your
+ 
+
+7
+00:00:06,899 --> 00:00:10,100  
+stores your agent variable prints your
+name and your age call that front from
+
+8
+00:00:10,100 --> 00:00:10,110  
+name and your age call that front from
+ 
+
+9
+00:00:10,110 --> 00:00:13,789  
+name and your age call that front from
+me call that funk for me let's do it
+
+10
+00:00:13,789 --> 00:00:13,799  
+me call that funk for me let's do it
+ 
+
+11
+00:00:13,799 --> 00:00:17,269  
+me call that funk for me let's do it
+hands on exercise

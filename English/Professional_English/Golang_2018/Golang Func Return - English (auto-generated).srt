@@ -1,0 +1,364 @@
+1
+00:00:00,030 --> 00:00:01,990  
+ 
+so here's the solution to this one
+
+2
+00:00:01,990 --> 00:00:02,000  
+so here's the solution to this one
+ 
+
+3
+00:00:02,000 --> 00:00:04,550  
+so here's the solution to this one
+create a fog multiplies two arguments
+
+4
+00:00:04,550 --> 00:00:04,560  
+create a fog multiplies two arguments
+ 
+
+5
+00:00:04,560 --> 00:00:06,410  
+create a fog multiplies two arguments
+which share which are both the type int
+
+6
+00:00:06,410 --> 00:00:06,420  
+which share which are both the type int
+ 
+
+7
+00:00:06,420 --> 00:00:08,450  
+which share which are both the type int
+and returns a result isn't it print out
+
+8
+00:00:08,450 --> 00:00:08,460  
+and returns a result isn't it print out
+ 
+
+9
+00:00:08,460 --> 00:00:21,439  
+and returns a result isn't it print out
+the return value so I'm gonna create a
+
+10
+00:00:21,439 --> 00:00:21,449  
+the return value so I'm gonna create a
+ 
+
+11
+00:00:21,449 --> 00:00:32,959  
+the return value so I'm gonna create a
+func which takes in two values both of
+
+12
+00:00:32,959 --> 00:00:32,969  
+func which takes in two values both of
+ 
+
+13
+00:00:32,969 --> 00:00:37,959  
+func which takes in two values both of
+type int and it's going to return an it
+
+14
+00:00:37,959 --> 00:00:37,969  
+type int and it's going to return an it
+ 
+
+15
+00:00:37,969 --> 00:00:40,970  
+type int and it's going to return an it
+so remember our signature for functions
+
+16
+00:00:40,970 --> 00:00:40,980  
+so remember our signature for functions
+ 
+
+17
+00:00:40,980 --> 00:00:43,459  
+so remember our signature for functions
+is func receiver which is optional
+
+18
+00:00:43,459 --> 00:00:43,469  
+is func receiver which is optional
+ 
+
+19
+00:00:43,469 --> 00:00:45,920  
+is func receiver which is optional
+optional identifier which in this case
+
+20
+00:00:45,920 --> 00:00:45,930  
+optional identifier which in this case
+ 
+
+21
+00:00:45,930 --> 00:00:51,410  
+optional identifier which in this case
+is foo parameters returns return or
+
+22
+00:00:51,410 --> 00:00:51,420  
+is foo parameters returns return or
+ 
+
+23
+00:00:51,420 --> 00:00:55,100  
+is foo parameters returns return or
+returns and then code all right like
+
+24
+00:00:55,100 --> 00:00:55,110  
+returns and then code all right like
+ 
+
+25
+00:00:55,110 --> 00:00:56,990  
+returns and then code all right like
+that's our signature for function you
+
+26
+00:00:56,990 --> 00:00:57,000  
+that's our signature for function you
+ 
+
+27
+00:00:57,000 --> 00:01:01,670  
+that's our signature for function you
+should memorize that and so now I come
+
+28
+00:01:01,670 --> 00:01:01,680  
+should memorize that and so now I come
+ 
+
+29
+00:01:01,680 --> 00:01:05,020  
+should memorize that and so now I come
+down here and I'm gonna return x times y
+
+30
+00:01:05,020 --> 00:01:05,030  
+down here and I'm gonna return x times y
+ 
+
+31
+00:01:05,030 --> 00:01:07,940  
+down here and I'm gonna return x times y
+x times y is an expression it will
+
+32
+00:01:07,940 --> 00:01:07,950  
+x times y is an expression it will
+ 
+
+33
+00:01:07,950 --> 00:01:11,149  
+x times y is an expression it will
+evaluate to value and then we'll return
+
+34
+00:01:11,149 --> 00:01:11,159  
+evaluate to value and then we'll return
+ 
+
+35
+00:01:11,159 --> 00:01:13,100  
+evaluate to value and then we'll return
+that and all of that is our statement
+
+36
+00:01:13,100 --> 00:01:13,110  
+that and all of that is our statement
+ 
+
+37
+00:01:13,110 --> 00:01:15,740  
+that and all of that is our statement
+then up here I'm going to call func
+
+38
+00:01:15,740 --> 00:01:15,750  
+then up here I'm going to call func
+ 
+
+39
+00:01:15,750 --> 00:01:20,810  
+then up here I'm going to call func
+sue so food I'm gonna pass in two values
+
+40
+00:01:20,810 --> 00:01:20,820  
+sue so food I'm gonna pass in two values
+ 
+
+41
+00:01:20,820 --> 00:01:24,440  
+sue so food I'm gonna pass in two values
+and this will evaluate to a value right
+
+42
+00:01:24,440 --> 00:01:24,450  
+and this will evaluate to a value right
+ 
+
+43
+00:01:24,450 --> 00:01:26,749  
+and this will evaluate to a value right
+when I run that that's gonna evaluate to
+
+44
+00:01:26,749 --> 00:01:26,759  
+when I run that that's gonna evaluate to
+ 
+
+45
+00:01:26,759 --> 00:01:29,990  
+when I run that that's gonna evaluate to
+a value it's gonna call foo it's gonna
+
+46
+00:01:29,990 --> 00:01:30,000  
+a value it's gonna call foo it's gonna
+ 
+
+47
+00:01:30,000 --> 00:01:33,830  
+a value it's gonna call foo it's gonna
+pass in 40 and assign that to X it's
+
+48
+00:01:33,830 --> 00:01:33,840  
+pass in 40 and assign that to X it's
+ 
+
+49
+00:01:33,840 --> 00:01:35,899  
+pass in 40 and assign that to X it's
+gonna pass in 45 and assign that to Y
+
+50
+00:01:35,899 --> 00:01:35,909  
+gonna pass in 45 and assign that to Y
+ 
+
+51
+00:01:35,909 --> 00:01:39,710  
+gonna pass in 45 and assign that to Y
+it's gonna multiply 40 times 45 return
+
+52
+00:01:39,710 --> 00:01:39,720  
+it's gonna multiply 40 times 45 return
+ 
+
+53
+00:01:39,720 --> 00:01:41,870  
+it's gonna multiply 40 times 45 return
+that which is an int and now I'm
+
+54
+00:01:41,870 --> 00:01:41,880  
+that which is an int and now I'm
+ 
+
+55
+00:01:41,880 --> 00:01:44,630  
+that which is an int and now I'm
+returning a value if I try to run this
+
+56
+00:01:44,630 --> 00:01:44,640  
+returning a value if I try to run this
+ 
+
+57
+00:01:44,640 --> 00:01:52,930  
+returning a value if I try to run this
+right now it's gonna give me an error
+
+58
+00:01:52,930 --> 00:01:52,940  
+ 
+ 
+
+59
+00:01:52,940 --> 00:01:56,740  
+ 
+where am i nothing happened right
+
+60
+00:01:56,740 --> 00:01:56,750  
+where am i nothing happened right
+ 
+
+61
+00:01:56,750 --> 00:01:59,210  
+where am i nothing happened right
+it ran but it didn't do anything with
+
+62
+00:01:59,210 --> 00:01:59,220  
+it ran but it didn't do anything with
+ 
+
+63
+00:01:59,220 --> 00:02:00,740  
+it ran but it didn't do anything with
+the value now I'm going to catch that
+
+64
+00:02:00,740 --> 00:02:00,750  
+the value now I'm going to catch that
+ 
+
+65
+00:02:00,750 --> 00:02:05,330  
+the value now I'm going to catch that
+value returns the value and assigns it
+
+66
+00:02:05,330 --> 00:02:05,340  
+value returns the value and assigns it
+ 
+
+67
+00:02:05,340 --> 00:02:08,389  
+value returns the value and assigns it
+to Z this is going to be a value it gets
+
+68
+00:02:08,389 --> 00:02:08,399  
+to Z this is going to be a value it gets
+ 
+
+69
+00:02:08,399 --> 00:02:11,449  
+to Z this is going to be a value it gets
+assigned to Z now I'm gonna func dot
+
+70
+00:02:11,449 --> 00:02:11,459  
+assigned to Z now I'm gonna func dot
+ 
+
+71
+00:02:11,459 --> 00:02:17,980  
+assigned to Z now I'm gonna func dot
+print line that value now when I run it
+
+72
+00:02:17,980 --> 00:02:17,990  
+print line that value now when I run it
+ 
+
+73
+00:02:17,990 --> 00:02:28,370  
+print line that value now when I run it
+prints out 1800s cool

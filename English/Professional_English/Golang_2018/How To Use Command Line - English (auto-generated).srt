@@ -1,0 +1,934 @@
+1
+00:00:00,030 --> 00:00:02,960  
+ 
+so we're learning going web dev fall
+
+2
+00:00:02,960 --> 00:00:02,970  
+so we're learning going web dev fall
+ 
+
+3
+00:00:02,970 --> 00:00:04,999  
+so we're learning going web dev fall
+semester whole class there's a playlist
+
+4
+00:00:04,999 --> 00:00:05,009  
+semester whole class there's a playlist
+ 
+
+5
+00:00:05,009 --> 00:00:07,280  
+semester whole class there's a playlist
+on YouTube somebody just said where is
+
+6
+00:00:07,280 --> 00:00:07,290  
+on YouTube somebody just said where is
+ 
+
+7
+00:00:07,290 --> 00:00:09,620  
+on YouTube somebody just said where is
+it you go YouTube Todd
+
+8
+00:00:09,620 --> 00:00:09,630  
+it you go YouTube Todd
+ 
+
+9
+00:00:09,630 --> 00:00:12,530  
+it you go YouTube Todd
+MacLeod and you know I have a couple
+
+10
+00:00:12,530 --> 00:00:12,540  
+MacLeod and you know I have a couple
+ 
+
+11
+00:00:12,540 --> 00:00:14,539  
+MacLeod and you know I have a couple
+channels one is personal that might be
+
+12
+00:00:14,539 --> 00:00:14,549  
+channels one is personal that might be
+ 
+
+13
+00:00:14,549 --> 00:00:16,820  
+channels one is personal that might be
+personal one but then learn to code will
+
+14
+00:00:16,820 --> 00:00:16,830  
+personal one but then learn to code will
+ 
+
+15
+00:00:16,830 --> 00:00:21,410  
+personal one but then learn to code will
+have all my coding ones and and then
+
+16
+00:00:21,410 --> 00:00:21,420  
+have all my coding ones and and then
+ 
+
+17
+00:00:21,420 --> 00:00:22,880  
+have all my coding ones and and then
+once you come there you could just go to
+
+18
+00:00:22,880 --> 00:00:22,890  
+once you come there you could just go to
+ 
+
+19
+00:00:22,890 --> 00:00:28,009  
+once you come there you could just go to
+playlist and and all you here's learn
+
+20
+00:00:28,009 --> 00:00:28,019  
+playlist and and all you here's learn
+ 
+
+21
+00:00:28,019 --> 00:00:32,330  
+playlist and and all you here's learn
+sequel and and I'll have a new going web
+
+22
+00:00:32,330 --> 00:00:32,340  
+sequel and and I'll have a new going web
+ 
+
+23
+00:00:32,340 --> 00:00:34,940  
+sequel and and I'll have a new going web
+dev and so it'll be the most recent
+
+24
+00:00:34,940 --> 00:00:34,950  
+dev and so it'll be the most recent
+ 
+
+25
+00:00:34,950 --> 00:00:41,569  
+dev and so it'll be the most recent
+going web dev playlist so that's where
+
+26
+00:00:41,569 --> 00:00:41,579  
+going web dev playlist so that's where
+ 
+
+27
+00:00:41,579 --> 00:00:44,060  
+going web dev playlist so that's where
+I'll be and now we are going through the
+
+28
+00:00:44,060 --> 00:00:44,070  
+I'll be and now we are going through the
+ 
+
+29
+00:00:44,070 --> 00:00:47,110  
+I'll be and now we are going through the
+course outline and the course outline
+
+30
+00:00:47,110 --> 00:00:47,120  
+course outline and the course outline
+ 
+
+31
+00:00:47,120 --> 00:00:53,600  
+course outline and the course outline
+for everybody else can be found right
+
+32
+00:00:53,600 --> 00:00:53,610  
+for everybody else can be found right
+ 
+
+33
+00:00:53,610 --> 00:00:56,630  
+for everybody else can be found right
+here right there there's the course
+
+34
+00:00:56,630 --> 00:00:56,640  
+here right there there's the course
+ 
+
+35
+00:00:56,640 --> 00:01:00,619  
+here right there there's the course
+outline and and then so we're going
+
+36
+00:01:00,619 --> 00:01:00,629  
+outline and and then so we're going
+ 
+
+37
+00:01:00,629 --> 00:01:02,000  
+outline and and then so we're going
+through some homework so this homework
+
+38
+00:01:02,000 --> 00:01:02,010  
+through some homework so this homework
+ 
+
+39
+00:01:02,010 --> 00:01:06,050  
+through some homework so this homework
+we had change mod nano is you have to be
+
+40
+00:01:06,050 --> 00:01:06,060  
+we had change mod nano is you have to be
+ 
+
+41
+00:01:06,060 --> 00:01:07,910  
+we had change mod nano is you have to be
+on UNIX or Linux puts a little text
+
+42
+00:01:07,910 --> 00:01:07,920  
+on UNIX or Linux puts a little text
+ 
+
+43
+00:01:07,920 --> 00:01:10,550  
+on UNIX or Linux puts a little text
+editor cat just print out the contents
+
+44
+00:01:10,550 --> 00:01:10,560  
+editor cat just print out the contents
+ 
+
+45
+00:01:10,560 --> 00:01:13,460  
+editor cat just print out the contents
+of a file right so we learned all that
+
+46
+00:01:13,460 --> 00:01:13,470  
+of a file right so we learned all that
+ 
+
+47
+00:01:13,470 --> 00:01:16,039  
+of a file right so we learned all that
+stuff about github last week with SSH
+
+48
+00:01:16,039 --> 00:01:16,049  
+stuff about github last week with SSH
+ 
+
+49
+00:01:16,049 --> 00:01:19,640  
+stuff about github last week with SSH
+totally cool and we're catting out the
+
+50
+00:01:19,640 --> 00:01:19,650  
+totally cool and we're catting out the
+ 
+
+51
+00:01:19,650 --> 00:01:21,740  
+totally cool and we're catting out the
+public key so we could copy that drop
+
+52
+00:01:21,740 --> 00:01:21,750  
+public key so we could copy that drop
+ 
+
+53
+00:01:21,750 --> 00:01:28,190  
+public key so we could copy that drop
+that into github SSH area and remove is
+
+54
+00:01:28,190 --> 00:01:28,200  
+that into github SSH area and remove is
+ 
+
+55
+00:01:28,200 --> 00:01:30,289  
+that into github SSH area and remove is
+to remove a file remove recursively with
+
+56
+00:01:30,289 --> 00:01:30,299  
+to remove a file remove recursively with
+ 
+
+57
+00:01:30,299 --> 00:01:33,830  
+to remove a file remove recursively with
+force sudo is a super user do so if I
+
+58
+00:01:33,830 --> 00:01:33,840  
+force sudo is a super user do so if I
+ 
+
+59
+00:01:33,840 --> 00:01:35,719  
+force sudo is a super user do so if I
+ever kind of like try to run a command
+
+60
+00:01:35,719 --> 00:01:35,729  
+ever kind of like try to run a command
+ 
+
+61
+00:01:35,729 --> 00:01:39,140  
+ever kind of like try to run a command
+and the command doesn't work right so
+
+62
+00:01:39,140 --> 00:01:39,150  
+and the command doesn't work right so
+ 
+
+63
+00:01:39,150 --> 00:01:41,960  
+and the command doesn't work right so
+let's say I try to you know create a
+
+64
+00:01:41,960 --> 00:01:41,970  
+let's say I try to you know create a
+ 
+
+65
+00:01:41,970 --> 00:01:43,910  
+let's say I try to you know create a
+file with touch and it didn't work I can
+
+66
+00:01:43,910 --> 00:01:43,920  
+file with touch and it didn't work I can
+ 
+
+67
+00:01:43,920 --> 00:01:49,219  
+file with touch and it didn't work I can
+do sudo touch uh I don't know what's in
+
+68
+00:01:49,219 --> 00:01:49,229  
+do sudo touch uh I don't know what's in
+ 
+
+69
+00:01:49,229 --> 00:01:53,539  
+do sudo touch uh I don't know what's in
+our ski resort all right yeah heavenly
+
+70
+00:01:53,539 --> 00:01:53,549  
+our ski resort all right yeah heavenly
+ 
+
+71
+00:01:53,549 --> 00:01:56,060  
+our ski resort all right yeah heavenly
+but so I could run that as sudo then
+
+72
+00:01:56,060 --> 00:01:56,070  
+but so I could run that as sudo then
+ 
+
+73
+00:01:56,070 --> 00:01:57,410  
+but so I could run that as sudo then
+it's gonna ask me for my computer
+
+74
+00:01:57,410 --> 00:01:57,420  
+it's gonna ask me for my computer
+ 
+
+75
+00:01:57,420 --> 00:02:01,420  
+it's gonna ask me for my computer
+password I'm not going to type it in and
+
+76
+00:02:01,420 --> 00:02:01,430  
+password I'm not going to type it in and
+ 
+
+77
+00:02:01,430 --> 00:02:07,910  
+password I'm not going to type it in and
+and then yeah it brought me back to my
+
+78
+00:02:07,910 --> 00:02:07,920  
+and then yeah it brought me back to my
+ 
+
+79
+00:02:07,920 --> 00:02:09,540  
+and then yeah it brought me back to my
+prompt
+
+80
+00:02:09,540 --> 00:02:09,550  
+prompt
+ 
+
+81
+00:02:09,550 --> 00:02:11,370  
+prompt
+I've got like a really long comp
+
+82
+00:02:11,370 --> 00:02:11,380  
+I've got like a really long comp
+ 
+
+83
+00:02:11,380 --> 00:02:18,110  
+I've got like a really long comp
+description there so yeah that's a
+
+84
+00:02:18,110 --> 00:02:18,120  
+description there so yeah that's a
+ 
+
+85
+00:02:18,120 --> 00:02:21,930  
+description there so yeah that's a
+pseudo Super User do and then copy will
+
+86
+00:02:21,930 --> 00:02:21,940  
+pseudo Super User do and then copy will
+ 
+
+87
+00:02:21,940 --> 00:02:24,900  
+pseudo Super User do and then copy will
+copy from one place to another place so
+
+88
+00:02:24,900 --> 00:02:24,910  
+copy from one place to another place so
+ 
+
+89
+00:02:24,910 --> 00:02:25,830  
+copy from one place to another place so
+that's kind of cool
+
+90
+00:02:25,830 --> 00:02:25,840  
+that's kind of cool
+ 
+
+91
+00:02:25,840 --> 00:02:30,990  
+that's kind of cool
+so I could do LS - la and then I could
+
+92
+00:02:30,990 --> 00:02:31,000  
+so I could do LS - la and then I could
+ 
+
+93
+00:02:31,000 --> 00:02:37,230  
+so I could do LS - la and then I could
+do touch and heavenly and then LS la and
+
+94
+00:02:37,230 --> 00:02:37,240  
+do touch and heavenly and then LS la and
+ 
+
+95
+00:02:37,240 --> 00:02:44,280  
+do touch and heavenly and then LS la and
+I could do copy from here and dot is the
+
+96
+00:02:44,280 --> 00:02:44,290  
+I could do copy from here and dot is the
+ 
+
+97
+00:02:44,290 --> 00:02:48,140  
+I could do copy from here and dot is the
+current directory here heavenly - like
+
+98
+00:02:48,140 --> 00:02:48,150  
+current directory here heavenly - like
+ 
+
+99
+00:02:48,150 --> 00:02:52,380  
+current directory here heavenly - like
+home and that's home and I'll do it to
+
+100
+00:02:52,380 --> 00:02:52,390  
+home and that's home and I'll do it to
+ 
+
+101
+00:02:52,390 --> 00:02:56,340  
+home and that's home and I'll do it to
+my home directory we'll see what happens
+
+102
+00:02:56,340 --> 00:02:56,350  
+my home directory we'll see what happens
+ 
+
+103
+00:02:56,350 --> 00:02:58,770  
+my home directory we'll see what happens
+and then if I go to my home directory CD
+
+104
+00:02:58,770 --> 00:02:58,780  
+and then if I go to my home directory CD
+ 
+
+105
+00:02:58,780 --> 00:03:01,790  
+and then if I go to my home directory CD
+Wham or that's exactly the same as this
+
+106
+00:03:01,790 --> 00:03:01,800  
+Wham or that's exactly the same as this
+ 
+
+107
+00:03:01,800 --> 00:03:05,160  
+Wham or that's exactly the same as this
+alright go to my home directory and LS
+
+108
+00:03:05,160 --> 00:03:05,170  
+alright go to my home directory and LS
+ 
+
+109
+00:03:05,170 --> 00:03:11,370  
+alright go to my home directory and LS
+la I've got heavenly there you see it so
+
+110
+00:03:11,370 --> 00:03:11,380  
+la I've got heavenly there you see it so
+ 
+
+111
+00:03:11,380 --> 00:03:13,050  
+la I've got heavenly there you see it so
+I copied something I'm gonna remove
+
+112
+00:03:13,050 --> 00:03:13,060  
+I copied something I'm gonna remove
+ 
+
+113
+00:03:13,060 --> 00:03:18,150  
+I copied something I'm gonna remove
+heavenly and I'm gonna go back into CD
+
+114
+00:03:18,150 --> 00:03:18,160  
+heavenly and I'm gonna go back into CD
+ 
+
+115
+00:03:18,160 --> 00:03:25,020  
+heavenly and I'm gonna go back into CD
+go source github goes to eleven golang
+
+116
+00:03:25,020 --> 00:03:25,030  
+go source github goes to eleven golang
+ 
+
+117
+00:03:25,030 --> 00:03:32,490  
+go source github goes to eleven golang
+web web dev and we were in 0 0 0 and
+
+118
+00:03:32,490 --> 00:03:32,500  
+web web dev and we were in 0 0 0 and
+ 
+
+119
+00:03:32,500 --> 00:03:39,020  
+web web dev and we were in 0 0 0 and
+then 0 0 0 temp and i think is 6363
+
+120
+00:03:39,020 --> 00:03:39,030  
+then 0 0 0 temp and i think is 6363
+ 
+
+121
+00:03:39,030 --> 00:03:43,280  
+then 0 0 0 temp and i think is 6363
+there we go and and it's still there
+
+122
+00:03:43,280 --> 00:03:43,290  
+there we go and and it's still there
+ 
+
+123
+00:03:43,290 --> 00:03:45,510  
+there we go and and it's still there
+here because I removed it from where I
+
+124
+00:03:45,510 --> 00:03:45,520  
+here because I removed it from where I
+ 
+
+125
+00:03:45,520 --> 00:03:49,110  
+here because I removed it from where I
+copied it to but I didn't remove it from
+
+126
+00:03:49,110 --> 00:03:49,120  
+copied it to but I didn't remove it from
+ 
+
+127
+00:03:49,120 --> 00:03:55,470  
+copied it to but I didn't remove it from
+there so I can move this if I wanted I
+
+128
+00:03:55,470 --> 00:03:55,480  
+there so I can move this if I wanted I
+ 
+
+129
+00:03:55,480 --> 00:03:59,610  
+there so I can move this if I wanted I
+could move heavenly and let me just try
+
+130
+00:03:59,610 --> 00:03:59,620  
+could move heavenly and let me just try
+ 
+
+131
+00:03:59,620 --> 00:04:00,600  
+could move heavenly and let me just try
+this because I'm already in that
+
+132
+00:04:00,600 --> 00:04:00,610  
+this because I'm already in that
+ 
+
+133
+00:04:00,610 --> 00:04:03,570  
+this because I'm already in that
+directory I can move heavenly and I'm
+
+134
+00:04:03,570 --> 00:04:03,580  
+directory I can move heavenly and I'm
+ 
+
+135
+00:04:03,580 --> 00:04:09,600  
+directory I can move heavenly and I'm
+gonna move it to my route and now if I
+
+136
+00:04:09,600 --> 00:04:09,610  
+gonna move it to my route and now if I
+ 
+
+137
+00:04:09,610 --> 00:04:11,730  
+gonna move it to my route and now if I
+look here heavenly is no longer there
+
+138
+00:04:11,730 --> 00:04:11,740  
+look here heavenly is no longer there
+ 
+
+139
+00:04:11,740 --> 00:04:17,000  
+look here heavenly is no longer there
+but if I change to my route then
+
+140
+00:04:17,000 --> 00:04:17,010  
+but if I change to my route then
+ 
+
+141
+00:04:17,010 --> 00:04:20,250  
+but if I change to my route then
+heavenly is there so that was move and
+
+142
+00:04:20,250 --> 00:04:20,260  
+heavenly is there so that was move and
+ 
+
+143
+00:04:20,260 --> 00:04:24,860  
+heavenly is there so that was move and
+copy
+
+144
+00:04:24,860 --> 00:04:24,870  
+ 
+ 
+
+145
+00:04:24,870 --> 00:04:32,760  
+ 
+and then echo what's that go do right
+
+146
+00:04:32,760 --> 00:04:32,770  
+and then echo what's that go do right
+ 
+
+147
+00:04:32,770 --> 00:04:36,360  
+and then echo what's that go do right
+now you know a few more to look up there
+
+148
+00:04:36,360 --> 00:04:36,370  
+now you know a few more to look up there
+ 
+
+149
+00:04:36,370 --> 00:04:40,710  
+now you know a few more to look up there
+don't worry about echo PS the pipe
+
+150
+00:04:40,710 --> 00:04:40,720  
+don't worry about echo PS the pipe
+ 
+
+151
+00:04:40,720 --> 00:04:45,200  
+don't worry about echo PS the pipe
+symbol grep and then CD definitely do
+
+152
+00:04:45,200 --> 00:04:45,210  
+symbol grep and then CD definitely do
+ 
+
+153
+00:04:45,210 --> 00:04:50,029  
+symbol grep and then CD definitely do
+these are what's that go echo terminal
+
+154
+00:04:50,029 --> 00:04:50,039  
+these are what's that go echo terminal
+ 
+
+155
+00:04:50,039 --> 00:04:57,499  
+these are what's that go echo terminal
+command echo and computing is command
+
+156
+00:04:57,499 --> 00:04:57,509  
+ 
+ 
+
+157
+00:04:57,509 --> 00:05:00,240  
+ 
+command and dos us to Microsoft Windows
+
+158
+00:05:00,240 --> 00:05:00,250  
+command and dos us to Microsoft Windows
+ 
+
+159
+00:05:00,250 --> 00:05:02,640  
+command and dos us to Microsoft Windows
+UNIX I'll brings the outputs the strings
+
+160
+00:05:02,640 --> 00:05:02,650  
+UNIX I'll brings the outputs the strings
+ 
+
+161
+00:05:02,650 --> 00:05:05,059  
+UNIX I'll brings the outputs the strings
+it is being passed as parameters is
+
+162
+00:05:05,059 --> 00:05:05,069  
+it is being passed as parameters is
+ 
+
+163
+00:05:05,069 --> 00:05:07,249  
+it is being passed as parameters is
+command typically used in shell scripts
+
+164
+00:05:07,249 --> 00:05:07,259  
+command typically used in shell scripts
+ 
+
+165
+00:05:07,259 --> 00:05:09,839  
+command typically used in shell scripts
+basketballs outputs - text to screen
+
+166
+00:05:09,839 --> 00:05:09,849  
+basketballs outputs - text to screen
+ 
+
+167
+00:05:09,849 --> 00:05:14,480  
+basketballs outputs - text to screen
+yeah think it's just echo
+
+168
+00:05:14,480 --> 00:05:14,490  
+yeah think it's just echo
+ 
+
+169
+00:05:14,490 --> 00:05:17,909  
+yeah think it's just echo
+well heavenly has nothing in it I know
+
+170
+00:05:17,909 --> 00:05:17,919  
+well heavenly has nothing in it I know
+ 
+
+171
+00:05:17,919 --> 00:05:22,980  
+well heavenly has nothing in it I know
+heavenly I removed have okay nano new
+
+172
+00:05:22,980 --> 00:05:22,990  
+heavenly I removed have okay nano new
+ 
+
+173
+00:05:22,990 --> 00:05:29,180  
+heavenly I removed have okay nano new
+file and this is new new and then exit
+
+174
+00:05:29,180 --> 00:05:29,190  
+file and this is new new and then exit
+ 
+
+175
+00:05:29,190 --> 00:05:36,180  
+file and this is new new and then exit
+yes and then echo new file so it just
+
+176
+00:05:36,180 --> 00:05:36,190  
+yes and then echo new file so it just
+ 
+
+177
+00:05:36,190 --> 00:05:44,909  
+yes and then echo new file so it just
+gave me the file name echo echo E&amp;B yeah
+
+178
+00:05:44,909 --> 00:05:44,919  
+gave me the file name echo echo E&amp;B yeah
+ 
+
+179
+00:05:44,919 --> 00:05:47,700  
+gave me the file name echo echo E&amp;B yeah
+I don't know what let's get rid of that
+
+180
+00:05:47,700 --> 00:05:47,710  
+I don't know what let's get rid of that
+ 
+
+181
+00:05:47,710 --> 00:05:58,620  
+I don't know what let's get rid of that
+from the homework edit
+
+182
+00:05:58,620 --> 00:05:58,630  
+ 
+ 
+
+183
+00:05:58,630 --> 00:06:11,400  
+ 
+HECO is gone I'll get rid of crap all
+
+184
+00:06:11,400 --> 00:06:11,410  
+HECO is gone I'll get rid of crap all
+ 
+
+185
+00:06:11,410 --> 00:06:12,810  
+HECO is gone I'll get rid of crap all
+right so those are some terminal
+
+186
+00:06:12,810 --> 00:06:12,820  
+right so those are some terminal
+ 
+
+187
+00:06:12,820 --> 00:06:15,360  
+right so those are some terminal
+commands

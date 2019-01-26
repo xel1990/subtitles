@@ -1,0 +1,144 @@
+1
+00:00:00,060 --> 00:00:02,770  
+ 
+so here's a hands-on exercise for you
+
+2
+00:00:02,770 --> 00:00:02,780  
+so here's a hands-on exercise for you
+ 
+
+3
+00:00:02,780 --> 00:00:06,110  
+so here's a hands-on exercise for you
+either at the go leg playground or we
+
+4
+00:00:06,110 --> 00:00:06,120  
+either at the go leg playground or we
+ 
+
+5
+00:00:06,120 --> 00:00:08,900  
+either at the go leg playground or we
+have all now set up our IDE or
+
+6
+00:00:08,900 --> 00:00:08,910  
+have all now set up our IDE or
+ 
+
+7
+00:00:08,910 --> 00:00:11,419  
+have all now set up our IDE or
+environment either place create a
+
+8
+00:00:11,419 --> 00:00:11,429  
+environment either place create a
+ 
+
+9
+00:00:11,429 --> 00:00:13,730  
+environment either place create a
+program that stores to it values and two
+
+10
+00:00:13,730 --> 00:00:13,740  
+program that stores to it values and two
+ 
+
+11
+00:00:13,740 --> 00:00:16,279  
+program that stores to it values and two
+different variables multiplies the
+
+12
+00:00:16,279 --> 00:00:16,289  
+different variables multiplies the
+ 
+
+13
+00:00:16,289 --> 00:00:18,230  
+different variables multiplies the
+values in those variables together and
+
+14
+00:00:18,230 --> 00:00:18,240  
+values in those variables together and
+ 
+
+15
+00:00:18,240 --> 00:00:19,939  
+values in those variables together and
+stores the results in a third variable
+
+16
+00:00:19,939 --> 00:00:19,949  
+stores the results in a third variable
+ 
+
+17
+00:00:19,949 --> 00:00:22,279  
+stores the results in a third variable
+then prints out the value of the third
+
+18
+00:00:22,279 --> 00:00:22,289  
+then prints out the value of the third
+ 
+
+19
+00:00:22,289 --> 00:00:25,040  
+then prints out the value of the third
+variable submit the share URL for your
+
+20
+00:00:25,040 --> 00:00:25,050  
+variable submit the share URL for your
+ 
+
+21
+00:00:25,050 --> 00:00:29,990  
+variable submit the share URL for your
+program or you could upload the you
+
+22
+00:00:29,990 --> 00:00:30,000  
+program or you could upload the you
+ 
+
+23
+00:00:30,000 --> 00:00:32,569  
+program or you could upload the you
+could submit the URL to your github code
+
+24
+00:00:32,569 --> 00:00:32,579  
+could submit the URL to your github code
+ 
+
+25
+00:00:32,579 --> 00:00:36,080  
+could submit the URL to your github code
+is also absolutely fine okay so let's
+
+26
+00:00:36,080 --> 00:00:36,090  
+is also absolutely fine okay so let's
+ 
+
+27
+00:00:36,090 --> 00:00:37,700  
+is also absolutely fine okay so let's
+all do this hands-on exercise and get
+
+28
+00:00:37,700 --> 00:00:37,710  
+all do this hands-on exercise and get
+ 
+
+29
+00:00:37,710 --> 00:00:40,129  
+all do this hands-on exercise and get
+some code

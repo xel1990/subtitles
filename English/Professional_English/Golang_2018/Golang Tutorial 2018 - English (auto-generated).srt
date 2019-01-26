@@ -1,0 +1,1504 @@
+1
+00:00:00,329 --> 00:00:02,780  
+ 
+so we're learning go programming for web
+
+2
+00:00:02,780 --> 00:00:02,790  
+so we're learning go programming for web
+ 
+
+3
+00:00:02,790 --> 00:00:04,610  
+so we're learning go programming for web
+development here and the first thing
+
+4
+00:00:04,610 --> 00:00:04,620  
+development here and the first thing
+ 
+
+5
+00:00:04,620 --> 00:00:05,599  
+development here and the first thing
+that we're going to do is learn the
+
+6
+00:00:05,599 --> 00:00:05,609  
+that we're going to do is learn the
+ 
+
+7
+00:00:05,609 --> 00:00:08,540  
+that we're going to do is learn the
+language and we've already kind of done
+
+8
+00:00:08,540 --> 00:00:08,550  
+language and we've already kind of done
+ 
+
+9
+00:00:08,550 --> 00:00:09,919  
+language and we've already kind of done
+just a little bit of ground work and
+
+10
+00:00:09,919 --> 00:00:09,929  
+just a little bit of ground work and
+ 
+
+11
+00:00:09,929 --> 00:00:11,780  
+just a little bit of ground work and
+getting everybody's dev environment set
+
+12
+00:00:11,780 --> 00:00:11,790  
+getting everybody's dev environment set
+ 
+
+13
+00:00:11,790 --> 00:00:13,129  
+getting everybody's dev environment set
+up and I'm gonna give you a really good
+
+14
+00:00:13,129 --> 00:00:13,139  
+up and I'm gonna give you a really good
+ 
+
+15
+00:00:13,139 --> 00:00:14,570  
+up and I'm gonna give you a really good
+resource if you're just finding this
+
+16
+00:00:14,570 --> 00:00:14,580  
+resource if you're just finding this
+ 
+
+17
+00:00:14,580 --> 00:00:17,090  
+resource if you're just finding this
+video online and that resource is going
+
+18
+00:00:17,090 --> 00:00:17,100  
+video online and that resource is going
+ 
+
+19
+00:00:17,100 --> 00:00:19,550  
+video online and that resource is going
+to be the course outline this course
+
+20
+00:00:19,550 --> 00:00:19,560  
+to be the course outline this course
+ 
+
+21
+00:00:19,560 --> 00:00:22,400  
+to be the course outline this course
+outline is amazing and you can take the
+
+22
+00:00:22,400 --> 00:00:22,410  
+outline is amazing and you can take the
+ 
+
+23
+00:00:22,410 --> 00:00:24,109  
+outline is amazing and you can take the
+entire course with all of the videos
+
+24
+00:00:24,109 --> 00:00:24,119  
+entire course with all of the videos
+ 
+
+25
+00:00:24,119 --> 00:00:27,019  
+entire course with all of the videos
+organized sequentially easily accessible
+
+26
+00:00:27,019 --> 00:00:27,029  
+organized sequentially easily accessible
+ 
+
+27
+00:00:27,029 --> 00:00:30,439  
+organized sequentially easily accessible
+at this URL I got into education to help
+
+28
+00:00:30,439 --> 00:00:30,449  
+at this URL I got into education to help
+ 
+
+29
+00:00:30,449 --> 00:00:32,810  
+at this URL I got into education to help
+people so if the price of this course is
+
+30
+00:00:32,810 --> 00:00:32,820  
+people so if the price of this course is
+ 
+
+31
+00:00:32,820 --> 00:00:34,340  
+people so if the price of this course is
+too much for you just message me on
+
+32
+00:00:34,340 --> 00:00:34,350  
+too much for you just message me on
+ 
+
+33
+00:00:34,350 --> 00:00:37,880  
+too much for you just message me on
+twitter twitter and i will get you
+
+34
+00:00:37,880 --> 00:00:37,890  
+twitter twitter and i will get you
+ 
+
+35
+00:00:37,890 --> 00:00:39,590  
+twitter twitter and i will get you
+discounted or free access when you
+
+36
+00:00:39,590 --> 00:00:39,600  
+discounted or free access when you
+ 
+
+37
+00:00:39,600 --> 00:00:41,270  
+discounted or free access when you
+message me just sort of tell me what
+
+38
+00:00:41,270 --> 00:00:41,280  
+message me just sort of tell me what
+ 
+
+39
+00:00:41,280 --> 00:00:44,299  
+message me just sort of tell me what
+your situation is and and then I'll get
+
+40
+00:00:44,299 --> 00:00:44,309  
+your situation is and and then I'll get
+ 
+
+41
+00:00:44,309 --> 00:00:45,740  
+your situation is and and then I'll get
+you discount free access so this is the
+
+42
+00:00:45,740 --> 00:00:45,750  
+you discount free access so this is the
+ 
+
+43
+00:00:45,750 --> 00:00:47,029  
+you discount free access so this is the
+outline if you want to get to this
+
+44
+00:00:47,029 --> 00:00:47,039  
+outline if you want to get to this
+ 
+
+45
+00:00:47,039 --> 00:00:50,889  
+outline if you want to get to this
+outline just go to this URL right here
+
+46
+00:00:50,889 --> 00:00:50,899  
+outline just go to this URL right here
+ 
+
+47
+00:00:50,899 --> 00:00:53,479  
+outline just go to this URL right here
+which is right there
+
+48
+00:00:53,479 --> 00:00:53,489  
+which is right there
+ 
+
+49
+00:00:53,489 --> 00:00:55,310  
+which is right there
+course outline they'll bring you here
+
+50
+00:00:55,310 --> 00:00:55,320  
+course outline they'll bring you here
+ 
+
+51
+00:00:55,320 --> 00:00:59,750  
+course outline they'll bring you here
+and and then all the code that we're
+
+52
+00:00:59,750 --> 00:00:59,760  
+and and then all the code that we're
+ 
+
+53
+00:00:59,760 --> 00:01:01,939  
+and and then all the code that we're
+using right now we're doing all of our
+
+54
+00:01:01,939 --> 00:01:01,949  
+using right now we're doing all of our
+ 
+
+55
+00:01:01,949 --> 00:01:06,200  
+using right now we're doing all of our
+code on github it is at going web dev
+
+56
+00:01:06,200 --> 00:01:06,210  
+code on github it is at going web dev
+ 
+
+57
+00:01:06,210 --> 00:01:10,280  
+code on github it is at going web dev
+goes to 11 so github going web dev goes
+
+58
+00:01:10,280 --> 00:01:10,290  
+goes to 11 so github going web dev goes
+ 
+
+59
+00:01:10,290 --> 00:01:13,070  
+goes to 11 so github going web dev goes
+to 11 and the code that you're singing
+
+60
+00:01:13,070 --> 00:01:13,080  
+to 11 and the code that you're singing
+ 
+
+61
+00:01:13,080 --> 00:01:17,960  
+to 11 and the code that you're singing
+class will be under attempt and in 63
+
+62
+00:01:17,960 --> 00:01:17,970  
+class will be under attempt and in 63
+ 
+
+63
+00:01:17,970 --> 00:01:20,840  
+class will be under attempt and in 63
+fall 2018 so that's where all the code
+
+64
+00:01:20,840 --> 00:01:20,850  
+fall 2018 so that's where all the code
+ 
+
+65
+00:01:20,850 --> 00:01:23,179  
+fall 2018 so that's where all the code
+for is class will be and I'm just now
+
+66
+00:01:23,179 --> 00:01:23,189  
+for is class will be and I'm just now
+ 
+
+67
+00:01:23,189 --> 00:01:25,160  
+for is class will be and I'm just now
+starting to record we had a couple of
+
+68
+00:01:25,160 --> 00:01:25,170  
+starting to record we had a couple of
+ 
+
+69
+00:01:25,170 --> 00:01:27,200  
+starting to record we had a couple of
+classes where we are getting things set
+
+70
+00:01:27,200 --> 00:01:27,210  
+classes where we are getting things set
+ 
+
+71
+00:01:27,210 --> 00:01:30,200  
+classes where we are getting things set
+up so now in here instead of just using
+
+72
+00:01:30,200 --> 00:01:30,210  
+up so now in here instead of just using
+ 
+
+73
+00:01:30,210 --> 00:01:33,410  
+up so now in here instead of just using
+print line package main bunk mains the
+
+74
+00:01:33,410 --> 00:01:33,420  
+print line package main bunk mains the
+ 
+
+75
+00:01:33,420 --> 00:01:35,899  
+print line package main bunk mains the
+entry point of my program instead of
+
+76
+00:01:35,899 --> 00:01:35,909  
+entry point of my program instead of
+ 
+
+77
+00:01:35,909 --> 00:01:37,580  
+entry point of my program instead of
+using print line to print that statement
+
+78
+00:01:37,580 --> 00:01:37,590  
+using print line to print that statement
+ 
+
+79
+00:01:37,590 --> 00:01:39,350  
+using print line to print that statement
+I chose you sprint line maybe at some
+
+80
+00:01:39,350 --> 00:01:39,360  
+I chose you sprint line maybe at some
+ 
+
+81
+00:01:39,360 --> 00:01:42,170  
+I chose you sprint line maybe at some
+point we looked at funked the funked
+
+82
+00:01:42,170 --> 00:01:42,180  
+point we looked at funked the funked
+ 
+
+83
+00:01:42,180 --> 00:01:44,690  
+point we looked at funked the funked
+package right and maybe at some point
+
+84
+00:01:44,690 --> 00:01:44,700  
+package right and maybe at some point
+ 
+
+85
+00:01:44,700 --> 00:01:49,999  
+package right and maybe at some point
+we'll want to use sprint line just to
+
+86
+00:01:49,999 --> 00:01:50,009  
+we'll want to use sprint line just to
+ 
+
+87
+00:01:50,009 --> 00:01:52,609  
+we'll want to use sprint line just to
+get a string and so here's one way I
+
+88
+00:01:52,609 --> 00:01:52,619  
+get a string and so here's one way I
+ 
+
+89
+00:01:52,619 --> 00:01:55,039  
+get a string and so here's one way I
+could do it it returns a string right
+
+90
+00:01:55,039 --> 00:01:55,049  
+could do it it returns a string right
+ 
+
+91
+00:01:55,049 --> 00:01:57,830  
+could do it it returns a string right
+here's the func so functions are the
+
+92
+00:01:57,830 --> 00:01:57,840  
+here's the func so functions are the
+ 
+
+93
+00:01:57,840 --> 00:02:00,920  
+here's the func so functions are the
+font keyword and when we have a function
+
+94
+00:02:00,920 --> 00:02:00,930  
+font keyword and when we have a function
+ 
+
+95
+00:02:00,930 --> 00:02:02,480  
+font keyword and when we have a function
+a function is always going to follow
+
+96
+00:02:02,480 --> 00:02:02,490  
+a function is always going to follow
+ 
+
+97
+00:02:02,490 --> 00:02:06,069  
+a function is always going to follow
+this func keyword and optional receiver
+
+98
+00:02:06,069 --> 00:02:06,079  
+this func keyword and optional receiver
+ 
+
+99
+00:02:06,079 --> 00:02:09,490  
+this func keyword and optional receiver
+so optional I'll do that
+
+100
+00:02:09,490 --> 00:02:09,500  
+so optional I'll do that
+ 
+
+101
+00:02:09,500 --> 00:02:12,380  
+so optional I'll do that
+I'll do two like that optional receiver
+
+102
+00:02:12,380 --> 00:02:12,390  
+I'll do two like that optional receiver
+ 
+
+103
+00:02:12,390 --> 00:02:13,940  
+I'll do two like that optional receiver
+and identifier which will be
+
+104
+00:02:13,940 --> 00:02:13,950  
+and identifier which will be
+ 
+
+105
+00:02:13,950 --> 00:02:17,180  
+and identifier which will be
+the name of the function parameters you
+
+106
+00:02:17,180 --> 00:02:17,190  
+the name of the function parameters you
+ 
+
+107
+00:02:17,190 --> 00:02:21,110  
+the name of the function parameters you
+know which will pass arguments in to a
+
+108
+00:02:21,110 --> 00:02:21,120  
+know which will pass arguments in to a
+ 
+
+109
+00:02:21,120 --> 00:02:22,820  
+know which will pass arguments in to a
+function has been defined with
+
+110
+00:02:22,820 --> 00:02:22,830  
+function has been defined with
+ 
+
+111
+00:02:22,830 --> 00:02:25,430  
+function has been defined with
+parameters so that's a really nice way
+
+112
+00:02:25,430 --> 00:02:25,440  
+parameters so that's a really nice way
+ 
+
+113
+00:02:25,440 --> 00:02:29,809  
+parameters so that's a really nice way
+to say that we will pass arguments in to
+
+114
+00:02:29,809 --> 00:02:29,819  
+to say that we will pass arguments in to
+ 
+
+115
+00:02:29,819 --> 00:02:33,910  
+to say that we will pass arguments in to
+a function that has been defined with
+
+116
+00:02:33,910 --> 00:02:33,920  
+a function that has been defined with
+ 
+
+117
+00:02:33,920 --> 00:02:37,820  
+a function that has been defined with
+parameters right so we have thunk
+
+118
+00:02:37,820 --> 00:02:37,830  
+parameters right so we have thunk
+ 
+
+119
+00:02:37,830 --> 00:02:39,800  
+parameters right so we have thunk
+keyword and then receiver and we'll
+
+120
+00:02:39,800 --> 00:02:39,810  
+keyword and then receiver and we'll
+ 
+
+121
+00:02:39,810 --> 00:02:42,170  
+keyword and then receiver and we'll
+learn what receivers are and then
+
+122
+00:02:42,170 --> 00:02:42,180  
+learn what receivers are and then
+ 
+
+123
+00:02:42,180 --> 00:02:44,059  
+learn what receivers are and then
+identifiers for the function then
+
+124
+00:02:44,059 --> 00:02:44,069  
+identifiers for the function then
+ 
+
+125
+00:02:44,069 --> 00:02:48,199  
+identifiers for the function then
+parameter and then returns and there
+
+126
+00:02:48,199 --> 00:02:48,209  
+parameter and then returns and there
+ 
+
+127
+00:02:48,209 --> 00:02:50,410  
+parameter and then returns and there
+could be multiple returns and then code
+
+128
+00:02:50,410 --> 00:02:50,420  
+could be multiple returns and then code
+ 
+
+129
+00:02:50,420 --> 00:02:54,860  
+could be multiple returns and then code
+okay so that's the signature the form
+
+130
+00:02:54,860 --> 00:02:54,870  
+okay so that's the signature the form
+ 
+
+131
+00:02:54,870 --> 00:02:56,509  
+okay so that's the signature the form
+that functions take in the go
+
+132
+00:02:56,509 --> 00:02:56,519  
+that functions take in the go
+ 
+
+133
+00:02:56,519 --> 00:03:00,259  
+that functions take in the go
+programming language and so here I went
+
+134
+00:03:00,259 --> 00:03:00,269  
+programming language and so here I went
+ 
+
+135
+00:03:00,269 --> 00:03:02,630  
+programming language and so here I went
+to look at the func package and you can
+
+136
+00:03:02,630 --> 00:03:02,640  
+to look at the func package and you can
+ 
+
+137
+00:03:02,640 --> 00:03:04,759  
+to look at the func package and you can
+see I'm using a function called Sprint
+
+138
+00:03:04,759 --> 00:03:04,769  
+see I'm using a function called Sprint
+ 
+
+139
+00:03:04,769 --> 00:03:07,789  
+see I'm using a function called Sprint
+line from the front package so this is
+
+140
+00:03:07,789 --> 00:03:07,799  
+line from the front package so this is
+ 
+
+141
+00:03:07,799 --> 00:03:13,580  
+line from the front package so this is
+dot notation so we've got dots
+
+142
+00:03:13,580 --> 00:03:13,590  
+dot notation so we've got dots
+ 
+
+143
+00:03:13,590 --> 00:03:16,910  
+dot notation so we've got dots
+print line from package funked use the
+
+144
+00:03:16,910 --> 00:03:16,920  
+print line from package funked use the
+ 
+
+145
+00:03:16,920 --> 00:03:18,740  
+print line from package funked use the
+function Sprint line that's how you
+
+146
+00:03:18,740 --> 00:03:18,750  
+function Sprint line that's how you
+ 
+
+147
+00:03:18,750 --> 00:03:21,140  
+function Sprint line that's how you
+would read that and say that from
+
+148
+00:03:21,140 --> 00:03:21,150  
+would read that and say that from
+ 
+
+149
+00:03:21,150 --> 00:03:25,250  
+would read that and say that from
+package funked use the function Sprint
+
+150
+00:03:25,250 --> 00:03:25,260  
+package funked use the function Sprint
+ 
+
+151
+00:03:25,260 --> 00:03:28,069  
+package funked use the function Sprint
+line there's all this code pre-written
+
+152
+00:03:28,069 --> 00:03:28,079  
+line there's all this code pre-written
+ 
+
+153
+00:03:28,079 --> 00:03:30,559  
+line there's all this code pre-written
+for you to use we just have to figure
+
+154
+00:03:30,559 --> 00:03:30,569  
+for you to use we just have to figure
+ 
+
+155
+00:03:30,569 --> 00:03:32,240  
+for you to use we just have to figure
+out how to use it a lot of the hard
+
+156
+00:03:32,240 --> 00:03:32,250  
+out how to use it a lot of the hard
+ 
+
+157
+00:03:32,250 --> 00:03:34,580  
+out how to use it a lot of the hard
+works been done for us we just have to
+
+158
+00:03:34,580 --> 00:03:34,590  
+works been done for us we just have to
+ 
+
+159
+00:03:34,590 --> 00:03:36,199  
+works been done for us we just have to
+find the different pieces like LEGO
+
+160
+00:03:36,199 --> 00:03:36,209  
+find the different pieces like LEGO
+ 
+
+161
+00:03:36,209 --> 00:03:38,690  
+find the different pieces like LEGO
+building blocks and build things and
+
+162
+00:03:38,690 --> 00:03:38,700  
+building blocks and build things and
+ 
+
+163
+00:03:38,700 --> 00:03:39,530  
+building blocks and build things and
+bring them together
+
+164
+00:03:39,530 --> 00:03:39,540  
+bring them together
+ 
+
+165
+00:03:39,540 --> 00:03:44,629  
+bring them together
+cool right so func sprint line I could
+
+166
+00:03:44,629 --> 00:03:44,639  
+cool right so func sprint line I could
+ 
+
+167
+00:03:44,639 --> 00:03:46,970  
+cool right so func sprint line I could
+hold down command I'm in goal and V s
+
+168
+00:03:46,970 --> 00:03:46,980  
+hold down command I'm in goal and V s
+ 
+
+169
+00:03:46,980 --> 00:03:50,120  
+hold down command I'm in goal and V s
+code is the number one choice it's free
+
+170
+00:03:50,120 --> 00:03:50,130  
+code is the number one choice it's free
+ 
+
+171
+00:03:50,130 --> 00:03:52,490  
+code is the number one choice it's free
+it's awesome I never learned it I
+
+172
+00:03:52,490 --> 00:03:52,500  
+it's awesome I never learned it I
+ 
+
+173
+00:03:52,500 --> 00:03:55,160  
+it's awesome I never learned it I
+learned JetBrains stuff which I get free
+
+174
+00:03:55,160 --> 00:03:55,170  
+learned JetBrains stuff which I get free
+ 
+
+175
+00:03:55,170 --> 00:03:57,280  
+learned JetBrains stuff which I get free
+as an educator so that's why I'm using :
+
+176
+00:03:57,280 --> 00:03:57,290  
+as an educator so that's why I'm using :
+ 
+
+177
+00:03:57,290 --> 00:04:00,729  
+as an educator so that's why I'm using :
+strongly recommend BS code though and
+
+178
+00:04:00,729 --> 00:04:00,739  
+strongly recommend BS code though and
+ 
+
+179
+00:04:00,739 --> 00:04:03,620  
+strongly recommend BS code though and
+here we have func from package bump
+
+180
+00:04:03,620 --> 00:04:03,630  
+here we have func from package bump
+ 
+
+181
+00:04:03,630 --> 00:04:07,069  
+here we have func from package bump
+sprint line and and we could go and just
+
+182
+00:04:07,069 --> 00:04:07,079  
+sprint line and and we could go and just
+ 
+
+183
+00:04:07,079 --> 00:04:09,530  
+sprint line and and we could go and just
+hold down command this also works in BS
+
+184
+00:04:09,530 --> 00:04:09,540  
+hold down command this also works in BS
+ 
+
+185
+00:04:09,540 --> 00:04:11,300  
+hold down command this also works in BS
+code I don't know what the key is but
+
+186
+00:04:11,300 --> 00:04:11,310  
+code I don't know what the key is but
+ 
+
+187
+00:04:11,310 --> 00:04:13,190  
+code I don't know what the key is but
+you could click on the function it takes
+
+188
+00:04:13,190 --> 00:04:13,200  
+you could click on the function it takes
+ 
+
+189
+00:04:13,200 --> 00:04:17,839  
+you could click on the function it takes
+you right to the definition the code
+
+190
+00:04:17,839 --> 00:04:17,849  
+you right to the definition the code
+ 
+
+191
+00:04:17,849 --> 00:04:19,430  
+you right to the definition the code
+that was written by the people who
+
+192
+00:04:19,430 --> 00:04:19,440  
+that was written by the people who
+ 
+
+193
+00:04:19,440 --> 00:04:22,219  
+that was written by the people who
+created the go programming language the
+
+194
+00:04:22,219 --> 00:04:22,229  
+created the go programming language the
+ 
+
+195
+00:04:22,229 --> 00:04:24,380  
+created the go programming language the
+definition of that function the way it
+
+196
+00:04:24,380 --> 00:04:24,390  
+definition of that function the way it
+ 
+
+197
+00:04:24,390 --> 00:04:26,240  
+definition of that function the way it
+was written by the developers of the
+
+198
+00:04:26,240 --> 00:04:26,250  
+was written by the developers of the
+ 
+
+199
+00:04:26,250 --> 00:04:27,390  
+was written by the developers of the
+good programming language
+
+200
+00:04:27,390 --> 00:04:27,400  
+good programming language
+ 
+
+201
+00:04:27,400 --> 00:04:34,140  
+good programming language
+this is really nice because it allows us
+
+202
+00:04:34,140 --> 00:04:34,150  
+this is really nice because it allows us
+ 
+
+203
+00:04:34,150 --> 00:04:37,740  
+this is really nice because it allows us
+to see how they wrote the language and
+
+204
+00:04:37,740 --> 00:04:37,750  
+to see how they wrote the language and
+ 
+
+205
+00:04:37,750 --> 00:04:39,930  
+to see how they wrote the language and
+we see things which are beautiful and
+
+206
+00:04:39,930 --> 00:04:39,940  
+we see things which are beautiful and
+ 
+
+207
+00:04:39,940 --> 00:04:40,770  
+we see things which are beautiful and
+simple
+
+208
+00:04:40,770 --> 00:04:40,780  
+simple
+ 
+
+209
+00:04:40,780 --> 00:04:44,999  
+simple
+the three principles the three guiding
+
+210
+00:04:44,999 --> 00:04:45,009  
+the three principles the three guiding
+ 
+
+211
+00:04:45,009 --> 00:04:46,860  
+the three principles the three guiding
+principles by which this language was
+
+212
+00:04:46,860 --> 00:04:46,870  
+principles by which this language was
+ 
+
+213
+00:04:46,870 --> 00:04:53,070  
+principles by which this language was
+created was efficient execution fast as
+
+214
+00:04:53,070 --> 00:04:53,080  
+created was efficient execution fast as
+ 
+
+215
+00:04:53,080 --> 00:04:56,550  
+created was efficient execution fast as
+lightning go programming language has to
+
+216
+00:04:56,550 --> 00:04:56,560  
+lightning go programming language has to
+ 
+
+217
+00:04:56,560 --> 00:04:58,050  
+lightning go programming language has to
+be fastest like lightning
+
+218
+00:04:58,050 --> 00:04:58,060  
+be fastest like lightning
+ 
+
+219
+00:04:58,060 --> 00:05:00,960  
+be fastest like lightning
+efficient compilation I don't want to
+
+220
+00:05:00,960 --> 00:05:00,970  
+efficient compilation I don't want to
+ 
+
+221
+00:05:00,970 --> 00:05:02,730  
+efficient compilation I don't want to
+sit around for half a day to see if my
+
+222
+00:05:02,730 --> 00:05:02,740  
+sit around for half a day to see if my
+ 
+
+223
+00:05:02,740 --> 00:05:04,590  
+sit around for half a day to see if my
+code builds into an executable that
+
+224
+00:05:04,590 --> 00:05:04,600  
+code builds into an executable that
+ 
+
+225
+00:05:04,600 --> 00:05:08,520  
+code builds into an executable that
+works efficient execution efficient
+
+226
+00:05:08,520 --> 00:05:08,530  
+works efficient execution efficient
+ 
+
+227
+00:05:08,530 --> 00:05:14,939  
+works efficient execution efficient
+compilation and ease of programming make
+
+228
+00:05:14,939 --> 00:05:14,949  
+compilation and ease of programming make
+ 
+
+229
+00:05:14,949 --> 00:05:18,379  
+compilation and ease of programming make
+it easy baby like that reads beautiful
+
+230
+00:05:18,379 --> 00:05:18,389  
+it easy baby like that reads beautiful
+ 
+
+231
+00:05:18,389 --> 00:05:21,300  
+it easy baby like that reads beautiful
+right like that's you know not a bunch
+
+232
+00:05:21,300 --> 00:05:21,310  
+right like that's you know not a bunch
+ 
+
+233
+00:05:21,310 --> 00:05:25,290  
+right like that's you know not a bunch
+of cluttered stuttering doublespeak pump
+
+234
+00:05:25,290 --> 00:05:25,300  
+of cluttered stuttering doublespeak pump
+ 
+
+235
+00:05:25,300 --> 00:05:30,469  
+of cluttered stuttering doublespeak pump
+you know it's just like beautiful
+
+236
+00:05:30,469 --> 00:05:30,479  
+ 
+ 
+
+237
+00:05:30,479 --> 00:05:33,930  
+ 
+so sprint line takes a very attic
+
+238
+00:05:33,930 --> 00:05:33,940  
+so sprint line takes a very attic
+ 
+
+239
+00:05:33,940 --> 00:05:36,810  
+so sprint line takes a very attic
+parameter dot dot dot means many just
+
+240
+00:05:36,810 --> 00:05:36,820  
+parameter dot dot dot means many just
+ 
+
+241
+00:05:36,820 --> 00:05:39,480  
+parameter dot dot dot means many just
+like in English if somebody said dot dot
+
+242
+00:05:39,480 --> 00:05:39,490  
+like in English if somebody said dot dot
+ 
+
+243
+00:05:39,490 --> 00:05:40,860  
+like in English if somebody said dot dot
+dot at the end of a sentence you know
+
+244
+00:05:40,860 --> 00:05:40,870  
+dot at the end of a sentence you know
+ 
+
+245
+00:05:40,870 --> 00:05:43,439  
+dot at the end of a sentence you know
+there's a lot more there dot dot dot
+
+246
+00:05:43,439 --> 00:05:43,449  
+there's a lot more there dot dot dot
+ 
+
+247
+00:05:43,449 --> 00:05:45,540  
+there's a lot more there dot dot dot
+here means take put passing as many
+
+248
+00:05:45,540 --> 00:05:45,550  
+here means take put passing as many
+ 
+
+249
+00:05:45,550 --> 00:05:47,879  
+here means take put passing as many
+arguments as you want it's a very attic
+
+250
+00:05:47,879 --> 00:05:47,889  
+arguments as you want it's a very attic
+ 
+
+251
+00:05:47,889 --> 00:05:51,120  
+arguments as you want it's a very attic
+parameter is the term we use very attic
+
+252
+00:05:51,120 --> 00:05:51,130  
+parameter is the term we use very attic
+ 
+
+253
+00:05:51,130 --> 00:05:55,589  
+parameter is the term we use very attic
+parameter and then it takes a value of
+
+254
+00:05:55,589 --> 00:05:55,599  
+parameter and then it takes a value of
+ 
+
+255
+00:05:55,599 --> 00:05:57,390  
+parameter and then it takes a value of
+any type which is what the empty
+
+256
+00:05:57,390 --> 00:05:57,400  
+any type which is what the empty
+ 
+
+257
+00:05:57,400 --> 00:06:01,010  
+any type which is what the empty
+interface says and it returns a string
+
+258
+00:06:01,010 --> 00:06:01,020  
+interface says and it returns a string
+ 
+
+259
+00:06:01,020 --> 00:06:04,379  
+interface says and it returns a string
+cool so I got to return a string so I'm
+
+260
+00:06:04,379 --> 00:06:04,389  
+cool so I got to return a string so I'm
+ 
+
+261
+00:06:04,389 --> 00:06:08,339  
+cool so I got to return a string so I'm
+gonna catch my string and then write
+
+262
+00:06:08,339 --> 00:06:08,349  
+gonna catch my string and then write
+ 
+
+263
+00:06:08,349 --> 00:06:09,960  
+gonna catch my string and then write
+it'll give me that and now I have to use
+
+264
+00:06:09,960 --> 00:06:09,970  
+it'll give me that and now I have to use
+ 
+
+265
+00:06:09,970 --> 00:06:13,110  
+it'll give me that and now I have to use
+it and so this is kind of not clean
+
+266
+00:06:13,110 --> 00:06:13,120  
+it and so this is kind of not clean
+ 
+
+267
+00:06:13,120 --> 00:06:14,640  
+it and so this is kind of not clean
+programming because I could have just
+
+268
+00:06:14,640 --> 00:06:14,650  
+programming because I could have just
+ 
+
+269
+00:06:14,650 --> 00:06:18,300  
+programming because I could have just
+done all that put my phrase right here
+
+270
+00:06:18,300 --> 00:06:18,310  
+done all that put my phrase right here
+ 
+
+271
+00:06:18,310 --> 00:06:20,219  
+done all that put my phrase right here
+and not assign it to a variable but just
+
+272
+00:06:20,219 --> 00:06:20,229  
+and not assign it to a variable but just
+ 
+
+273
+00:06:20,229 --> 00:06:21,360  
+and not assign it to a variable but just
+kind of interesting to show you
+
+274
+00:06:21,360 --> 00:06:21,370  
+kind of interesting to show you
+ 
+
+275
+00:06:21,370 --> 00:06:25,649  
+kind of interesting to show you
+something so we're going to talk about
+
+276
+00:06:25,649 --> 00:06:25,659  
+something so we're going to talk about
+ 
+
+277
+00:06:25,659 --> 00:06:28,860  
+something so we're going to talk about
+functions and review functions and I
+
+278
+00:06:28,860 --> 00:06:28,870  
+functions and review functions and I
+ 
+
+279
+00:06:28,870 --> 00:06:30,629  
+functions and review functions and I
+know one showed that this was the entry
+
+280
+00:06:30,629 --> 00:06:30,639  
+know one showed that this was the entry
+ 
+
+281
+00:06:30,639 --> 00:06:33,330  
+know one showed that this was the entry
+point of the program and then down here
+
+282
+00:06:33,330 --> 00:06:33,340  
+point of the program and then down here
+ 
+
+283
+00:06:33,340 --> 00:06:42,200  
+point of the program and then down here
+will be the exit to our program
+
+284
+00:06:42,200 --> 00:06:42,210  
+ 
+ 
+
+285
+00:06:42,210 --> 00:06:45,000  
+ 
+so when it leaves funk funk laying the
+
+286
+00:06:45,000 --> 00:06:45,010  
+so when it leaves funk funk laying the
+ 
+
+287
+00:06:45,010 --> 00:06:47,939  
+so when it leaves funk funk laying the
+program is over and we signify strings
+
+288
+00:06:47,939 --> 00:06:47,949  
+program is over and we signify strings
+ 
+
+289
+00:06:47,949 --> 00:06:50,939  
+program is over and we signify strings
+with either double quotes or which other
+
+290
+00:06:50,939 --> 00:06:50,949  
+with either double quotes or which other
+ 
+
+291
+00:06:50,949 --> 00:06:58,560  
+with either double quotes or which other
+character anybody remember back tick and
+
+292
+00:06:58,560 --> 00:06:58,570  
+character anybody remember back tick and
+ 
+
+293
+00:06:58,570 --> 00:07:01,530  
+character anybody remember back tick and
+that's a raw string literal which means
+
+294
+00:07:01,530 --> 00:07:01,540  
+that's a raw string literal which means
+ 
+
+295
+00:07:01,540 --> 00:07:04,710  
+that's a raw string literal which means
+I could put double quotes inside there
+
+296
+00:07:04,710 --> 00:07:04,720  
+I could put double quotes inside there
+ 
+
+297
+00:07:04,720 --> 00:07:09,030  
+I could put double quotes inside there
+and it can also hold returns when I
+
+298
+00:07:09,030 --> 00:07:09,040  
+and it can also hold returns when I
+ 
+
+299
+00:07:09,040 --> 00:07:15,840  
+and it can also hold returns when I
+print that raw string literal so we'll
+
+300
+00:07:15,840 --> 00:07:15,850  
+print that raw string literal so we'll
+ 
+
+301
+00:07:15,850 --> 00:07:19,470  
+print that raw string literal so we'll
+just keep this as video one

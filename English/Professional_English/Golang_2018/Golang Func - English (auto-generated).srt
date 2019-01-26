@@ -1,0 +1,234 @@
+1
+00:00:00,030 --> 00:00:02,000  
+ 
+now we're gonna see the solution to this
+
+2
+00:00:02,000 --> 00:00:02,010  
+now we're gonna see the solution to this
+ 
+
+3
+00:00:02,010 --> 00:00:05,349  
+now we're gonna see the solution to this
+hands-on exercise and I'll go to my
+
+4
+00:00:05,349 --> 00:00:05,359  
+hands-on exercise and I'll go to my
+ 
+
+5
+00:00:05,359 --> 00:00:10,940  
+hands-on exercise and I'll go to my
+editor and close this file create a new
+
+6
+00:00:10,940 --> 00:00:10,950  
+editor and close this file create a new
+ 
+
+7
+00:00:10,950 --> 00:00:16,039  
+editor and close this file create a new
+folder although to and inside there
+
+8
+00:00:16,039 --> 00:00:16,049  
+folder although to and inside there
+ 
+
+9
+00:00:16,049 --> 00:00:21,640  
+folder although to and inside there
+create a new go file name and then main
+
+10
+00:00:21,640 --> 00:00:21,650  
+create a new go file name and then main
+ 
+
+11
+00:00:21,650 --> 00:00:25,550  
+create a new go file name and then main
+and main and we want to create a new
+
+12
+00:00:25,550 --> 00:00:25,560  
+and main and we want to create a new
+ 
+
+13
+00:00:25,560 --> 00:00:29,890  
+and main and we want to create a new
+funk so remember a funk funk keyword
+
+14
+00:00:29,890 --> 00:00:29,900  
+funk so remember a funk funk keyword
+ 
+
+15
+00:00:29,900 --> 00:00:40,569  
+funk so remember a funk funk keyword
+receiver identifier parameters returns
+
+16
+00:00:40,569 --> 00:00:40,579  
+ 
+ 
+
+17
+00:00:40,579 --> 00:00:46,279  
+ 
+and then code okay so the funk we're
+
+18
+00:00:46,279 --> 00:00:46,289  
+and then code okay so the funk we're
+ 
+
+19
+00:00:46,289 --> 00:00:51,639  
+and then code okay so the funk we're
+going to create will be funk - and
+
+20
+00:00:51,639 --> 00:00:51,649  
+going to create will be funk - and
+ 
+
+21
+00:00:51,649 --> 00:00:56,450  
+going to create will be funk - and
+parameters doesn't need anything
+
+22
+00:00:56,450 --> 00:00:56,460  
+parameters doesn't need anything
+ 
+
+23
+00:00:56,460 --> 00:00:59,389  
+parameters doesn't need anything
+returns doesn't need anything and it's
+
+24
+00:00:59,389 --> 00:00:59,399  
+returns doesn't need anything and it's
+ 
+
+25
+00:00:59,399 --> 00:01:01,639  
+returns doesn't need anything and it's
+going to call the store your name
+
+26
+00:01:01,639 --> 00:01:01,649  
+going to call the store your name
+ 
+
+27
+00:01:01,649 --> 00:01:06,530  
+going to call the store your name
+and a variable so X call and equal James
+
+28
+00:01:06,530 --> 00:01:06,540  
+and a variable so X call and equal James
+ 
+
+29
+00:01:06,540 --> 00:01:10,910  
+and a variable so X call and equal James
+Bond stores your agent variable Y
+
+30
+00:01:10,910 --> 00:01:10,920  
+Bond stores your agent variable Y
+ 
+
+31
+00:01:10,920 --> 00:01:18,320  
+Bond stores your agent variable Y
+calling equal 32 and print your name and
+
+32
+00:01:18,320 --> 00:01:18,330  
+calling equal 32 and print your name and
+ 
+
+33
+00:01:18,330 --> 00:01:28,219  
+calling equal 32 and print your name and
+your age font dot print line XY and call
+
+34
+00:01:28,219 --> 00:01:28,229  
+your age font dot print line XY and call
+ 
+
+35
+00:01:28,229 --> 00:01:39,510  
+your age font dot print line XY and call
+it and run it
+
+36
+00:01:39,510 --> 00:01:39,520  
+ 
+ 
+
+37
+00:01:39,520 --> 00:01:41,670  
+ 
+your spawn 32
+
+38
+00:01:41,670 --> 00:01:41,680  
+your spawn 32
+ 
+
+39
+00:01:41,680 --> 00:01:44,260  
+your spawn 32
+that's solution show hands how many
+
+40
+00:01:44,260 --> 00:01:44,270  
+that's solution show hands how many
+ 
+
+41
+00:01:44,270 --> 00:01:46,680  
+that's solution show hands how many
+people got it
+
+42
+00:01:46,680 --> 00:01:46,690  
+people got it
+ 
+
+43
+00:01:46,690 --> 00:01:48,840  
+people got it
+cool reach out
+
+44
+00:01:48,840 --> 00:01:48,850  
+cool reach out
+ 
+
+45
+00:01:48,850 --> 00:01:51,100  
+cool reach out
+learning a language fundamentals before
+
+46
+00:01:51,100 --> 00:01:51,110  
+learning a language fundamentals before
+ 
+
+47
+00:01:51,110 --> 00:01:54,550  
+learning a language fundamentals before
+we get in to learn the web program

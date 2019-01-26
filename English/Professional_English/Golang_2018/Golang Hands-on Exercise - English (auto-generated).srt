@@ -1,0 +1,134 @@
+1
+00:00:00,000 --> 00:00:02,929  
+ 
+cool so another hands-on exercise how
+
+2
+00:00:02,929 --> 00:00:02,939  
+cool so another hands-on exercise how
+ 
+
+3
+00:00:02,939 --> 00:00:04,309  
+cool so another hands-on exercise how
+many people are enjoying these hands-on
+
+4
+00:00:04,309 --> 00:00:04,319  
+many people are enjoying these hands-on
+ 
+
+5
+00:00:04,319 --> 00:00:07,400  
+many people are enjoying these hands-on
+exercises good kind of like just do some
+
+6
+00:00:07,400 --> 00:00:07,410  
+exercises good kind of like just do some
+ 
+
+7
+00:00:07,410 --> 00:00:09,919  
+exercises good kind of like just do some
+coding right create a func that
+
+8
+00:00:09,919 --> 00:00:09,929  
+coding right create a func that
+ 
+
+9
+00:00:09,929 --> 00:00:12,169  
+coding right create a func that
+multiplies two arguments which are both
+
+10
+00:00:12,169 --> 00:00:12,179  
+multiplies two arguments which are both
+ 
+
+11
+00:00:12,179 --> 00:00:14,839  
+multiplies two arguments which are both
+of type int and returns the returns the
+
+12
+00:00:14,839 --> 00:00:14,849  
+of type int and returns the returns the
+ 
+
+13
+00:00:14,849 --> 00:00:19,609  
+of type int and returns the returns the
+result is an int and I'm gonna add
+
+14
+00:00:19,609 --> 00:00:19,619  
+result is an int and I'm gonna add
+ 
+
+15
+00:00:19,619 --> 00:00:23,800  
+result is an int and I'm gonna add
+something and what I'm going to add is
+
+16
+00:00:23,800 --> 00:00:23,810  
+something and what I'm going to add is
+ 
+
+17
+00:00:23,810 --> 00:00:32,080  
+something and what I'm going to add is
+then print out the returned return value
+
+18
+00:00:32,080 --> 00:00:32,090  
+then print out the returned return value
+ 
+
+19
+00:00:32,090 --> 00:00:36,380  
+then print out the returned return value
+okay let's do that hands-on exercise and
+
+20
+00:00:36,380 --> 00:00:36,390  
+okay let's do that hands-on exercise and
+ 
+
+21
+00:00:36,390 --> 00:00:39,979  
+okay let's do that hands-on exercise and
+so now we have a function that's going
+
+22
+00:00:39,979 --> 00:00:39,989  
+so now we have a function that's going
+ 
+
+23
+00:00:39,989 --> 00:00:42,560  
+so now we have a function that's going
+to take in two arguments of type int and
+
+24
+00:00:42,560 --> 00:00:42,570  
+to take in two arguments of type int and
+ 
+
+25
+00:00:42,570 --> 00:00:46,639  
+to take in two arguments of type int and
+it's going to return in it so let's
+
+26
+00:00:46,639 --> 00:00:46,649  
+it's going to return in it so let's
+ 
+
+27
+00:00:46,649 --> 00:00:49,070  
+it's going to return in it so let's
+build that

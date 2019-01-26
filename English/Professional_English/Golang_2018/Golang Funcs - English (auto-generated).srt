@@ -1,0 +1,1094 @@
+1
+00:00:00,240 --> 00:00:01,939  
+ 
+so we're talking about funks we're
+
+2
+00:00:01,939 --> 00:00:01,949  
+so we're talking about funks we're
+ 
+
+3
+00:00:01,949 --> 00:00:03,470  
+so we're talking about funks we're
+learning the language fundamentals and
+
+4
+00:00:03,470 --> 00:00:03,480  
+learning the language fundamentals and
+ 
+
+5
+00:00:03,480 --> 00:00:05,360  
+learning the language fundamentals and
+then we're gonna get into web dev so
+
+6
+00:00:05,360 --> 00:00:05,370  
+then we're gonna get into web dev so
+ 
+
+7
+00:00:05,370 --> 00:00:06,889  
+then we're gonna get into web dev so
+we'll spend a couple of classes on
+
+8
+00:00:06,889 --> 00:00:06,899  
+we'll spend a couple of classes on
+ 
+
+9
+00:00:06,899 --> 00:00:09,919  
+we'll spend a couple of classes on
+language fundamentals and now we're
+
+10
+00:00:09,919 --> 00:00:09,929  
+language fundamentals and now we're
+ 
+
+11
+00:00:09,929 --> 00:00:14,390  
+language fundamentals and now we're
+going to create another funk and and so
+
+12
+00:00:14,390 --> 00:00:14,400  
+going to create another funk and and so
+ 
+
+13
+00:00:14,400 --> 00:00:19,400  
+going to create another funk and and so
+to create another funk funk foo and then
+
+14
+00:00:19,400 --> 00:00:19,410  
+to create another funk funk foo and then
+ 
+
+15
+00:00:19,410 --> 00:00:22,189  
+to create another funk funk foo and then
+we just have it print something hey
+
+16
+00:00:22,189 --> 00:00:22,199  
+we just have it print something hey
+ 
+
+17
+00:00:22,199 --> 00:00:29,359  
+we just have it print something hey
+what's up and then I could call foo and
+
+18
+00:00:29,359 --> 00:00:29,369  
+what's up and then I could call foo and
+ 
+
+19
+00:00:29,369 --> 00:00:32,120  
+what's up and then I could call foo and
+these parentheses used to kind of be
+
+20
+00:00:32,120 --> 00:00:32,130  
+these parentheses used to kind of be
+ 
+
+21
+00:00:32,130 --> 00:00:34,520  
+these parentheses used to kind of be
+weird to me like why why do I need the
+
+22
+00:00:34,520 --> 00:00:34,530  
+weird to me like why why do I need the
+ 
+
+23
+00:00:34,530 --> 00:00:38,709  
+weird to me like why why do I need the
+parentheses to execute you know and
+
+24
+00:00:38,709 --> 00:00:38,719  
+parentheses to execute you know and
+ 
+
+25
+00:00:38,719 --> 00:00:41,569  
+parentheses to execute you know and
+function you always have to when you
+
+26
+00:00:41,569 --> 00:00:41,579  
+function you always have to when you
+ 
+
+27
+00:00:41,579 --> 00:00:44,240  
+function you always have to when you
+call a function so the identifier is foo
+
+28
+00:00:44,240 --> 00:00:44,250  
+call a function so the identifier is foo
+ 
+
+29
+00:00:44,250 --> 00:00:47,959  
+call a function so the identifier is foo
+and when you call the function you need
+
+30
+00:00:47,959 --> 00:00:47,969  
+and when you call the function you need
+ 
+
+31
+00:00:47,969 --> 00:00:50,569  
+and when you call the function you need
+to have those parentheses to tell the
+
+32
+00:00:50,569 --> 00:00:50,579  
+to have those parentheses to tell the
+ 
+
+33
+00:00:50,579 --> 00:00:53,569  
+to have those parentheses to tell the
+program if there are any arguments that
+
+34
+00:00:53,569 --> 00:00:53,579  
+program if there are any arguments that
+ 
+
+35
+00:00:53,579 --> 00:00:57,650  
+program if there are any arguments that
+you're passing in and even if there are
+
+36
+00:00:57,650 --> 00:00:57,660  
+you're passing in and even if there are
+ 
+
+37
+00:00:57,660 --> 00:00:59,810  
+you're passing in and even if there are
+no arguments you have to tell it that so
+
+38
+00:00:59,810 --> 00:00:59,820  
+no arguments you have to tell it that so
+ 
+
+39
+00:00:59,820 --> 00:01:01,849  
+no arguments you have to tell it that so
+those friends are kind of that's how a
+
+40
+00:01:01,849 --> 00:01:01,859  
+those friends are kind of that's how a
+ 
+
+41
+00:01:01,859 --> 00:01:07,039  
+those friends are kind of that's how a
+function executes now a function is just
+
+42
+00:01:07,039 --> 00:01:07,049  
+function executes now a function is just
+ 
+
+43
+00:01:07,049 --> 00:01:10,789  
+function executes now a function is just
+another type and go-go is all about type
+
+44
+00:01:10,789 --> 00:01:10,799  
+another type and go-go is all about type
+ 
+
+45
+00:01:10,799 --> 00:01:14,830  
+another type and go-go is all about type
+if we look at the language specification
+
+46
+00:01:14,830 --> 00:01:14,840  
+if we look at the language specification
+ 
+
+47
+00:01:14,840 --> 00:01:20,060  
+if we look at the language specification
+we look at the different types my index
+
+48
+00:01:20,060 --> 00:01:20,070  
+we look at the different types my index
+ 
+
+49
+00:01:20,070 --> 00:01:22,270  
+we look at the different types my index
+will pop up here in a second the
+
+50
+00:01:22,270 --> 00:01:22,280  
+will pop up here in a second the
+ 
+
+51
+00:01:22,280 --> 00:01:24,350  
+will pop up here in a second the
+different types here in the language
+
+52
+00:01:24,350 --> 00:01:24,360  
+different types here in the language
+ 
+
+53
+00:01:24,360 --> 00:01:30,649  
+different types here in the language
+specification a function is one of the
+
+54
+00:01:30,649 --> 00:01:30,659  
+specification a function is one of the
+ 
+
+55
+00:01:30,659 --> 00:01:34,730  
+specification a function is one of the
+types and int is one of the types it's
+
+56
+00:01:34,730 --> 00:01:34,740  
+types and int is one of the types it's
+ 
+
+57
+00:01:34,740 --> 00:01:38,980  
+types and int is one of the types it's
+under numeric string is one of the types
+
+58
+00:01:38,980 --> 00:01:38,990  
+under numeric string is one of the types
+ 
+
+59
+00:01:38,990 --> 00:01:44,030  
+under numeric string is one of the types
+so just just like any other type if we
+
+60
+00:01:44,030 --> 00:01:44,040  
+so just just like any other type if we
+ 
+
+61
+00:01:44,040 --> 00:01:47,210  
+so just just like any other type if we
+wanted to we could do some cool things
+
+62
+00:01:47,210 --> 00:01:47,220  
+wanted to we could do some cool things
+ 
+
+63
+00:01:47,220 --> 00:01:49,870  
+wanted to we could do some cool things
+with it like assign it to another
+
+64
+00:01:49,870 --> 00:01:49,880  
+with it like assign it to another
+ 
+
+65
+00:01:49,880 --> 00:01:53,620  
+with it like assign it to another
+variable so I'm going to run this and
+
+66
+00:01:53,620 --> 00:01:53,630  
+variable so I'm going to run this and
+ 
+
+67
+00:01:53,630 --> 00:01:57,560  
+variable so I'm going to run this and
+bring up my terminal and navigate to CD
+
+68
+00:01:57,560 --> 00:01:57,570  
+bring up my terminal and navigate to CD
+ 
+
+69
+00:01:57,570 --> 00:02:01,969  
+bring up my terminal and navigate to CD
+go source github goes to 11
+
+70
+00:02:01,969 --> 00:02:01,979  
+go source github goes to 11
+ 
+
+71
+00:02:01,979 --> 00:02:05,870  
+go source github goes to 11
+going webbed oh oh oh oh and I'm in
+
+72
+00:02:05,870 --> 00:02:05,880  
+going webbed oh oh oh oh and I'm in
+ 
+
+73
+00:02:05,880 --> 00:02:13,080  
+going webbed oh oh oh oh and I'm in
+sixth and 300 nine go run me
+
+74
+00:02:13,080 --> 00:02:13,090  
+sixth and 300 nine go run me
+ 
+
+75
+00:02:13,090 --> 00:02:16,530  
+sixth and 300 nine go run me
+and who is here program about to exit
+
+76
+00:02:16,530 --> 00:02:16,540  
+and who is here program about to exit
+ 
+
+77
+00:02:16,540 --> 00:02:18,270  
+and who is here program about to exit
+that raw string literal and this is the
+
+78
+00:02:18,270 --> 00:02:18,280  
+that raw string literal and this is the
+ 
+
+79
+00:02:18,280 --> 00:02:20,360  
+that raw string literal and this is the
+entry point beginning of the program
+
+80
+00:02:20,360 --> 00:02:20,370  
+entry point beginning of the program
+ 
+
+81
+00:02:20,370 --> 00:02:24,140  
+entry point beginning of the program
+okay so that ran that's cool
+
+82
+00:02:24,140 --> 00:02:24,150  
+okay so that ran that's cool
+ 
+
+83
+00:02:24,150 --> 00:02:27,180  
+okay so that ran that's cool
+if I wanted to just to show you a couple
+
+84
+00:02:27,180 --> 00:02:27,190  
+if I wanted to just to show you a couple
+ 
+
+85
+00:02:27,190 --> 00:02:29,610  
+if I wanted to just to show you a couple
+things about funks I'm going to create
+
+86
+00:02:29,610 --> 00:02:29,620  
+things about funks I'm going to create
+ 
+
+87
+00:02:29,620 --> 00:02:33,740  
+things about funks I'm going to create
+another funk
+
+88
+00:02:33,740 --> 00:02:33,750  
+ 
+ 
+
+89
+00:02:33,750 --> 00:02:37,110  
+ 
+why is it giving me an error that red
+
+90
+00:02:37,110 --> 00:02:37,120  
+why is it giving me an error that red
+ 
+
+91
+00:02:37,120 --> 00:02:47,640  
+why is it giving me an error that red
+underline I'm 18 and 22 I have to
+
+92
+00:02:47,640 --> 00:02:47,650  
+underline I'm 18 and 22 I have to
+ 
+
+93
+00:02:47,650 --> 00:02:49,740  
+underline I'm 18 and 22 I have to
+identify errs being declared with the
+
+94
+00:02:49,740 --> 00:02:49,750  
+identify errs being declared with the
+ 
+
+95
+00:02:49,750 --> 00:02:53,490  
+identify errs being declared with the
+same it's the same identifier right I
+
+96
+00:02:53,490 --> 00:02:53,500  
+same it's the same identifier right I
+ 
+
+97
+00:02:53,500 --> 00:02:54,860  
+same it's the same identifier right I
+can't do that
+
+98
+00:02:54,860 --> 00:02:54,870  
+can't do that
+ 
+
+99
+00:02:54,870 --> 00:03:00,720  
+can't do that
+so fubar and this one will have will
+
+100
+00:03:00,720 --> 00:03:00,730  
+so fubar and this one will have will
+ 
+
+101
+00:03:00,730 --> 00:03:04,320  
+so fubar and this one will have will
+pass something in to it we're gonna pass
+
+102
+00:03:04,320 --> 00:03:04,330  
+pass something in to it we're gonna pass
+ 
+
+103
+00:03:04,330 --> 00:03:06,210  
+pass something in to it we're gonna pass
+in a string and then we'll use that
+
+104
+00:03:06,210 --> 00:03:06,220  
+in a string and then we'll use that
+ 
+
+105
+00:03:06,220 --> 00:03:14,040  
+in a string and then we'll use that
+string and we'll return the string
+
+106
+00:03:14,040 --> 00:03:14,050  
+string and we'll return the string
+ 
+
+107
+00:03:14,050 --> 00:03:18,000  
+string and we'll return the string
+sprint line and it's going to return a
+
+108
+00:03:18,000 --> 00:03:18,010  
+sprint line and it's going to return a
+ 
+
+109
+00:03:18,010 --> 00:03:24,479  
+sprint line and it's going to return a
+string sweet and now we're going to call
+
+110
+00:03:24,479 --> 00:03:24,489  
+string sweet and now we're going to call
+ 
+
+111
+00:03:24,489 --> 00:03:27,030  
+string sweet and now we're going to call
+that one and I'm going to put all this
+
+112
+00:03:27,030 --> 00:03:27,040  
+that one and I'm going to put all this
+ 
+
+113
+00:03:27,040 --> 00:03:30,990  
+that one and I'm going to put all this
+about to exit onto one line right within
+
+114
+00:03:30,990 --> 00:03:31,000  
+about to exit onto one line right within
+ 
+
+115
+00:03:31,000 --> 00:03:32,789  
+about to exit onto one line right within
+the raw string literal just clean up a
+
+116
+00:03:32,789 --> 00:03:32,799  
+the raw string literal just clean up a
+ 
+
+117
+00:03:32,799 --> 00:03:37,259  
+the raw string literal just clean up a
+little bit now we'll call bar and to
+
+118
+00:03:37,259 --> 00:03:37,269  
+little bit now we'll call bar and to
+ 
+
+119
+00:03:37,269 --> 00:03:42,560  
+little bit now we'll call bar and to
+call bar we need to pass in a string and
+
+120
+00:03:42,560 --> 00:03:42,570  
+call bar we need to pass in a string and
+ 
+
+121
+00:03:42,570 --> 00:03:47,910  
+call bar we need to pass in a string and
+then it's returning a string so I'm
+
+122
+00:03:47,910 --> 00:03:47,920  
+then it's returning a string so I'm
+ 
+
+123
+00:03:47,920 --> 00:03:51,930  
+then it's returning a string so I'm
+going to return I don't know sign it too
+
+124
+00:03:51,930 --> 00:03:51,940  
+going to return I don't know sign it too
+ 
+
+125
+00:03:51,940 --> 00:03:55,740  
+going to return I don't know sign it too
+and that's a number usually I'll sign it
+
+126
+00:03:55,740 --> 00:03:55,750  
+and that's a number usually I'll sign it
+ 
+
+127
+00:03:55,750 --> 00:03:56,970  
+and that's a number usually I'll sign it
+too I don't know
+
+128
+00:03:56,970 --> 00:03:56,980  
+too I don't know
+ 
+
+129
+00:03:56,980 --> 00:04:02,009  
+too I don't know
+a and I'm gonna just clean this up here
+
+130
+00:04:02,009 --> 00:04:02,019  
+a and I'm gonna just clean this up here
+ 
+
+131
+00:04:02,019 --> 00:04:05,280  
+a and I'm gonna just clean this up here
+because now we could see you know sprint
+
+132
+00:04:05,280 --> 00:04:05,290  
+because now we could see you know sprint
+ 
+
+133
+00:04:05,290 --> 00:04:07,080  
+because now we could see you know sprint
+line and something being returned so I'm
+
+134
+00:04:07,080 --> 00:04:07,090  
+line and something being returned so I'm
+ 
+
+135
+00:04:07,090 --> 00:04:12,120  
+line and something being returned so I'm
+gonna bring that right here and now I
+
+136
+00:04:12,120 --> 00:04:12,130  
+gonna bring that right here and now I
+ 
+
+137
+00:04:12,130 --> 00:04:16,229  
+gonna bring that right here and now I
+need to use a because if I have a
+
+138
+00:04:16,229 --> 00:04:16,239  
+need to use a because if I have a
+ 
+
+139
+00:04:16,239 --> 00:04:18,270  
+need to use a because if I have a
+variable it's not used watch as soon as
+
+140
+00:04:18,270 --> 00:04:18,280  
+variable it's not used watch as soon as
+ 
+
+141
+00:04:18,280 --> 00:04:19,050  
+variable it's not used watch as soon as
+I use it
+
+142
+00:04:19,050 --> 00:04:19,060  
+I use it
+ 
+
+143
+00:04:19,060 --> 00:04:21,240  
+I use it
+watch that red underline under a
+
+144
+00:04:21,240 --> 00:04:21,250  
+watch that red underline under a
+ 
+
+145
+00:04:21,250 --> 00:04:23,850  
+watch that red underline under a
+disappeared you can't have a variable
+
+146
+00:04:23,850 --> 00:04:23,860  
+disappeared you can't have a variable
+ 
+
+147
+00:04:23,860 --> 00:04:26,840  
+disappeared you can't have a variable
+and not use it
+
+148
+00:04:26,840 --> 00:04:26,850  
+and not use it
+ 
+
+149
+00:04:26,850 --> 00:04:31,219  
+and not use it
+go says what are you doing that is code
+
+150
+00:04:31,219 --> 00:04:31,229  
+go says what are you doing that is code
+ 
+
+151
+00:04:31,229 --> 00:04:36,210  
+go says what are you doing that is code
+pollution code must be clean readable no
+
+152
+00:04:36,210 --> 00:04:36,220  
+pollution code must be clean readable no
+ 
+
+153
+00:04:36,220 --> 00:04:42,810  
+pollution code must be clean readable no
+unused variables rookie programmer like
+
+154
+00:04:42,810 --> 00:04:42,820  
+unused variables rookie programmer like
+ 
+
+155
+00:04:42,820 --> 00:04:45,000  
+unused variables rookie programmer like
+put it in later leave a comment make a
+
+156
+00:04:45,000 --> 00:04:45,010  
+put it in later leave a comment make a
+ 
+
+157
+00:04:45,010 --> 00:04:47,070  
+put it in later leave a comment make a
+note but don't have a variable there
+
+158
+00:04:47,070 --> 00:04:47,080  
+note but don't have a variable there
+ 
+
+159
+00:04:47,080 --> 00:04:48,510  
+note but don't have a variable there
+that's not used it's only going to
+
+160
+00:04:48,510 --> 00:04:48,520  
+that's not used it's only going to
+ 
+
+161
+00:04:48,520 --> 00:04:50,750  
+that's not used it's only going to
+confuse people
+
+162
+00:04:50,750 --> 00:04:50,760  
+confuse people
+ 
+
+163
+00:04:50,760 --> 00:04:54,900  
+confuse people
+there's a nice Xin fierceness to the go
+
+164
+00:04:54,900 --> 00:04:54,910  
+there's a nice Xin fierceness to the go
+ 
+
+165
+00:04:54,910 --> 00:04:58,170  
+there's a nice Xin fierceness to the go
+programming language a nice wonderful
+
+166
+00:04:58,170 --> 00:04:58,180  
+programming language a nice wonderful
+ 
+
+167
+00:04:58,180 --> 00:05:03,480  
+programming language a nice wonderful
+German engineering fierceness the right
+
+168
+00:05:03,480 --> 00:05:03,490  
+German engineering fierceness the right
+ 
+
+169
+00:05:03,490 --> 00:05:12,680  
+German engineering fierceness the right
+aspect right here so I can run that
+
+170
+00:05:12,680 --> 00:05:12,690  
+ 
+ 
+
+171
+00:05:12,690 --> 00:05:15,510  
+ 
+James Bond is he who is here James Bond
+
+172
+00:05:15,510 --> 00:05:15,520  
+James Bond is he who is here James Bond
+ 
+
+173
+00:05:15,520 --> 00:05:22,080  
+James Bond is he who is here James Bond
+is here and take this space out right
+
+174
+00:05:22,080 --> 00:05:22,090  
+is here and take this space out right
+ 
+
+175
+00:05:22,090 --> 00:05:29,460  
+is here and take this space out right
+there comma includes the space program
+
+176
+00:05:29,460 --> 00:05:29,470  
+there comma includes the space program
+ 
+
+177
+00:05:29,470 --> 00:05:34,140  
+there comma includes the space program
+about two exits and I have to sprint
+
+178
+00:05:34,140 --> 00:05:34,150  
+about two exits and I have to sprint
+ 
+
+179
+00:05:34,150 --> 00:05:36,150  
+about two exits and I have to sprint
+lines so I'm just gonna do sprint on
+
+180
+00:05:36,150 --> 00:05:36,160  
+lines so I'm just gonna do sprint on
+ 
+
+181
+00:05:36,160 --> 00:05:38,850  
+lines so I'm just gonna do sprint on
+this one and return a string without the
+
+182
+00:05:38,850 --> 00:05:38,860  
+this one and return a string without the
+ 
+
+183
+00:05:38,860 --> 00:05:42,390  
+this one and return a string without the
+carriage return that's why I have two
+
+184
+00:05:42,390 --> 00:05:42,400  
+carriage return that's why I have two
+ 
+
+185
+00:05:42,400 --> 00:05:44,339  
+carriage return that's why I have two
+spaces between James Bond is here and
+
+186
+00:05:44,339 --> 00:05:44,349  
+spaces between James Bond is here and
+ 
+
+187
+00:05:44,349 --> 00:05:52,650  
+spaces between James Bond is here and
+about to exit James Bond is here space
+
+188
+00:05:52,650 --> 00:05:52,660  
+about to exit James Bond is here space
+ 
+
+189
+00:05:52,660 --> 00:05:55,980  
+about to exit James Bond is here space
+tank and put in little adjustments there
+
+190
+00:05:55,980 --> 00:05:55,990  
+tank and put in little adjustments there
+ 
+
+191
+00:05:55,990 --> 00:06:02,100  
+tank and put in little adjustments there
+we go we could go look at Sprint and see
+
+192
+00:06:02,100 --> 00:06:02,110  
+we go we could go look at Sprint and see
+ 
+
+193
+00:06:02,110 --> 00:06:05,040  
+we go we could go look at Sprint and see
+about that space sprint formats using
+
+194
+00:06:05,040 --> 00:06:05,050  
+about that space sprint formats using
+ 
+
+195
+00:06:05,050 --> 00:06:07,350  
+about that space sprint formats using
+the default formats for its operands and
+
+196
+00:06:07,350 --> 00:06:07,360  
+the default formats for its operands and
+ 
+
+197
+00:06:07,360 --> 00:06:09,300  
+the default formats for its operands and
+returns the resulting string spaces are
+
+198
+00:06:09,300 --> 00:06:09,310  
+returns the resulting string spaces are
+ 
+
+199
+00:06:09,310 --> 00:06:12,570  
+returns the resulting string spaces are
+added between operands when neither is a
+
+200
+00:06:12,570 --> 00:06:12,580  
+added between operands when neither is a
+ 
+
+201
+00:06:12,580 --> 00:06:14,850  
+added between operands when neither is a
+string when neither as a string spaces
+
+202
+00:06:14,850 --> 00:06:14,860  
+string when neither as a string spaces
+ 
+
+203
+00:06:14,860 --> 00:06:20,909  
+string when neither as a string spaces
+are added and Sprint's line spaces are
+
+204
+00:06:20,909 --> 00:06:20,919  
+are added and Sprint's line spaces are
+ 
+
+205
+00:06:20,919 --> 00:06:23,070  
+are added and Sprint's line spaces are
+always added between operands and a new
+
+206
+00:06:23,070 --> 00:06:23,080  
+always added between operands and a new
+ 
+
+207
+00:06:23,080 --> 00:06:28,200  
+always added between operands and a new
+line is appended we get to know what
+
+208
+00:06:28,200 --> 00:06:28,210  
+line is appended we get to know what
+ 
+
+209
+00:06:28,210 --> 00:06:32,820  
+line is appended we get to know what
+these different functions do
+
+210
+00:06:32,820 --> 00:06:32,830  
+ 
+ 
+
+211
+00:06:32,830 --> 00:06:36,659  
+ 
+so that we can use them well let me see
+
+212
+00:06:36,659 --> 00:06:36,669  
+so that we can use them well let me see
+ 
+
+213
+00:06:36,669 --> 00:06:39,119  
+so that we can use them well let me see
+where this video is at we are at 6:37 I
+
+214
+00:06:39,119 --> 00:06:39,129  
+where this video is at we are at 6:37 I
+ 
+
+215
+00:06:39,129 --> 00:06:40,529  
+where this video is at we are at 6:37 I
+like keeping these short we will
+
+216
+00:06:40,529 --> 00:06:40,539  
+like keeping these short we will
+ 
+
+217
+00:06:40,539 --> 00:06:42,869  
+like keeping these short we will
+continue our exploration of functions in
+
+218
+00:06:42,869 --> 00:06:42,879  
+continue our exploration of functions in
+ 
+
+219
+00:06:42,879 --> 00:06:46,080  
+continue our exploration of functions in
+the next video
